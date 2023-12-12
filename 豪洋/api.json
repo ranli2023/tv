@@ -466,7 +466,7 @@
     {
       "name": "live",
       "type": 0,
-      "url": "./live.txt",
+      "url": "https://raw.githubusercontent.com/ranli2023/ranli/main/豪洋/live.txt",
       "playerType": 1,
       "epg": "http://diyp.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"

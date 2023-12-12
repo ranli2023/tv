@@ -1,0 +1,6 @@
+{ "storeHouse": [ 
+{ "sourceName": "🧡豪洋1号仓","sourceUrl":"https://raw.githubusercontent.com/ranli2023/ranli/main/hao.txt"},
+{ "sourceName": "🧡豪洋2号仓","sourceUrl":"https://s2.pub/14v"},
+{ "sourceName": "🧡豪洋3号仓","sourceUrl":"https://s2.pub/23b"}
+
+]}
