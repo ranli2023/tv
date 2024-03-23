@@ -1,5 +1,5 @@
 {
-"spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/ranli/main/jar/ranli.txt",
+"spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/ranli/main/jar/hao.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "sites":[
     {
