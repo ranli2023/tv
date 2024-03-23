@@ -2,7 +2,7 @@
 "name": "豪洋" },
          
           {
-            "url": "https://bitbucket.org/ranli2000/tvbox/raw/8e4970b43ba77bcc94fb9c6b4c8600db488b5e1f/xh.json",
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/ranli/main/xh.txt",
             "name": "红薯"
         },
 
