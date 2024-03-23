@@ -1,7 +1,8 @@
-{ "urls": [{ "url": "https://bitbucket.org/ranli2000/tvbox/raw/403287e089ef30c2d66f548103a89269edf70e21/tt.txt","name": "豪洋" },
+{ "urls": [{ "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/ranli/main/ttp.txt",
+"name": "豪洋" },
          
           {
-            "url": "https://bitbucket.org/ranli2000/tvbox/raw/1cdaa4c80781728bd0b66b778e6698389a53861e/xh.json",
+            "url": "https://bitbucket.org/ranli2000/tvbox/raw/8e4970b43ba77bcc94fb9c6b4c8600db488b5e1f/xh.json",
             "name": "红薯"
         },
 
@@ -10,7 +11,7 @@
             "name": "肥猫"
         },
       
-   
+
         
         {
             "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
@@ -34,38 +35,6 @@
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/xyq254245/xyqonlinerule/main/XYQTVBox.json",
             "name": "香雅情"
         },
- {
-            "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymz",
-            "name": "夜猫子"
-        },
-        {
-            "url": "http://meowtv.cn/tv",
-            "name": "喵影视"
-        },
-        {
-            "url": "https://agit.ai/guot54/ygbh/raw/branch/master/PRO.json",
-            "name": "月光宝盒"
-        },
-
-        {
-            "url": "http://rihou.vip:55/天天开心",
-            "name": "天天开心"
-        },
-        {
-            "url": "https://wds.ecsxs.com/230989.json",
-            "name": "春盈线路"
-        },
-          {
-            "url": "http://8.210.232.168/xc.json",
-            "name": "星辰线路"
-        },
-        
-      
-        {
-            "url": "http://cdn.qiaoji8.com/tvbox.json",
-            "name": "巧技线路"
-        },
-
         {
             "url": "http://rihou.cc:99/荷城茶秀",
             "name": "荷城茶秀"

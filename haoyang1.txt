@@ -1,0 +1,41 @@
+{ "urls": [
+          { "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/ranli/main/ttp.txt",
+            "name": "豪洋" 
+           },
+         
+       {
+            "url": "http://饭太硬.top/tv",
+            "name": "饭太硬"
+        },
+        {
+            "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymz",
+            "name": "夜猫子"
+        },
+        {
+            "url": "http://meowtv.cn/tv",
+            "name": "喵影视"
+        },
+        {
+            "url": "https://agit.ai/guot54/ygbh/raw/branch/master/PRO.json",
+            "name": "月光宝盒"
+        },
+
+        {
+            "url": "http://rihou.vip:55/天天开心",
+            "name": "天天开心"
+        },
+        {
+            "url": "https://wds.ecsxs.com/230989.json",
+            "name": "春盈线路"
+        },
+          {
+            "url": "http://8.210.232.168/xc.json",
+            "name": "星辰线路"
+        },
+        
+      
+        {
+            "url": "http://cdn.qiaoji8.com/tvbox.json",
+            "name": "巧技线路"
+        }
+]}
