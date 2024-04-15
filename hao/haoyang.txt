@@ -1,8 +1,7 @@
-{ "urls": [{ "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/ranli/main/ttp.txt",
-"name": "豪洋" },
-         
+{ "urls": [{ "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/live/main/hao/tv1.txt",
+"name": "豪洋" },         
           {
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/ranli/main/xh.txt",
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/live/main/hao/xh.json",
             "name": "红薯"
         },
 
@@ -10,9 +9,7 @@
             "url": "http://我不是.肥猫.live/接口禁止贩卖",
             "name": "肥猫"
         },
-      
-
-        
+              
         {
             "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
             "name": "南风"
