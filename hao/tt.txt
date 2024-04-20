@@ -2,7 +2,7 @@
 "spider": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
 "sites":[
-       {
+    {
       "key": "南瓜",
       "name": "🎃┃南瓜┃App┃",
       "type": 3,
@@ -15,38 +15,50 @@
     },
     {
       "key": "玩偶哥哥",
-      "name": "👽┃玩偶┃哥哥┃",
+      "name": "👽┃玩偶┃弹幕┃",
       "type": 3,
+      "api": "csp_WoGG",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,      
+       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
+    },
+
+
+    {
+      "key": "玩我哥哥",
+      "name": "🇨🇳┃玩偶┃哥哥┃",
+      "type": 3,
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt",
       "api": "csp_XYQHikerAL",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/6c38954b792580ffabc465276a7fd80b28fb53e9/json/%E7%8E%A9%E5%81%B6%E5%93%A5%E5%93%A51.json",
-"jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt"
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/6c38954b792580ffabc465276a7fd80b28fb53e9/json/%E7%8E%A9%E5%81%B6%E5%93%A5%E5%93%A51.json"
     },
     {
       "key": "土豆阿里",
       "name": "🎦┃土豆┃阿里┃",
       "type": 3,
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt",
       "api": "csp_XYQHikerAL",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/601937ba3add7d2a9b8e5ad6ace3695bdf4b0e1a/json/%E5%9C%9F%E8%B1%86%E9%98%BF%E9%87%8C.json",
-"jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt"
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/601937ba3add7d2a9b8e5ad6ace3695bdf4b0e1a/json/%E5%9C%9F%E8%B1%86%E9%98%BF%E9%87%8C.json"
     },
     {
       "key": "多多阿里",
       "name": "🎦┃多多┃阿里┃",
       "type": 3,
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt",      
       "api": "csp_XYQHikerAL",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/601937ba3add7d2a9b8e5ad6ace3695bdf4b0e1a/json/%E5%A4%9A%E5%A4%9A%E9%98%BF%E9%87%8C.json",
-"jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt"
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/601937ba3add7d2a9b8e5ad6ace3695bdf4b0e1a/json/%E5%A4%9A%E5%A4%9A%E9%98%BF%E9%87%8C.json"
     },
-
 {"key":"360",
 "name":"💘┃360┃影视┃",
 "type":3,
@@ -60,13 +72,26 @@
       "key": "七新影视",
       "name": "🎦┃七新┃秒播┃",
       "type": 3,
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt",      
       "api": "csp_XYQHiker",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/82c7be935d604fa1a5aa9b7a99e612c5a44f2622/json/qixinyingshi.json",
-"jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt"
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/82c7be935d604fa1a5aa9b7a99e612c5a44f2622/json/qixinyingshi.json"
     },
+
+    {
+      "key": "酷看",
+      "name": "💡┃酷看┃秒播┃",
+      "type": 3,
+      "api": "csp_Kkys",
+      "timeout": 15,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1
+    },
+
+     
 
      {
       "key": "种子短剧",
@@ -98,8 +123,9 @@
       "api": "csp_YGP",
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0
-    },
+      "changeable": 0,
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
+  },
 
     {
       "key": "Xinsj",
@@ -110,7 +136,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.80yy3.com/"
+      "ext": "https://www.80yy3.com/",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
     },
     {
       "key": "厂长",
@@ -122,7 +149,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.cz233.com/"
+      "ext": "https://www.cz233.com/",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
     },
 
 
@@ -134,7 +162,8 @@
       "playerType": "2",
       "searchable": 1,
       "quickSearch": 1,
-      "changeable": 1
+      "changeable": 1,
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
     },
 
     {
@@ -146,7 +175,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.maolvys.com/"
+      "ext": "https://www.maolvys.com/",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
     },
     {
       "key": "csp_Nmys",
@@ -157,8 +187,10 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/595ced33956134ddfeeee8d41546bd948eb6acaa/json/nmys.json"
-    },       {
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/595ced33956134ddfeeee8d41546bd948eb6acaa/json/nmys.json",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
+    },      
+ {
       "key": "Lib",
       "name": "🌟┃立播┃直连┃",
       "type": 3,
@@ -167,7 +199,8 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.libvio.pw/"
+      "ext": "https://www.libvio.pw/",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
     },
     {
       "key": "Auete",
@@ -178,17 +211,16 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://auete.pro/"
-    },
+      "ext": "https://auete.pro/",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
+    },   
     {
-      "key": "SP33",
-      "name": "📺┃三三┃解析┃",
+      "key": "喜马拉雅",
+      "name": "📚️┃小说┃听书┃",
       "type": 3,
-      "api": "csp_SP33",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 0
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/tv.txt",
+      "api": "https://bitbucket.org/ranli2000/tvbox/raw/28265f35d4546c6921fd7aef6e51692476c54d37/drpy2.min.js",
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/92e25e57bd8d4f09f4fab8a2e49ada85921ef6e3/js/ximalaya.js"
     },
     {
       "key": "贱贱",
@@ -199,8 +231,9 @@
       "changeable": 1,
       "playerType": "1",
       "api": "https://bitbucket.org/ranli2000/tvbox/raw/28265f35d4546c6921fd7aef6e51692476c54d37/drpy2.min.js",
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/c76e9b2abf33f855f212698a10e81703166f3451/js/jp.js"
-    },
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/c76e9b2abf33f855f212698a10e81703166f3451/js/jp.js",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
+    },    
     {
       "key": "新6V",
       "name": "🧲┃新6V┃磁力┃",
@@ -209,23 +242,9 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://www.xb6v.com/"
+      "ext": "http://www.xb6v.com/",
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
     },
-
-
-      
-{"key":"360",
-"name":"💘┃360┃影视┃",
-"type":3,
-"api":"csp_SP33",
-"searchable":1,
-"quickSearch":1,
-"filterable":1,
-"changeable":0
-},
-
-
-
 
 
             {
@@ -288,8 +307,63 @@
             "changeable": 0,
             "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
     },
-
-{"key":"dr_荐片",
+     {
+      "key": "云盘搜索",
+      "name": "❤️┃搜索┃ 4K ┃",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "http://www.wya6.cn/tz/wyog.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://a.nxog.top/m/json/yps.json"
+    },
+    {
+      "key": "DOVX搜索",
+      "name": "❤️┃七夜┃ 4K ┃",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "jar": "http://www.wya6.cn/tz/wyog.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://a.nxog.top/m/json/DOVX.json"
+    },
+    {
+      "key": "Upyunso",
+      "name": "❤️┃云搜┃ 4K ┃",
+      "type": 3,
+      "api": "csp_Upyunso",
+      "jar": "http://www.wya6.cn/tz/wyog.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+    },
+    {
+      "key": "AliPS",
+      "name": "❤️┃盘搜┃ 4K ┃",
+      "type": 3,
+      "api": "csp_AliPS",
+      "jar": "http://www.wya6.cn/tz/wyog.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+    },
+    {
+      "key": "Yisou",
+      "name": "❤️┃易搜┃ 4K ┃",
+      "type": 3,
+      "api": "csp_Yisou",
+      "jar": "http://www.wya6.cn/tz/wyog.php",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": "http://127.0.0.1:9978/file/TVBox/tok.txt"
+    },
+{
+"key":"dr_荐片",
 "name":"🧲┃荐片┃解析┃",
 "type":3,
 "api":"https://bitbucket.org/ranli2000/tvbox/raw/28265f35d4546c6921fd7aef6e51692476c54d37/drpy2.min.js",
@@ -297,11 +371,12 @@
 "searchable":1,
 "quickSearch":1,
 "filterable":1,
-"ext":"https://bitbucket.org/ranli2000/tvbox/raw/ac05adc8740fe1f32c456cda453d5c1422d31550/js/%E8%8D%90%E7%89%87.js"
+"ext":"https://bitbucket.org/ranli2000/tvbox/raw/28265f35d4546c6921fd7aef6e51692476c54d37/js/%E8%8D%90%E7%89%87.js"
 },
+
         {
       "key": "88js",
-            "name": "⚽ LIVE┃看球",
+            "name": "⚽┃LIVE┃看球┃",
             "type": 3,
             "api": "csp_Kanqiu",
             "style": {
@@ -309,9 +384,9 @@
             },
             "searchable": 0,
             "quickSearch": 0,
-            "changeable": 0
+            "changeable": 0,
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
         },
-
     {
       "key": "csp_qiumi",
       "name": "⚽┃ Jrs ┃球迷┃",
@@ -481,7 +556,7 @@
       "quickSearch": 0,
        "filterable": 0,
       "ext": "https://s2.pub/mingshi",
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/%E5%90%8D%E5%B1%85.txt"
+      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.txt"
     },
      
         {"key":"qq",
@@ -491,7 +566,8 @@
         "searchable": 0,
         "quickSearch": 0}
 ],
-   "parses": [
+
+    "parses": [
     {
       "name": "Web聚合",
       "type": 3,
@@ -754,8 +830,8 @@
             "name": "live",
             "type": 0,
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/live.json",
-            "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-           "logo": "http://epg.112114.xyz/logo/{name}.png"
+           "epg": "http://epg.112114.eu.org/?ch={name}&date={date}",
+           "logo": "https://epg.112114.xyz/bingimg/logo/{name}.png"
         }
     ],
     "doh": [
