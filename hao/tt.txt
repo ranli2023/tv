@@ -22,7 +22,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,      
-       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+auto|4k|fhd$$$https://api.wogg.xyz/$$$弹"
+       "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$https://api.wogg.xyz/$$$弹"
     },
 
 
