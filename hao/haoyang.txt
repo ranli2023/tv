@@ -4,9 +4,8 @@
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/%E7%BA%A2%E8%96%AF/api.json",
             "name": "红薯"
         },
-
         {
-            "url": "http://我不是.肥猫.live/接口禁止贩卖",
+            "url": "http://肥猫.com",
             "name": "肥猫"
         },
               
