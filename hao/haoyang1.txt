@@ -10,10 +10,6 @@
             "name": "夜猫子"
         },
 
-    {
-      "url": "https://jihulab.com/ymz1231/xymz/-/raw/main/ymz",
-      "name": "夜猫子"
-    },
         {
             "url": "http://我不是.摸鱼儿.top",
             "name": "摸鱼儿"
