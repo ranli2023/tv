@@ -9,11 +9,7 @@
             "name": "肥猫"
         },
               
-        {
-            "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
-            "name": "南风"
-        },
-     
+
         
         {
             "url": "http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0",
@@ -24,7 +20,7 @@
             "name": "道长"
         },
        {
-            "url": "http://饭太硬.top/tv",
+            "url": "http://饭太硬.com/tv",
             "name": "饭太硬"
         },
         {
