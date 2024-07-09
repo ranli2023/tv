@@ -75,23 +75,7 @@
         "danMu": "弹"
       }
     },
-    {
-      "key": "土豆阿里",
-      "name": "🥔┃土豆┃阿里┃",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "./lib/haoyang1.txt",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "token": "file://TV/ali_token.txt",
-        "cookie": "file://TV/quark_cookie.txt",
-        "site": "https://tudou.lvdoui.top",
-        "danmu": true
-      },
-      "timeout": 25
-    },
+
     {
       "key": "多多阿里",
       "name": "🎦┃多多┃弹幕┃",
