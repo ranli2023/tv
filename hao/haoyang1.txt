@@ -28,10 +28,6 @@
     },
 
     {
-      "url": "https://pastebin.com/raw/5NHaxyGR",
-      "name": "道长线路"
-    },
-    {
       "url": "http://cdn.qiaoji8.com/tvbox.json",
       "name": "巧技线路"
     }
