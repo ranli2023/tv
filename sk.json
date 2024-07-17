@@ -1,59 +1,59 @@
 {
-  "spider": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/haoyang2.txt",
+  "spider": "https://bitbucket.org/ranli2000/tvbox/raw/main/%E8%B1%AA%E6%B4%8B/haoyang.txt",
   "sites": [
     {
       "key": "黑狐",
       "name": "┃影视┃黑狐┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/heihu.php"
+      "api": "https://catbox.n13.club/t9/heihu.php"
     },
     {
       "key": "南瓜",
       "name": "┃影视┃南瓜┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/nangua.php"
+      "api": "https://catbox.n13.club/t9/nangua.php"
     },
     {
       "key": "mmdj",
       "name": "┃短剧┃MM┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/mmdj.php"
+      "api": "https://catbox.n13.club/t9/mmdj.php"
     },
     {
       "key": "pptv",
       "name": "┃影视┃皮皮┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/pptv.php"
+      "api": "https://catbox.n13.club/t9/pptv.php"
     },
     {
       "key": "mingri",
       "name": "┃影视┃明日┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/mingri.php"
+      "api": "https://catbox.n13.club/t9/mingri.php"
     },
     {
       "key": "jrkan",
       "name": "┃jrk┃看球┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/jrkan.php"
+      "api": "https://catbox.n13.club/t9/jrkan.php"
     },
     {
       "key": "合集",
       "name": "┃B站┃合集┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/bili.php?id=合集"
+      "api": "https://catbox.n13.club/t9/bili.php?id=合集"
     },
     {
       "key": "美食",
       "name": "┃B站┃美食┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/bili.php?id=美食"
+      "api": "https://catbox.n13.club/t9/bili.php?id=美食"
     },
     {
       "key": "中医",
       "name": "┃B站┃中医┃",
       "type": 4,
-      "api": "https://catbox.n13.club/t7/bili.php?id=中医"
+      "api": "https://catbox.n13.club/t9/bili.php?id=中医"
     }
   ],
   "doh": [
