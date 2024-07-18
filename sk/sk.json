@@ -1,26 +1,26 @@
 {
-  "spider": "./XBQH.jar;md5;3ec42e286452fc6c253ffe064eba6eaf",
+  "spider": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/XBQH.jar;md5;3ec42e286452fc6c253ffe064eba6eaf",
   "sites": [
     {
       "key": "XBPQ_黑狐",
       "name": "🦝黑狐┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./lib/黑狐影视.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/黑狐影视.json"
     },
     {
       "key": "XBPQ_2BT",
       "name": "🤥鼻涕┃影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./lib/2bt.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/2bt.json"
     },
     {
       "key": "drpy_好看",
       "name": "👀好看┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/好看.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/好看.js"
     },
     {
       "key": "XBPQ_榜—",
@@ -38,7 +38,7 @@
       "name": "🚌巴士┃动漫",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./lib/dm84.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/dm84.json"
     },
     {
       "key": "csp_New6v",
@@ -54,29 +54,29 @@
       "searchable": 2,
       "quickSearch": 0,
       "filterable": 0,
-      "api": "./lib/live2mv.js",
-      "ext": "./lib/zb.json"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/live2mv.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/zb.json"
     },
     {
       "key": "drpy_好趣网",
       "name": "📺好趣┃直播",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/好趣网.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/好趣网.js"
     },
     {
       "key": "XYQH_电影港",
       "name": "🛟影港┃慎用",
       "type": 3,
       "api": "csp_XYQHikerAL",
-      "ext": "./lib/电影港.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/电影港.json"
     },
     {
       "key": "XBPQ_wo4K",
       "name": "🛣️顶级┃慎用",
       "type": 3,
       "api": "csp_XBPQ",
-      "ext": "./lib/wo4K.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wo4K.json"
     },
     {
       "key": "XYQH_云盘",
@@ -84,7 +84,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/yunpan.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/yunpan.json"
     },
     {
       "key": "XYQH_土豆",
@@ -92,7 +92,7 @@
       "type": 3,
       "vip_thread_limit": 10,
       "api": "csp_XYQHikerAL",
-      "ext": "./lib/土豆.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/土豆.json"
     },
     {
       "key": "csp_Tudou",
@@ -100,14 +100,14 @@
       "type": 3,
       "api": "csp_Tudou",
       "ext": "77c9aa84a92e4963a47f5e2bdb7d48b9",
-      "jar": "./lib/tudou.jar;md5;2c46018d3be585009ec6680d420c88b2"
+      "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/tudou.jar;md5;2c46018d3be585009ec6680d420c88b2"
     },
     {
       "key": "csp_KungFu404",
       "name": "⚙阿里┃设置",
       "type": 3,
       "api": "csp_KungFu404",
-      "jar": "./lib/ali.jar;md5;19dd113a118d02f8dcb989855aaf3a06"
+      "jar": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/ali.jar;md5;19dd113a118d02f8dcb989855aaf3a06"
     },
     {
       "key": "csp_Yisou",
@@ -129,22 +129,22 @@
       "type": 3,
       "playerType": 1,
       "api": "csp_XYQHiker",
-      "ext": "./lib/盘搜.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/盘搜.json"
     },
 
     {
       "key": "drpy_vip",
       "name": "💳威鸭屁┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/tvbox29.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/tvbox29.js"
     },
     {
       "key": " bili_道长哔哩",
       "name": "👨‍💻哔哩┃通用",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/我的哔哩.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/我的哔哩.js"
     },
 
     {
@@ -158,7 +158,7 @@
       },
       "quickSearch": 0,
       "api": "csp_XBPQ",
-      "ext": "./lib/相声随身听.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/相声随身听.json"
     },
     {
       "key": "评书",
@@ -171,15 +171,15 @@
       },
       "quickSearch": 0,
       "api": "csp_XBPQ",
-      "ext": "./lib/评书.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/评书.json"
     },
     {
       "key": "appys_影探",
       "name": "🍝影探┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
       "playerType": 1,
-      "ext": "./lib/lyyytv.js"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/lyyytv.js"
     },
     {
       "key": "app_嘛艺",
@@ -206,15 +206,15 @@
       "key": "drpy_爱迪",
       "name": "🆔爱迪┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/A8音乐.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/A8音乐.js"
     },
     {
       "key": "drpy_网飞",
       "name": "🥅网飞┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/网飞.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/网飞.js"
     },
     {
       "key": "appys_4kgod6",
@@ -230,7 +230,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/wog1.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wog1.json"
     },
     {
       "key": "XYQHAL_Wog2",
@@ -238,7 +238,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/wog2.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wog2.json"
     },
     {
       "key": "XYQHAL_Wog3",
@@ -246,7 +246,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/wog3.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wog3.json"
     },
     {
       "key": "XYQHAL_Wog4",
@@ -254,7 +254,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/wog4.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wog4.json"
     },
     {
       "key": "XYQHAL_Wog5",
@@ -262,7 +262,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/wog5.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wog5.json"
     },
     {
       "key": "XYQHAL_Wog6",
@@ -270,7 +270,7 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/wog6.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wog6.json"
     },
     {
       "key": "XYQHAL_Wog7",
@@ -278,49 +278,49 @@
       "type": 3,
       "api": "csp_XYQHikerAL",
       "playerType": 1,
-      "ext": "./lib/wog7.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/wog7.json"
     },
     {
       "key": "XYQH_急救",
       "name": "🚑急救┃技能",
       "type": 3,
       "api": "csp_XYQHiker",
-      "ext": "./lib/急救.json"
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/急救.json"
     },
     {
       "key": "drpy_企鹅",
       "name": "🐧企鹅┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/txtv.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/txtv.js"
     },
     {
       "key": "drpy_奇异",
       "name": "🥝奇异┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/iqytv.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/iqytv.js"
     },
     {
       "key": "drpy_芒果",
       "name": "🥭忙果┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/mgtv.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/mgtv.js"
     },
     {
       "key": "drpy_优酷",
       "name": "👑优库┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/yktv.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/yktv.js"
     },
     {
       "key": "drpy_菜狗",
       "name": "🐕️菜狗┃影视",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/sogou.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/sogou.js"
     },
     {
       "key": "csp_MeijuTT",
@@ -609,24 +609,15 @@
       "key": "drpy_酷6",
       "name": "📣酷流┃媒体",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/酷6网.js"
+      "api": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/drpy2.min.js",
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/酷6网.js"
     },
     {
       "key": " XYQH_dj音乐",
       "name": "💃DJ┃摇摆吧",
       "type": 3,
       "api": "csp_XYQHiker",
-      "ext": "./lib/DJ呦呦.json"
-    },
-    {
-      "key": "随缘测试也随意删除",
-      "name": "🛫测试┃不得商业用途",
-      "type": 0,
-      "api": "",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
+      "ext": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/DJ呦呦.json"
     }
   ],
   "parses": [
@@ -1365,7 +1356,7 @@
       "name": "live",
       "type": 0,
       "playerType": 1,
-      "url": "./lib/测试.txt",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/测试.txt",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -1374,7 +1365,7 @@
       "name": "live2",
       "type": 0,
       "playerType": 1,
-      "url": "./lib/IPV6.m3u",
+      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/sk/lib/IPV6.m3u",
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
