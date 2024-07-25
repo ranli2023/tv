@@ -1,7 +1,7 @@
-{ "urls": [{ "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/hao/main/%E8%B1%AA%E6%B4%8B/api.json",
+{ "urls": [{ "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/%E8%B1%AA%E6%B4%8B/api.json",
 "name": "豪洋" },         
           {
-            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/hao/main/%E7%BA%A2%E8%96%AF/api.json",
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/%E7%BA%A2%E8%96%AF/api.json",
             "name": "红薯"
         },
         {
