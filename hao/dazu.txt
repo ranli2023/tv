@@ -1,6 +1,0 @@
-{ "storeHouse": [ 
-{ "sourceName": "🧡豪洋接口1","sourceUrl":"https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/haoyang.txt"},
-{ "sourceName": "🧡豪洋接口2","sourceUrl":"https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/haoyang1.txt"},
-{ "sourceName": "🧡豪洋备用1","sourceUrl":"https://s2.pub/14v"},
-{ "sourceName": "🧡豪洋备用2","sourceUrl":"https://s2.pub/23a"}
-]}
