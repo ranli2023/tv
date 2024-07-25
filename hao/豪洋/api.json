@@ -16,6 +16,7 @@
       "key": "豆瓣",
       "name": "🧧┃豆瓣┃导航┃",
       "type": 3,
+      "jar": "./lib/spider.txt",
       "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
@@ -365,16 +366,16 @@
     },
     {
       "key": "88js",
-      "name": "⚽┃LIVE┃看球┃",
+      "name": "⚽┃ 88┃看球┃",
       "type": 3,
-      "api": "csp_Kanqiu",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/88看球.js",
       "style": {
         "type": "list"
       },
       "searchable": 0,
       "quickSearch": 0,
-      "changeable": 0,
-      "jar": "./lib/hao.txt"
+      "changeable": 0
     },
     {
       "key": "csp_qiumi",
