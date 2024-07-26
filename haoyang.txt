@@ -1,17 +1,17 @@
-{ "urls": [{ "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/%E8%B1%AA%E6%B4%8B/23c.json",
-"name": "豪洋" },         
-          {
+{ "urls": [
+        {
+            "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/%E8%B1%AA%E6%B4%8B/23c.json",
+            "name": "豪洋"
+        },
+              
+        {
             "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/ranli2023/tv/main/hao/%E7%BA%A2%E8%96%AF/api.json",
             "name": "红薯"
         },
         {
             "url": "http://肥猫.com",
             "name": "肥猫"
-        },
-              
-
-        
-        {
+        },        {
             "url": "http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0",
             "name": "吾爱"
         },
