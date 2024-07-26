@@ -225,7 +225,7 @@
       "playerType": "1",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/jp.js",
-      "jar": "./lib/spider.txt"
+      "jar": "./lib/haoyang.txt"
     },
     {
       "key": "新6V",
@@ -369,7 +369,7 @@
       "key": "88js",
       "name": "⚽┃ 88┃看球┃",
       "type": 3,
-      "jar": "./lib/spider.txt",
+      "jar": "./lib/haoyang.txt",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/88看球.js",
       "style": {
@@ -383,7 +383,7 @@
       "key": "csp_qiumi",
       "name": "⚽┃ Jrs ┃球迷┃",
       "type": 3,
-      "jar": "./lib/spider.txt",
+      "jar": "./lib/haoyang.txt",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/jrk.js",
       "style": {
@@ -398,7 +398,7 @@
       "key": "csp_310直播",
       "name": "⚽┃ 310 ┃看球┃",
       "type": 3,
-      "jar": "./lib/spider.txt",
+      "jar": "./lib/haoyang.txt",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/310直播.js",
       "style": {
@@ -413,7 +413,7 @@
       "key": "dr_虎牙直播",
       "name": "🐯┃虎牙┃直播┃",
       "type": 3,
-      "jar": "./lib/spider.txt",
+      "jar": "./lib/haoyang.txt",
       "api": "./lib/drpy2.min.js",
       "searchable": 0,
       "quickSearch": 0,
@@ -434,7 +434,7 @@
       "key": "dr_兔小贝",
       "name": "📚┃儿童┃启蒙┃",
       "type": 3,
-      "jar": "./lib/spider.txt",
+      "jar": "./lib/haoyang.txt",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/儿童启蒙.js",
       "style": {
