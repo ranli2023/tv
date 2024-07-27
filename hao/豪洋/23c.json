@@ -1,5 +1,5 @@
 {
-  "spider": "./suo.txt",
+  "spider": "./shou.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "lives": [
     {
@@ -16,7 +16,8 @@
       "key": "豆瓣",
       "name": "🧧┃豆瓣┃导航┃",
       "type": 3,
-      "api": "csp_DouDou",
+      "api": "./lib/drpy2.min.js",
+      "ext": "./lib/douban.js",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
