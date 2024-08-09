@@ -26,7 +26,7 @@
       "name": "春盈天下"
     },
     {
-      "url": "https://github.moeyy.xyz/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json",
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json",
       "name": "月光宝盒"
     },
 
