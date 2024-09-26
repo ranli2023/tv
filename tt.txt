@@ -147,16 +147,6 @@
       "changeable": 1
     },
     {
-      "key": "可可影视",
-      "name": "┃可可┃影视┃",
-      "type": 3,     
-      "api": "csp_Kekys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-      "changeable": 1
-    },
-    {
       "key": "大米星球",
       "name": "┃大米┃影视┃",
 
