@@ -1,0 +1,64 @@
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "url": "https://bitbucket.org/ranli2000/tvbox/raw/3b64766f000f41ef416ee6bbbb9f23ad4313ae77/66.png",
+                "icon": "https://bitbucket.org/ranli2000/tvbox/raw/3b64766f000f41ef416ee6bbbb9f23ad4313ae77/66.png",
+                "name": "扫描二维码下载"
+            }
+        ]
+    },
+    
+    {
+        "name": "豪洋app推荐",
+        "list": [
+             {
+            "name": "影视仓5.0.41", 
+            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E4%B8%A8%E5%BD%B1%E4%BB%93_5.0.41_clone.apk", 
+            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
+            "version": "多仓版" 
+          },
+
+             {
+            "name": "豪洋影视5.0.23", 
+            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E5%BD%B1%E8%A7%86_5.0.23.apk", 
+            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
+            "version": "单仓版" 
+          },
+
+             {
+            "name": "豪洋直播3.2.0", 
+            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E7%9B%B4%E6%92%AD_3.2.0.apk", 
+            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
+            "version": "电视直播" 
+
+} ] },
+    {
+        "name": "本地安装包",
+        "list": [
+  { 
+         "name": "豪洋本地仓",
+          "url": "https://bitbucket.org/ranli2000/cq/raw/main/20240709.zip",
+           "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
+           "version": "20240709"
+
+} ] },
+
+
+     { 
+          "name": "电视桌面",    
+          "list": [
+  { 
+         "name": "当贝桌面",
+          "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E5%BD%93%E8%B4%9D%E6%A1%8C%E9%9D%A2_4.1.7.apk",
+           "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
+           "version": "TV原版"
+             }, 
+  { 
+         "name": "当贝桌面",
+          "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E5%BD%93%E8%B4%9D%E6%A1%8C%E9%9D%A2tv%E7%BA%AF%E5%87%80%E7%89%88.apk",
+           "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
+           "version": "TV纯净版"
+
+} ] } ]
