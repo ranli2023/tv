@@ -2,16 +2,6 @@
   "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy.jar",
   "sites": [
     {
-      "key": "豆豆",
-      "name": "┃豆瓣┃推荐┃",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
-
-    {
       "key": "七新影视",
       "name": "┃七新┃影视┃",
       "type": 3,
@@ -282,7 +272,7 @@
     {
       "name": "豪洋",
       "type": 0,
-      "url": "https://s2.pub/tvbs",
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live.json",
       "playerType": 1,
       "ua": "okhttp/3.15",
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
