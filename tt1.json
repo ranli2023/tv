@@ -2,14 +2,15 @@
   "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy.jar",
   "sites": [
     {
-      "key": "南瓜影视",
-      "name": "┃南瓜┃影视┃",
-      "type": 3,      
-      "api": "csp_WexNgys",
-      "searchable": 1,
-      "quickSearch": 1,
+      "key": "豆豆",
+      "name": "┃豆瓣┃推荐┃",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 0
     },
+
     {
       "key": "七新影视",
       "name": "┃七新┃影视┃",
@@ -55,7 +56,15 @@
         "欧美动漫"
       ]
     },
-
+    {
+      "key": "南瓜影视",
+      "name": "┃南瓜┃影视┃",
+      "type": 3,      
+      "api": "csp_WexNgys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
