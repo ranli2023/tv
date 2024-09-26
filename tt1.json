@@ -131,14 +131,6 @@
     },
 
     {
-      "key": "两个磁力",
-      "name": "┃两个┃影视┃",
-      "type": 3,
-      "api": "csp_Wexbttwo",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
       "key": "明日影视",
       "name": "┃明日┃影视┃",
       "type": 3, 
