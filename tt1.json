@@ -274,9 +274,8 @@
       "type": 0,
       "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live.json",
       "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "epg": "http://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/bingimg/logo/{name}.png"
     },
     {
       "group": "redirect",
