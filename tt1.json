@@ -50,7 +50,8 @@
     {
       "key": "南瓜影视",
       "name": "┃南瓜┃影视┃",
-      "type": 3,      
+      "type": 3, 
+       "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
       "api": "csp_WexNgys",
       "searchable": 1,
       "quickSearch": 1,
@@ -68,7 +69,7 @@
 
     {
       "key": "config",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao1.jar",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
@@ -80,7 +81,7 @@
       "name": "┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao1.jar",
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
