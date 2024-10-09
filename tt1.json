@@ -67,14 +67,19 @@
     },
 
     {
-      "key": "config",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "key": "配置",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
-      "playerType": 2
+      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
     },
-
     {
       "key": "玩偶",
       "name": "┃玩偶┃弹幕┃",
@@ -88,7 +93,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://wogg.xxooo.cf",
+        "site": "https://wogg.888484.xyz/",
         "danmu": true
       }
     },
