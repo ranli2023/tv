@@ -59,18 +59,12 @@
     },
 
     {
-      "key": "配置",
+      "key": "config",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao1.jar",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
-      "searchable": 0,
-      "changeable": 0,
-      "indexs": 0,
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      }
+      "playerType": 2
     },
     {
       "key": "玩偶",
