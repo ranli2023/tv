@@ -60,11 +60,17 @@
 
     {
       "key": "config",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao1.jar",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
-      "playerType": 2
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao1.jar",
+      "searchable": 0,
+      "changeable": 0,
+      "indexs": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
     },
     {
       "key": "玩偶",
