@@ -47,7 +47,19 @@
         "欧美动漫"
       ]
     },
-
+    {
+      "key": "文才弹幕",
+      "name": "┃文采┃弹幕┃",
+      "type": 3,
+      "api": "csp_Jpys",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
@@ -105,8 +117,35 @@
         "danMu": "弹"
       }
     },
-
-
+    {
+      "key": "多多弹幕",
+      "name": "┃多多┃弹幕┃",
+      "type": 3,
+      "api": "csp_Wobg",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "site": "https://tv.yydsys.top",
+        "danmu": true
+      }
+    },
+    {
+      "key": "小苹果弹幕",
+      "name": "┃苹果┃弹幕┃",
+      "type": 3,
+      "api": "csp_Xpg",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
     {
       "key": "荐片",
       "name": "┃荐片┃解析┃",
@@ -153,17 +192,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-
-    {
-      "key": "学堂",
-      "name": "┃学堂┃教育┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%AD%A6%E5%A0%82%E6%95%99%E8%82%B2.json"
     },
     {
       "key": "少儿",
@@ -255,6 +283,40 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
     },
+    {
+      "key": "美食合集",
+      "name": "┃美食┃合集┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E7%BE%8E%E9%A3%9F.json"
+    },
+    {
+      "key": "设计",
+      "name": "┃设计┃教程┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/jixie.json"
+    },
+    {
+      "key": "88js",
+      "name": "┃ 88┃看球┃",
+      "type": 3,
+      "api": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/drpy2.min.js",
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/88%E7%9C%8B%E7%90%83.js",
+      "style": {
+        "type": "list"
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
+
     {
       "key": "应用商店",
       "name": "┃应用┃商店┃",
