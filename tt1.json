@@ -47,19 +47,7 @@
         "欧美动漫"
       ]
     },
-    {
-      "key": "文才弹幕",
-      "name": "┃文采┃弹幕┃",
-      "type": 3,
-      "api": "csp_Jpys",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
+
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
@@ -138,6 +126,19 @@
       "name": "┃苹果┃弹幕┃",
       "type": 3,
       "api": "csp_Xpg",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "文才弹幕",
+      "name": "┃文采┃弹幕┃",
+      "type": 3,
+      "api": "csp_Jpys",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "searchable": 1,
       "quickSearch": 1,
@@ -305,7 +306,7 @@
     },
     {
       "key": "88js",
-      "name": "┃ 88┃看球┃",
+      "name": "┃ 88 ┃看球┃",
       "type": 3,
       "api": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/drpy2.min.js",
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/88%E7%9C%8B%E7%90%83.js",
