@@ -63,7 +63,7 @@
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao1.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "searchable": 0,
       "changeable": 0,
       "indexs": 0,
@@ -77,7 +77,7 @@
       "name": "┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "http://我不是.摸鱼儿.top/by/jar/danmu.php",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -92,7 +92,7 @@
     {
       "key": "玩偶哥哥",
       "name": "┃饭偶┃ 4K ┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/haoyang.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/fty.jar",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -101,7 +101,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
-        "siteUrl": "https://wogg.xxooo.cf/",
+        "siteUrl": "https://www.wogg.net/",
         "danMu": "弹"
       }
     },
