@@ -68,7 +68,7 @@
 
     {
       "key": "玩偶",
-      "name": "┃玩偶┃弹幕┃",
+      "name": "┃玩偶┃哥哥┃",
       "type": 3,
       "api": "csp_Wogg",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
@@ -87,7 +87,7 @@
     },
     {
       "key": "玩偶哥哥",
-      "name": "┃饭偶┃ 4K ┃",
+      "name": "┃玩偶┃弹幕┃",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/fty.jar",
       "type": 3,
       "api": "csp_WoGG",
