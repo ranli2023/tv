@@ -50,7 +50,7 @@
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy1.jar",
       "type": 3,
       "api": "csp_AppTT",
       "searchable": 1,
@@ -147,7 +147,7 @@
     {
       "key": "农民影视",
       "name": "┃农民┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy1.jar",
       "type": 3,
       "api": "csp_WexNmys",
       "searchable": 1,
@@ -157,7 +157,7 @@
     {
       "key": "大米星球",
       "name": "┃大米┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy1.jar",
       "type": 3,
       "api": "csp_AppDaMi",
       "searchable": 1,
@@ -167,7 +167,7 @@
     {
       "key": "热播影视",
       "name": "┃热播┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy1.jar",
       "type": 3,
       "api": "csp_AppRB",
       "searchable": 1,
