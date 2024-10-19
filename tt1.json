@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy.jar",
+  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/spider.jar",
   "sites": [
     {
       "key": "七新影视",
@@ -60,7 +60,6 @@
 
     {
       "key": "config",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
@@ -71,7 +70,6 @@
       "name": "┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -104,7 +102,6 @@
       "name": "┃多多┃弹幕┃",
       "type": 3,
       "api": "csp_Wobg",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "quickSearch": 1,
       "changeable": 1,
       "filterable": 1,
@@ -120,7 +117,6 @@
       "name": "┃苹果┃弹幕┃",
       "type": 3,
       "api": "csp_Xpg",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -133,7 +129,6 @@
       "name": "┃文采┃弹幕┃",
       "type": 3,
       "api": "csp_Jpys",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
