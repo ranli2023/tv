@@ -1,6 +1,6 @@
 { "urls": [
         {
-            "url": https://gh.jasonzeng.dev/"https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/hao/豪洋/api.json",
+            "url": "https://gh.jasonzeng.dev/"https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/tt1023.json",
             "name": "豪洋"
         },
               
