@@ -67,7 +67,7 @@
     },
     {
       "key": "玩偶",
-      "name": "┃玩偶┃弹幕┃",
+      "name": "┃玩偶┃哥哥┃",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -113,8 +113,8 @@
       }
     },
     {
-      "key": "小苹果弹幕",
-      "name": "┃苹果┃弹幕┃",
+      "key": "小苹果",
+      "name": "┃苹果┃影视┃",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
@@ -125,8 +125,8 @@
       }
     },
     {
-      "key": "文才弹幕",
-      "name": "┃文采┃弹幕┃",
+      "key": "文才",
+      "name": "┃文采┃影视┃",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
@@ -324,19 +324,9 @@
       "type": 0,
       "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live.json",
       "playerType": 1,
-      "epg": "http://epg.112114.eu.org/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/bingimg/logo/{name}.png"
-    },
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": [
-            "proxy://do=live&type=live&proxy=&url="
-          ]
-        }
-      ]
+      "ua": "okhttp/3.15",
+      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "doh": [
