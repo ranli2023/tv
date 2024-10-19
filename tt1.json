@@ -59,7 +59,6 @@
 
     {
       "key": "config",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
@@ -71,7 +70,6 @@
       "name": "┃玩偶┃哥哥┃",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -103,7 +101,6 @@
     {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -114,7 +111,6 @@
     {
       "key": "文才",
       "name": "┃文采┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
