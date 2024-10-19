@@ -113,19 +113,6 @@
     },
 
     {
-      "key": "小苹果",
-      "name": "┃苹果┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "type": 3,
-      "api": "csp_Xpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
       "key": "文才",
       "name": "┃文采┃影视┃",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
@@ -168,14 +155,6 @@
       "changeable": 1
     },
 
-    {
-      "key": "明日影视",
-      "name": "┃明日┃影视┃",
-      "type": 3, 
-      "api": "csp_WexMingriys",
-      "searchable": 1,
-      "changeable": 1
-    },
     {
       "key": "大米星球",
       "name": "┃大米┃影视┃",
@@ -246,46 +225,7 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json"
     },
-    {
-      "key": "小灯塔科学",
-      "name": "┃科学┃灯塔┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%A7%91%E5%AD%A6.json"
-    },
-    {
-      "key": "小灯塔地理",
-      "name": "┃地理┃灯塔┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9C%B0%E7%90%86.json"
-    },
-    {
-      "key": "小灯塔百科",
-      "name": "┃百科┃灯塔┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%99%BE%E7%A7%91.json"
-    },
-    {
-      "key": "小灯塔国学",
-      "name": "┃国学┃灯塔┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
-    },
+
     {
       "key": "戏曲",
       "name": "┃戏曲┃合集┃",
