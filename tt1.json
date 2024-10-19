@@ -88,7 +88,6 @@
     {
       "key": "玩偶哥哥",
       "name": "┃玩偶┃弹幕┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/fty.jar",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
