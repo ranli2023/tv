@@ -1,5 +1,5 @@
 {
-  "spider": "./hy.jar",
+  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy.jar",
   "sites": [
     {
       "key": "七新影视",
@@ -9,8 +9,9 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/七新影视.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/5144c69e0de20bc5432c15bec1a823de695f74f9/tt/%E4%B8%83%E6%96%B0%E5%BD%B1%E8%A7%86.json"
     },
+
     {
       "key": "高清资源网",
       "name": "️┃高清┃资源┃",
@@ -45,6 +46,7 @@
         "欧美动漫"
       ]
     },
+
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
@@ -54,20 +56,24 @@
       "quickSearch": 1,
       "filterable": 1
     },
+
     {
       "key": "config",
-      "jar": "./lib/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
       "playerType": 2
     },
+
     {
       "key": "玩偶",
       "name": "┃玩偶┃哥哥┃",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "./lib/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Wogg",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -82,7 +88,7 @@
     {
       "key": "玩偶哥哥",
       "name": "┃玩偶┃弹幕┃",
-      "jar": "./lib/fty.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/fty.jar",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -98,17 +104,18 @@
     {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
-      "jar": "./lib/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
     },
+
     {
       "key": "小苹果",
       "name": "┃苹果┃影视┃",
-      "jar": "./lib/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
@@ -121,7 +128,7 @@
     {
       "key": "文才",
       "name": "┃文采┃影视┃",
-      "jar": "./lib/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
@@ -135,11 +142,11 @@
       "key": "星芽短剧",
       "name": "┃星芽┃短剧┃",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
+      "api": "https://bitbucket.org/ranli2000/shu/raw/a06cc26d853d93a1a92f06187c80c6fe53ad5450/drpy2.min.js",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/星芽短剧.js"
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/334bc563f3eee0430501b5d966dfa94fde23fb1d/%E8%B1%AA%E6%B4%8B/lib/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.js"
     },
     {
       "key": "荐片",
@@ -160,10 +167,11 @@
       "searchable": 1,
       "changeable": 1
     },
+
     {
       "key": "明日影视",
       "name": "┃明日┃影视┃",
-      "type": 3,
+      "type": 3, 
       "api": "csp_WexMingriys",
       "searchable": 1,
       "changeable": 1
@@ -171,6 +179,7 @@
     {
       "key": "大米星球",
       "name": "┃大米┃影视┃",
+
       "type": 3,
       "api": "csp_AppDaMi",
       "searchable": 1,
@@ -186,6 +195,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
+
     {
       "key": "学堂",
       "name": "┃学堂┃教育┃",
@@ -194,7 +204,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/学堂教育.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%AD%A6%E5%A0%82%E6%95%99%E8%82%B2.json"
     },
     {
       "key": "少儿",
@@ -204,7 +214,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/少儿合集.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%91%E5%84%BF%E5%90%88%E9%9B%86.json"
     },
     {
       "key": "小学课堂",
@@ -214,7 +224,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/小学课堂.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E5%AD%A6%E8%AF%BE%E5%A0%82.json"
     },
     {
       "key": "初中课堂",
@@ -224,7 +234,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/初中课堂.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%88%9D%E4%B8%AD%E8%AF%BE%E5%A0%82.json"
     },
     {
       "key": "高中课堂",
@@ -234,7 +244,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/高中课堂.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json"
     },
     {
       "key": "小灯塔科学",
@@ -244,7 +254,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔科学.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%A7%91%E5%AD%A6.json"
     },
     {
       "key": "小灯塔地理",
@@ -254,7 +264,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔地理.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9C%B0%E7%90%86.json"
     },
     {
       "key": "小灯塔百科",
@@ -264,7 +274,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔百科.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%99%BE%E7%A7%91.json"
     },
     {
       "key": "小灯塔国学",
@@ -274,7 +284,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔国学.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
     },
     {
       "key": "戏曲",
@@ -284,7 +294,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/戏曲合集.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
     },
     {
       "key": "应用商店",
@@ -293,8 +303,8 @@
       "api": "csp_Market",
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "./lib/abc.txt",
-      "jar": "./lib/app.txt"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/app.txt"
     }
   ],
   "lives": [
@@ -770,7 +780,7 @@
     "mgtv",
     "wasu"
   ],
-  "warningText": "豪洋接口：资源来自网络，无盈利纯技术分享！请勿相信影片中的广告，以免上当受骗所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买",
+ "warningText": "豪洋接口：资源来自网络，无盈利纯技术分享！请勿相信影片中的广告，以免上当受骗所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买",
   "wallpaper": "http://ygbh.live/bz.php",
   "logo": "./logo.gif",
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
