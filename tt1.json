@@ -61,6 +61,7 @@
     {
       "key": "config",
       "name": "┃配置┃中心┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Config",
       "playerType": 2
@@ -69,6 +70,7 @@
     {
       "key": "玩偶",
       "name": "┃玩偶┃哥哥┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -100,6 +102,7 @@
     {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -110,7 +113,8 @@
     {
       "key": "文才",
       "name": "┃文采┃影视┃",
-      "type": 3,
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,      
       "api": "csp_Jpys",
       "searchable": 1,
       "quickSearch": 1,
@@ -143,6 +147,7 @@
     {
       "key": "农民影视",
       "name": "┃农民┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_WexNmys",
       "searchable": 1,
@@ -152,7 +157,7 @@
     {
       "key": "大米星球",
       "name": "┃大米┃影视┃",
-
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_AppDaMi",
       "searchable": 1,
@@ -162,6 +167,7 @@
     {
       "key": "热播影视",
       "name": "┃热播┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_AppRB",
       "searchable": 1,
