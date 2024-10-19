@@ -83,15 +83,11 @@
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_AppTT",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
+      "filterable": 1
     },
 
     {
