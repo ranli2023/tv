@@ -5,7 +5,7 @@
     {
       "name": "终合1",
       "type": 0,
-      "url": "https://s2.pub/tvbs",
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/live.json",
       "playerType": 1,
       "epg": "http://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/bingimg/logo/{name}.png"
@@ -30,16 +30,6 @@
     }
   ],
   "sites": [
-    {
-      "key": "南瓜影视",
-      "name": "🎃┃南瓜┃秒播┃",
-
-      "type": 3,
-      "api": "csp_WexNgys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
     {   
       "key": "七新影视",
       "name": "🎦┃七新┃秒播┃",
@@ -63,6 +53,17 @@
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/98%E5%BD%B1%E8%A7%86.json"
     },
     {
+      "key": "瓜子｜影视",
+      "name": "┃瓜子┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+
+    {
       "key": "天天影视",
       "name": "⛅️┃天天┃秒播┃",
 
@@ -75,7 +76,7 @@
 
     {
       "key": "config",
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/jar/hao.php",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "name": "👍️┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
@@ -86,7 +87,7 @@
       "name": "👽┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_Wogg",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.php",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -115,26 +116,6 @@
       }
     },
 
-
-    {
-      "key": "可可影视",
-      "name": "💫┃可可┃影视┃",
-
-      "type": 3,     
-      "api": "csp_Keke",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "酷看影视",
-      "name": "💡┃酷看┃影视┃",
-
-      "type": 3,
-      "api": "csp_Wexkukantv",
-      "searchable": 1,
-      "changeable": 1
-    },
     {
       "key": "drpy_js_好趣网",
       "name": "📺︎┃电视┃直播┃",
