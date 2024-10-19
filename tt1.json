@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/spider.jar",
+  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy.jar",
   "sites": [
     {
       "key": "七新影视",
@@ -61,6 +61,7 @@
     {
       "key": "config",
       "name": "┃配置┃中心┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/spider.jar",
       "type": 3,
       "api": "csp_Config",
       "playerType": 2
@@ -68,6 +69,7 @@
     {
       "key": "玩偶",
       "name": "┃玩偶┃哥哥┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/spider.jar",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -84,7 +86,7 @@
     {
       "key": "玩偶哥哥",
       "name": "┃饭偶┃ 4K ┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/blob/master/fan.zip",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/fty.jar",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -101,6 +103,7 @@
     {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/spider.jar",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -111,6 +114,7 @@
     {
       "key": "小苹果",
       "name": "┃苹果┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/spider.jar",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
@@ -123,6 +127,7 @@
     {
       "key": "文才",
       "name": "┃文采┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/spider.jar",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
