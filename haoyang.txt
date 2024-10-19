@@ -1,11 +1,11 @@
 { "urls": [
         {
-            "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/main/hao/23c.txt",
+            "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/hao/23c.json",
             "name": "豪洋"
         },
 
         {
-            "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/main/hao/23b.txt",
+            "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/hao/23b.json",
             "name": "红薯"
         },   
         {
@@ -13,7 +13,7 @@
             "name": "肥猫"
         },
         {
-            "url": "http://我不是.摸鱼儿.top",
+            "url": "http://我不是.摸鱼儿.xyz",
             "name": "摸鱼"
         },                    
 
