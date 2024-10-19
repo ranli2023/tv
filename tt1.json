@@ -10,7 +10,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/5144c69e0de20bc5432c15bec1a823de695f74f9/tt/%E4%B8%83%E6%96%B0%E5%BD%B1%E8%A7%86.json"
-      }
     },
 
     {
@@ -47,39 +46,7 @@
         "欧美动漫"
       ]
     },
-    {
-      "key": "蚂蚁",
-      "name": "┃360 ┃影视┃",
-      "type": 1,
-      "changeable": 0,
-      "api": "https://360zy.com/api.php/provide/vod",
-      "playUrl": "json:http://110.42.3.99:880/rmm.php/?url=",
-      "categories": [
-        "爽文短剧",
-        "国产剧",
-        "国产动漫",
-        "动画电影",
-        "网络电影",
-        "动作片",
-        "喜剧片",
-        "灾难片",
-        "爱情片",
-        "科幻片",
-        "恐怖片",
-        "剧情片",
-        "战争片",
-        "港台剧",
-        "日韩剧",
-        "欧美剧",
-        "惊悚片",
-        "犯罪片",
-        "冒险片",
-        "悬疑片",
-        "武侠片",
-        "奇幻片",
-        "国产综艺"
-      ]
-    },
+
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
@@ -142,10 +109,7 @@
       "api": "csp_Gz360",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
+      "filterable": 1
     },
 
     {
@@ -345,17 +309,26 @@
   ],
   "lives": [
     {
-      "name": "live",
+      "name": "豪洋",
       "type": 0,
       "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/live.json",
       "playerType": 1,
       "ua": "okhttp/3.15",
-      "epg": "http://epg.51zmt.top:8000/api/diyp/?ch={name}&date={date}",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "group": "redirect",
+      "channels": [
+        {
+          "name": "redirect",
+          "urls": [
+            "proxy://do=live&type=live&proxy=&url="
+          ]
+        }
+      ]
     }
   ],
-
-
   "doh": [
     {
       "name": "Google",
