@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy.jar",
+  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
   "sites": [
     {
       "key": "七新影视",
@@ -61,7 +61,6 @@
     {
       "key": "config",
       "name": "┃配置┃中心┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Config",
       "playerType": 2
@@ -69,7 +68,6 @@
     {
       "key": "玩偶",
       "name": "┃玩偶┃哥哥┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -99,11 +97,19 @@
         "danMu": "弹"
       }
     },
-
+    {
+      "key": "星芽短剧",
+      "name": "┃星芽┃短剧┃",
+      "type": 3,
+      "api": "https://bitbucket.org/ranli2000/shu/raw/a06cc26d853d93a1a92f06187c80c6fe53ad5450/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/334bc563f3eee0430501b5d966dfa94fde23fb1d/%E8%B1%AA%E6%B4%8B/lib/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.js"
+    },
     {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -114,7 +120,6 @@
     {
       "key": "小苹果",
       "name": "┃苹果┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
@@ -127,7 +132,6 @@
     {
       "key": "文才",
       "name": "┃文采┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
