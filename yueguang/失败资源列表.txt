@@ -1,9 +1,0 @@
-https://py.nxog.eu.org/proxy/https://raw.githubusercontent.com/guot55/yg/main/lib/北川影视.js
-http://127.0.0.1:9978/file/TVBox/quark.txt
-http://127.0.0.1:9978/file/TVBox/uc.txt
-http://ygbh.live/js/mp4us.js
-http://ygbh.live/js/kuba.js
-https://py.nxog.eu.org/proxy/https://raw.githubusercontent.com/guot55/yg/main/lib/live.ipv6.txt
-https://mirror.ghproxy.com/raw.githubusercontent.com/dxawi/0/main/tvlive.txt
-https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt
-https://mirror.ghproxy.com/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/live.json

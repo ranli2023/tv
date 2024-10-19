@@ -1,1 +1,0 @@
-clan://localhost/tvbox/yueguang/yueguang.json
