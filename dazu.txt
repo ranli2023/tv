@@ -1,4 +1,0 @@
-{ "storeHouse": [ 
-{ "sourceName": "🧡豪洋接口1","sourceUrl":"https://bitbucket.org/ranli2000/shu/raw/3703c5c426e3ed69e2833b206cd3e41498c69404/haoyang.txt"},
-{ "sourceName": "🧡豪洋接口2","sourceUrl":"https://bitbucket.org/ranli2000/shu/raw/3703c5c426e3ed69e2833b206cd3e41498c69404/haoyang1.txtt"}
-]}
