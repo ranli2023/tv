@@ -137,7 +137,7 @@
     },
     {
       "key": "星芽短剧",
-      "name": "┃✨短┃剧✨┃",
+      "name": "🔥┃✨短┃剧✨┃",
       "type": 3,
       "api": "https://bitbucket.org/ranli2000/shu/raw/a06cc26d853d93a1a92f06187c80c6fe53ad5450/drpy2.min.js",
       "searchable": 1,
@@ -168,28 +168,6 @@
       "quickSearch": 1,
       "changeable": 1,
       "ext": "https://www.libvio.pw/"
-    },
-    {
-      "key": "Auete",
-      "name": "🏝┃奥特┃直连┃",
-      "type": 3,
-      "api": "csp_Auete",
-      "timeout": 15,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "ext": "https://auete.pro/"
-    },
-    {
-      "key": "贱贱",
-      "name": "🐭┃贱贱┃p2p┃",
-      "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "1",
-      "api": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/drpy2.min.js",
-      "ext": "./lib/jp.js"
     },
     {
       "key": "新6V",
@@ -457,9 +435,10 @@
       "api": "csp_Market",
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://s2.pub/mingshi",
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/%E8%B1%AA%E6%B4%8B/lib/app.txt"
-    },
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/app.jar"
+    }
+  ],
     {
       "key": "qq",
       "name": "请勿相信视频中任何广告",
