@@ -139,7 +139,7 @@
     },
     {
       "key": "小苹果",
-      "name": "┃苹果┃弹幕┃",
+      "name": "🍎┃苹果┃弹幕┃",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Xpg",
@@ -327,7 +327,41 @@
       "filterable": 0,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E7%BE%8E%E9%A3%9F.json"
     },
+     {
+      "key": "设计",
+      "name": "🗽┃设计┃教程┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/jixie.json"
+    },
     {
+      "key": "Excel",
+      "name": "🗽┃Excel┃教程┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/Excel%E6%95%99%E7%A8%8B.json"
+    },
+    {
+      "key": "戏曲",
+      "name": "📀┃哔哩┃戏曲┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E6%88%8F%E6%9B%B2.json"
+    },
+   {
       "key": "dr_兔小贝",
       "name": "📚┃儿童┃启蒙┃",
       "type": 3,
@@ -409,40 +443,8 @@
       "changeable": 0,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E9%AB%98%E8%80%83.json"
     },
-    {
-      "key": "设计",
-      "name": "📚┃设计┃教程┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/jixie.json"
-    },
-    {
-      "key": "Excel",
-      "name": "📚┃Excel┃教程┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "style": {
-        "type": "rect",
-        "ratio": 1.597
-      },
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/Excel%E6%95%99%E7%A8%8B.json"
-    },
-    {
-      "key": "戏曲",
-      "name": "📚┃哔哩┃戏曲┃",
-      "type": 3,
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E6%88%8F%E6%9B%B2.json"
-    },
+
+
     {
       "key": "应用商店",
       "name": "🏡┃应用┃商店┃",
