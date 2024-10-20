@@ -217,7 +217,6 @@
     {
       "key": "玩偶",
       "name": "🇨🇳玩偶哥哥",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/haoyang.jar",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,

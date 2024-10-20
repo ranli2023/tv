@@ -2,6 +2,31 @@
   "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hy.jar",
   "sites": [
     {
+      "key": "csp_Douban",
+      "name": "防失联，加qq群：230342531",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "config",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "name": "┃配置┃中心┃",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
+    },
+    {
+      "key": "瓜子｜影视",
+      "name": "┃瓜子┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
       "key": "七新影视",
       "name": "┃七新┃影视┃",
       "type": 3,
@@ -46,16 +71,7 @@
         "欧美动漫"
       ]
     },
-    {
-      "key": "瓜子｜影视",
-      "name": "┃瓜子┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
@@ -65,15 +81,6 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1
-    },
-
-    {
-      "key": "config",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "name": "┃配置┃中心┃",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2
     },
 
     {

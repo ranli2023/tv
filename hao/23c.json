@@ -30,6 +30,31 @@
     }
   ],
   "sites": [
+    {
+      "key": "csp_Douban",
+      "name": "📡防失联，加qq群：230342531",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
+    {
+      "key": "config",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "name": "👍️┃配置┃中心┃",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
+    },
+    {
+      "key": "瓜子影视",
+      "name": "💠┃瓜子┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {   
       "key": "七新影视",
       "name": "🎦┃七新┃秒播┃",
@@ -52,21 +77,12 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/98%E5%BD%B1%E8%A7%86.json"
     },
-    {
-      "key": "瓜子｜影视",
-      "name": "┃瓜子┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
 
     {
       "key": "天天影视",
       "name": "⛅️┃天天┃秒播┃",
-
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_AppTT",
       "searchable": 1,
@@ -74,14 +90,6 @@
       "filterable": 1
     },
 
-    {
-      "key": "config",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "name": "👍️┃配置┃中心┃",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2
-    },
     {
       "key": "玩偶",
       "name": "👽┃玩偶┃弹幕┃",
@@ -101,8 +109,7 @@
     },
     {
       "key": "玩偶哥哥",
-      "name": "⛅┃饭偶┃ 4K ┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/haoyang.jar",
+      "name": "⛅┃饭偶┃弹幕┃",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -115,7 +122,29 @@
         "danMu": "弹"
       }
     },
-
+    {
+      "key": "文才",
+      "name": "┃文采┃弹幕┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Jpys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "星芽短剧",
+      "name": "✨短┃剧✨ ",
+      "type": 3,
+      "api": "https://bitbucket.org/ranli2000/shu/raw/a06cc26d853d93a1a92f06187c80c6fe53ad5450/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/334bc563f3eee0430501b5d966dfa94fde23fb1d/%E8%B1%AA%E6%B4%8B/lib/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.js"
+    },
     {
       "key": "drpy_js_好趣网",
       "name": "📺︎┃电视┃直播┃",
@@ -128,17 +157,6 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E5%A5%BD%E8%B6%A3%E7%BD%91.js"
     },
-    {
-      "key": "YGP",
-      "name": "🚀┃荐影┃新片┃",
-
-      "type": 3,
-      "api": "csp_YGP",
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0,
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/%E8%B1%AA%E6%B4%8B/lib/hao.txt"
-    },
 
      {
       "key": "Lib",
@@ -149,8 +167,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://www.libvio.pw/",
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/%E8%B1%AA%E6%B4%8B/lib/fty.txt"
+      "ext": "https://www.libvio.pw/"
     },
     {
       "key": "Auete",
@@ -161,8 +178,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 1,
-      "ext": "https://auete.pro/",
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/%E8%B1%AA%E6%B4%8B/lib/fty.txt"
+      "ext": "https://auete.pro/"
     },
     {
       "key": "贱贱",
@@ -173,8 +189,7 @@
       "changeable": 1,
       "playerType": "1",
       "api": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/drpy2.min.js",
-      "ext": "./lib/jp.js",
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/%E8%B1%AA%E6%B4%8B/lib/fty.txt"
+      "ext": "./lib/jp.js"
     },
     {
       "key": "新6V",
@@ -184,8 +199,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://www.xb6v.com/",
-      "jar": "https://bitbucket.org/ranli2000/tvbox/raw/main/%E8%B1%AA%E6%B4%8B/lib/fty.txt"
+      "ext": "http://www.xb6v.com/"
     },
     {
       "key": "🦊YiSo",
