@@ -46,10 +46,20 @@
         "欧美动漫"
       ]
     },
-
+    {
+      "key": "瓜子｜影视",
+      "name": "┃瓜子┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
     {
       "key": "天天影视",
       "name": "┃天天┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_AppTT",
       "searchable": 1,
@@ -68,7 +78,7 @@
 
     {
       "key": "玩偶",
-      "name": "┃玩偶┃哥哥┃",
+      "name": "┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_Wogg",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
@@ -87,7 +97,7 @@
     },
     {
       "key": "玩偶哥哥",
-      "name": "┃玩偶┃弹幕┃",
+      "name": "┃饭偶┃弹幕┃",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -100,20 +110,11 @@
         "danMu": "弹"
       }
     },
-    {
-      "key": "瓜子｜影视",
-      "name": "┃瓜子┃影视┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
 
     {
       "key": "小苹果",
-      "name": "┃苹果┃影视┃",
+      "name": "┃苹果┃弹幕┃",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Xpg",
@@ -126,7 +127,7 @@
     },
     {
       "key": "文才",
-      "name": "┃文采┃影视┃",
+      "name": "┃文采┃弹幕┃",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Jpys",
