@@ -34,8 +34,10 @@
       "key": "csp_Douban",
       "name": "📡防失联，加qq群：230342531",
       "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "config",
