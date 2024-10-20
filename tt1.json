@@ -59,6 +59,7 @@
 
     {
       "key": "config",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "name": "┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
@@ -68,6 +69,9 @@
     {
       "key": "玩偶",
       "name": "┃玩偶┃哥哥┃",
+      "type": 3,
+      "api": "csp_Wogg",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Wogg",
       "searchable": 1,
@@ -84,7 +88,7 @@
     {
       "key": "玩偶哥哥",
       "name": "┃玩偶┃弹幕┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/fty.jar",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -100,7 +104,7 @@
     {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
-
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -109,9 +113,23 @@
     },
 
     {
+      "key": "小苹果",
+      "name": "┃苹果┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Xpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
       "key": "文才",
       "name": "┃文采┃影视┃",
-      "type": 3,      
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
       "quickSearch": 1,
@@ -151,8 +169,17 @@
     },
 
     {
+      "key": "明日影视",
+      "name": "┃明日┃影视┃",
+      "type": 3, 
+      "api": "csp_WexMingriys",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "大米星球",
       "name": "┃大米┃影视┃",
+
       "type": 3,
       "api": "csp_AppDaMi",
       "searchable": 1,
@@ -219,7 +246,46 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E9%AB%98%E4%B8%AD%E8%AF%BE%E5%A0%82.json"
     },
-
+    {
+      "key": "小灯塔科学",
+      "name": "┃科学┃灯塔┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%A7%91%E5%AD%A6.json"
+    },
+    {
+      "key": "小灯塔地理",
+      "name": "┃地理┃灯塔┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9C%B0%E7%90%86.json"
+    },
+    {
+      "key": "小灯塔百科",
+      "name": "┃百科┃灯塔┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E7%99%BE%E7%A7%91.json"
+    },
+    {
+      "key": "小灯塔国学",
+      "name": "┃国学┃灯塔┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
+    },
     {
       "key": "戏曲",
       "name": "┃戏曲┃合集┃",
@@ -230,7 +296,6 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
     },
-
     {
       "key": "应用商店",
       "name": "┃应用┃商店┃",
@@ -239,7 +304,7 @@
       "quickSearch": 0,
       "filterable": 0,
       "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/app.txt"
     }
   ],
   "lives": [
