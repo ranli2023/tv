@@ -124,7 +124,7 @@
     },
     {
       "key": "文才",
-      "name": "┃文采┃弹幕┃",
+      "name": "💮┃文采┃弹幕┃",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
       "api": "csp_Jpys",
@@ -137,7 +137,7 @@
     },
     {
       "key": "星芽短剧",
-      "name": "✨短┃剧✨ ",
+      "name": "┃✨短┃剧✨┃",
       "type": 3,
       "api": "https://bitbucket.org/ranli2000/shu/raw/a06cc26d853d93a1a92f06187c80c6fe53ad5450/drpy2.min.js",
       "searchable": 1,
