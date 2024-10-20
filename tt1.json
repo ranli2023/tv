@@ -110,22 +110,7 @@
         "danMu": "弹"
       }
     },
-    {
-      "key": "多多弹幕",
-      "name": "┃弹幕┃弹幕┃",
-      "type": 3,
-      "api": "csp_Wobg",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://tv.yydsys.top",
-        "danmu": true
-      }
-    },
+
     {
       "key": "小苹果",
       "name": "┃苹果┃弹幕┃",
@@ -212,7 +197,7 @@
 
     {
       "key": "搜索弹幕",
-      "name": "┃盘Se ┃ 弹幕┃",
+      "name": "┃盘Se┃弹幕┃",
       "type": 3,
       "api": "csp_PanSearch",
        "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
