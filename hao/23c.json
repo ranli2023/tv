@@ -105,7 +105,7 @@
         "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
         "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
         "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "wogg": true,
+        "site": "https://www.wogg.net/",
         "danmu": true
       }
     },
@@ -120,7 +120,7 @@
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
-        "siteUrl": "https://wogg.888484.xyz/",
+        "siteUrl": "https://wogg.xxooo.cf/",
         "danMu": "弹"
       }
     },
