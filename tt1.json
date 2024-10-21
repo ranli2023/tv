@@ -24,7 +24,10 @@
       "api": "csp_Gz360",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
     },
     {
       "key": "七新影视",
@@ -169,31 +172,55 @@
       "ext": "http://api2.rinhome.com"
     },
     {
-      "key": "农民影视",
-      "name": "┃农民┃影视┃",
+      "key": "糯米",
+      "name": "┃糯米┃秒播┃",
       "type": 3,
-      "api": "csp_WexNmys",
+      "api": "csp_Nmyswv",
+      "timeout": 15,
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "changeable": 1,
+      "ext": {
+        "danmu": true
+      }
     },
-
     {
-      "key": "明日影视",
-      "name": "┃明日┃影视┃",
-      "type": 3, 
-      "api": "csp_WexMingriys",
+      "key": "农民",
+      "name": "┃农民┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Nongm",
       "searchable": 1,
-      "changeable": 1
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
+    {
+      "key": "比特",
+      "name": "┃比特┃影视┃",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "type": 3,
+      "api": "csp_Bttwo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
     },
     {
       "key": "大米星球",
       "name": "┃大米┃影视┃",
-
       "type": 3,
       "api": "csp_AppDaMi",
       "searchable": 1,
       "quickSearch": 0,
-      "filterable": 0
+      "filterable": 0,
+      "ext": {
+        "danmu": true
+      }
     },
     {
       "key": "热播影视",
@@ -202,7 +229,10 @@
       "api": "csp_AppRB",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
     },
 
     {
