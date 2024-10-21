@@ -196,64 +196,118 @@
       "ext": "http://www.xb6v.com/"
     },
     {
-      "key": "🦊YiSo",
-      "name": "🆎┃易搜┃云盘┃",
-      "type": 3,
-      "api": "csp_YiSo",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
-    },
-    {
-      "key": "🦊Zhaozy",
-      "name": "🐺┃资源┃云盘┃",
-      "type": 3,
-      "api": "csp_Zhaozy",
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd$$$fanty$$$qqq111"
-    },
-    {
-      "key": "🦊PanSou",
-      "name": "📀┃盘搜┃云盘┃",
+      "key": "搜索弹幕",
+      "name": "🦊┃盘Se┃弹幕┃",
       "type": 3,
       "api": "csp_PanSearch",
+       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      }
     },
     {
-      "key": "🦊UpYun",
-      "name": "☁️┃Up搜┃云盘┃",
+      "key": "云云弹幕",
+      "name": "🦊┃云云┃弹幕┃",
+      "type": 3,
+      "api": "csp_Upys",
+       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      }
+    },
+    {
+      "key": "云搜弹幕",
+      "name": "🦊┃Up搜┃弹幕┃",
       "type": 3,
       "api": "csp_UpYun",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      }
+    },
+
+    {
+      "key": "盘搜弹幕",
+      "name": "🦊┃盘搜┃弹幕┃",
+      "type": 3,
+      "api": "csp_PanSou",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true
+      }
     },
     {
-      "key": "🦊PanSearch",
-      "name": "🙀┃盘Se┃云盘┃",
+      "key": "易搜弹幕",
+      "name": "🦊┃易搜┃弹幕┃",
       "type": 3,
-      "api": "csp_PanSearch",
+      "api": "csp_YiSo",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "danmu": true,
+        "cookie": "satoken=0eedba28-be8a-4f01-81af-2d8d44808ecf"
+      }
     },
     {
-      "key": "🦊七夜",
-      "name": "😾┃七夜┃云盘┃",
+      "key": "云盘弹幕",
+      "name": "🦊┃云盘┃弹幕┃",
       "type": 3,
-      "api": "csp_Dovx",
+      "api": "csp_Yunpan4k",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
+      "searchable": 1,
+      "filterable": 0,
+      "changeable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "danmu": true
+      }
+    },
+
+    {
+      "key": "米搜",
+      "name": "🦋米盘┃搜搜",
+      "type": 3,
+      "api": "csp_MIPanSo",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://127.0.0.1:9978/file/tvfan/token.txt+4k|auto|fhd"
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "抠搜",
+      "name": "🍄抠抠┃搜搜",
+      "type": 3,
+      "api": "csp_KkSs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
     },
 
     {

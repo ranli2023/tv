@@ -248,6 +248,33 @@
       }
     },
     {
+      "key": "米搜",
+      "name": "┃米盘┃搜搜┃",
+      "type": 3,
+      "api": "csp_MIPanSo",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+    {
+      "key": "抠搜",
+      "name": "┃抠抠┃搜搜┃",
+      "type": 3,
+      "api": "csp_KkSs",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto"
+      }
+    },
+
+    {
       "key": "盘搜弹幕",
       "name": "┃盘搜┃弹幕┃",
       "type": 3,
