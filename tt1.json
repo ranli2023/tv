@@ -145,15 +145,41 @@
       }
     },
     {
-      "key": "星芽短剧",
-      "name": "✨短┃剧✨ ",
+      "key": "无忧短剧",
+      "name": "┃无忧┃短剧┃",
       "type": 3,
-      "api": "https://bitbucket.org/ranli2000/shu/raw/a06cc26d853d93a1a92f06187c80c6fe53ad5450/drpy2.min.js",
+      "api": "csp_Duanj",
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/334bc563f3eee0430501b5d966dfa94fde23fb1d/%E8%B1%AA%E6%B4%8B/lib/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.js"
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      }
     },
+    {
+      "key": "在线短剧",
+      "name": "┃在线┃短剧┃",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      }
+    },
+    {
+      "key": "星芽短剧",
+      "name": "┃星芽┃短剧┃",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
+
+
     {
       "key": "荐片",
       "name": "┃荐片┃解析┃",

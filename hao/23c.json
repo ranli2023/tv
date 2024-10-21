@@ -79,6 +79,39 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/98%E5%BD%B1%E8%A7%86.json"
     },
+    {
+      "key": "无忧短剧",
+      "name": "✨┃无忧┃短剧┃",
+      "type": 3,
+      "api": "csp_Duanj",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      }
+    },
+    {
+      "key": "在线短剧",
+      "name": "✨┃在线┃短剧┃",
+      "type": 3,
+      "api": "csp_Duanju",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      }
+    },
+    {
+      "key": "星芽短剧",
+      "name": "✨┃星芽┃短剧┃",
+      "type": 3,
+      "api": "csp_AppXY",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
 
 
     {
@@ -150,16 +183,7 @@
         "danmu": true
       }
     },
-    {
-      "key": "星芽短剧",
-      "name": "✨┃星芽┃短剧┃",
-      "type": 3,
-      "api": "https://bitbucket.org/ranli2000/shu/raw/a06cc26d853d93a1a92f06187c80c6fe53ad5450/drpy2.min.js",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/334bc563f3eee0430501b5d966dfa94fde23fb1d/%E8%B1%AA%E6%B4%8B/lib/%E6%98%9F%E8%8A%BD%E7%9F%AD%E5%89%A7.js"
-    },
+
     {
       "key": "drpy_js_好趣网",
       "name": "📺︎┃电视┃直播┃",
