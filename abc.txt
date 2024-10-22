@@ -14,8 +14,8 @@
         "name": "豪洋app推荐",
         "list": [
              {
-            "name": "影视仓5.0.44", 
-            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E4%B8%A8%E5%BD%B1%E4%BB%93_5.0.44.apk", 
+            "name": "影视仓5.0.44.1", 
+            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E4%B8%A8%E5%BD%B1%E4%BB%935.0.44.1.apk", 
             "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
             "version": "内置多仓版" 
           },
@@ -39,9 +39,9 @@
         "list": [
   { 
          "name": "豪洋本地仓",
-          "url": "https://bitbucket.org/ranli2000/cq/raw/main/%E6%9C%AC%E5%9C%B0%E5%8C%8520241021.zip",
+          "url": "https://bitbucket.org/ranli2000/cq/raw/main/tvboxhao%E6%9C%AC%E5%9C%B0%E5%8C%8520241022.zip",
            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-           "version": "20241021"
+           "version": "20241022"
 
 } ] },
 
