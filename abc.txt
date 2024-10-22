@@ -39,9 +39,9 @@
         "list": [
   { 
          "name": "豪洋本地仓",
-          "url": "https://bitbucket.org/ranli2000/cq/raw/main/tvboxhao%E6%9C%AC%E5%9C%B0%E5%8C%8520241022.zip",
+          "url": "https://bitbucket.org/ranli2000/cq/raw/main/tvboxhao.zip",
            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-           "version": "20241022"
+           "version": "内置配套本地仓20241023"
 
 } ] },
 
