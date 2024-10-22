@@ -40,6 +40,16 @@
       "filterable": 0
     },
     {
+      "key": "应用商店",
+      "name": "🏡┃应用┃商店┃",
+      "type": 3,
+      "api": "csp_Market",
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt",
+      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/app.jar"
+    },
+    {
       "key": "config",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "name": "👍️┃配置┃中心┃",
@@ -500,16 +510,7 @@
     },
 
 
-    {
-      "key": "应用商店",
-      "name": "🏡┃应用┃商店┃",
-      "type": 3,
-      "api": "csp_Market",
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/app.jar"
-    },
+
     {
       "key": "qq",
       "name": "请勿相信视频中任何广告",
