@@ -161,6 +161,23 @@
       }
     },
     {
+      "key": "夸克木偶弹幕",
+      "name": "🪵┃木偶┃ 4K┃",
+      "type": 3,
+      "api": "csp_Wobg",
+     "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",            
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "http://mogg.小胡.top",
+        "danmu": true
+      }
+    },
+    {
       "key": "文才",
       "name": "💮┃文采┃弹幕┃",
       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
