@@ -146,23 +146,7 @@
         "danmu": true
       }
     },
-    {
-      "key": "夸克木偶弹幕",
-      "name": "┃木偶┃ 4 K┃",
-      "type": 3,
-      "api": "csp_Wobg",
-       "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/002.jar",
-      "quickSearch": 1,
-      "changeable": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "www.mogg.top",
-        "danmu": true
-      }
-    },
+
     {
       "key": "小苹果",
       "name": "┃苹果┃弹幕┃",
