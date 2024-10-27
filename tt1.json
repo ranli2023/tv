@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "csp_Douban",
-      "name": "防失联，加qq群：230342531",
+      "name": "豆豆搜索",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
