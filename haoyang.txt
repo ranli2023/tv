@@ -22,11 +22,7 @@
         },
 
        {
-            "url": "http://饭太硬.com/tv",
+            "url": "http://www.饭太硬.com/tv",
             "name": "饭太硬"
-        },
-        {
-            "url": "http://rihou.cc:99/荷城茶秀",
-            "name": "荷城茶秀"
         }
 ]}
