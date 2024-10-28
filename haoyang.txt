@@ -16,13 +16,27 @@
             "name": "摸鱼"
         },                    
 
-        {
-            "url": "http://52pan.top:81/api/v3/file/get/174964/%E5%90%BE%E7%88%B1%E8%AF%84%E6%B5%8B.m3u?sign=rPssLoffquDXszCARt6UNF8MobSa1FA27XomzOluJBY%3D%3A0",
-            "name": "吾爱"
-        },
 
        {
             "url": "http://www.饭太硬.com/tv",
             "name": "饭太硬"
-        }
+        },
+   {
+      "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
+      "name": "PG线路"
+    },
+    {
+      "url": "https://盒子迷.top/春盈天下",
+      "name": "春盈天下"
+    },
+    {
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/guot55/yg/main/ygbox.json",
+      "name": "月光宝盒"
+    },
+
+    {
+      "url": "http://cdn.qiaoji8.com/tvbox.json",
+      "name": "巧技线路"
+    }
+
 ]}
