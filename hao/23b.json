@@ -3,6 +3,15 @@
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "sites": [
     {
+      "key": "csp_Douban",
+      "name": "公众号：【我不吃红薯】",
+      "type": 3,
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+    {
       "key": "高清资源网",
       "name": "️🇨🇳高清采集",
       "type": 1,
