@@ -13,7 +13,7 @@
         },
         {
             "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/moyu/moyu.json",
-            "name": "摸鱼"
+            "name": "摸鱼儿"
         },                    
 
 
