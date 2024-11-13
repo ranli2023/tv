@@ -5,8 +5,10 @@
       "key": "csp_Douban",
       "name": "公众号：【我不吃红薯】",
       "type": 3,
-      "api": "csp_Douban",
-      "searchable": 0
+      "api": "csp_DouDou",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
     },
     {
       "key": "应用商店",
@@ -492,28 +494,7 @@
       "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
     }
   ],
-  "lives": [
-    {
-      "name": "豪洋",
-      "type": 0,
-      "url": "https://live.kilvn.com/iptv.m3u",
-      "playerType": 1,
-      "ua": "okhttp/3.15",
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
-    },
-    {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": [
-            "proxy://do=live&type=live&proxy=&url="
-          ]
-        }
-      ]
-    }
-  ],
+
   "doh": [
     {
       "name": "Google",
