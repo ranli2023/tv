@@ -5,13 +5,21 @@
     {
       "name": "终合1",
       "type": 0,
-      "url": "https://live.kilvn.com/iptv.m3u",
+      "url": "https://ghproxy.cc/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/live.json",
       "playerType": 1,
       "epg": "http://epg.112114.eu.org/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/bingimg/logo/{name}.png"
     },
     {
       "name": "终合2",
+      "type": 0,
+      "url": "https://live.kilvn.com/iptv.m3u",
+      "playerType": 1,
+      "epg": "http://epg.112114.eu.org/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/bingimg/logo/{name}.png"
+    },
+    {
+      "name": "终合3",
       "type": 0,
       "url": "https://8915.kstore.space/综合.txt",
       "playerType": 1,
@@ -20,7 +28,7 @@
       "pass": true
     },
     {
-      "name": "终合3",
+      "name": "终合4",
       "type": 0,
       "url": "https://wp.weikete.cc/down.php/c3eecc14547f5e1e468718148c9f762f.txt",
       "playerType": 1,
