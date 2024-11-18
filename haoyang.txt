@@ -4,10 +4,6 @@
             "name": "豪洋"
         },
         {
-            "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/hao/23b.json",
-            "name": "红薯"
-        },   
-        {
             "url": "http://肥猫.com",
             "name": "肥猫"
         },
