@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "csp_Douban",
-      "name": "公众号：【我不吃红薯】",
+      "name": "公众号：【棠城互动】",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
