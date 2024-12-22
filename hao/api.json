@@ -5,7 +5,7 @@
     {
       "name": "终合1",
       "type": 0,
-      "url": "https://ghproxy.cc/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/live1.json",
+      "url": "https://ghproxy.cc/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live3.m3u",
       "playerType": 1,
       "epg": "https://e.erw.cc/all.xml/?ch={name}&date={date}",
       "logo": "https://e.erw.cc/all.xml/logo/{name}.png",
