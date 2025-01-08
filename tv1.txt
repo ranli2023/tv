@@ -17,10 +17,6 @@
             "url": "http://www.饭太硬.com/tv",
             "name": "饭太硬"
         },
-   {
-      "url": "https://git.acwing.com/iduoduo/orange/-/raw/main/jsm.json",
-      "name": "PG线路"
-    },
     {
       "url": "https://盒子迷.top/春盈天下",
       "name": "春盈天下"
