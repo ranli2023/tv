@@ -99,6 +99,14 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/98%E5%BD%B1%E8%A7%86.json"
     },
+    {
+      "key": "高清资源网",
+      "name": "️✨┃高清┃资源┃",
+      "type": 1,
+      "api": "https://cj.vodimg.top/api.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 1
+    },
 
     {
       "key": "星芽短剧",
