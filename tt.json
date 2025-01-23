@@ -139,19 +139,7 @@
         "danmu": true
       }
     },
-    {
-      "key": "小苹果",
-      "name": "┃苹果┃弹幕┃",
-      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
-      "type": 3,
-      "api": "csp_Xpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
+
     {
       "key": "文才",
       "name": "┃文采┃弹幕┃",
