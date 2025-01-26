@@ -17,13 +17,13 @@
             "name": "影视仓5.0.48.2", 
             "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E4%B8%A8%E5%BD%B1%E4%BB%93_5.0.48.2.apk", 
             "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-            "version": "内置多仓版" 
+            "version": "更新时间：25.01.26" 
           },
              {
             "name": "影视仓5.0.46", 
             "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E4%B8%A8%E5%BD%B1%E4%BB%93_5.0.46_clone.apk", 
             "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-            "version": "内置多仓版" 
+            "version": "更新时间：25.01.26" 
           },
 
 
@@ -31,7 +31,7 @@
             "name": "豪洋直播2.0.32", 
             "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E7%9B%B4%E6%92%AD_2.0.32.apk", 
             "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-            "version": "内置直播源" 
+            "version": "更新时间：25.01.26" 
           } ] },
 
     {
@@ -41,7 +41,7 @@
          "name": "豪洋本地仓",
           "url": "https://bitbucket.org/ranli2000/cq/raw/main/tvboxhao.zip",
            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-           "version": "本地仓20241023"
+            "version": "更新时间：24.10.23" 
 
 } ] },
 
@@ -53,6 +53,6 @@
          "name": "当贝桌面",
           "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E5%BD%93%E8%B4%9D%E6%A1%8C%E9%9D%A2tv%E7%BA%AF%E5%87%80%E7%89%88.apk",
            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-           "version": "TV纯净版"
+            "version": "更新时间：25.01.26" 
 
 } ] } ]
