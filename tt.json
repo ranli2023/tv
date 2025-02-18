@@ -107,7 +107,7 @@
       }
     },
     {
-      "key": "夸克多多弹幕",
+      "key": "多多弹幕",
       "name": "┃多多┃弹幕┃",
      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar",
       "type": 3,
@@ -124,7 +124,7 @@
     },
     {
       "key": "闪电弹幕",
-      "name": "┃闪电┃优汐┃",
+      "name": "┃闪电┃弹幕┃",
       "type": 3,
       "api": "csp_Wobg",
      "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/001.jar", 
@@ -141,7 +141,7 @@
       }
     },
     {
-      "key": "夸克木偶弹幕",
+      "key": "木偶弹幕",
       "name": "┃木偶┃ 4K┃",
       "type": 3,
       "api": "csp_Wobg",
