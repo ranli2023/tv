@@ -28,7 +28,7 @@
 
              {
             "name": "DIYP2025", 
-            "url": "https://bitbucket.org/ranli2000/cq/src/main/app/DIYP2025.apk", 
+            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/DIYP2025.apk", 
             "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
             "version": "更新时间：2025.02.22" 
           },
