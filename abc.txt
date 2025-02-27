@@ -26,19 +26,14 @@
             "version": "更新时间：2025.02.02" 
           },
 
-             {
-            "name": "DIYP2025", 
-            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/DIYP2025.apk", 
-            "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-            "version": "更新时间：2025.02.22" 
-          },
+
 
 
              {
-            "name": "豪洋直播2.0.33", 
-            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E7%9B%B4%E6%92%AD_2.0.33.apk", 
+            "name": "豪洋Tv5.0.2", 
+            "url": "https://bitbucket.org/ranli2000/cq/rawmain/app/%E8%B1%AA%E6%B4%8BTV_5.0.2.apk", 
             "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
-            "version": "更新时间：2025.02.14" 
+            "version": "更新时间：2025.02.27" 
           } ] },
 
     {
