@@ -14,8 +14,8 @@
         "name": "豪洋app推荐",
         "list": [
              {
-            "name": "影视仓6.0.5", 
-            "url": "https://bitbucket.org/ranli2000/cq/raw/main/app/%E8%B1%AA%E6%B4%8B%E4%B8%A8%E5%BD%B1%E4%BB%93_6.0.5.apk", 
+            "name": "影视仓6.0.5.1", 
+            "url": "https://bitbucket.org/ranli2000/cq/src/main/app/%E8%B1%AA%E6%B4%8B%E4%B8%A8%E5%BD%B1%E4%BB%93_6.0.5.1_clone.apk", 
             "icon": "https://bitbucket.org/ranli2000/tvbox/raw/9af3f18b10e60d54ea6962737b560506859b7986/%E5%9B%BE%E7%89%87/123.png",
             "version": "更新时间：2025.03.01" 
           },
