@@ -42,14 +42,23 @@
   "sites": [
     {
       "key": "csp_Douban",
-      "name": "普通用户不在支技接口在线更新，关注微信公众号“棠城互动”",
+      "name": "公众号：【棠城互动】",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
     },
-
+    {
+      "key": "应用商店",
+      "name": "🏡┃应用┃商店┃",
+      "type": 3,
+      "api": "csp_Market",
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt",
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/app.jar"
+    },
     {
       "key": "config",
       "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
@@ -187,7 +196,23 @@
         "danmu": true
       }
     },
-
+    {
+      "key": "木偶弹幕",
+      "name": "🎠┃木偶┃ 4K┃",
+      "type": 3,
+      "api": "csp_Wobg",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",            
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://muou.666291.xyz/",
+        "danmu": true
+      }
+    },
     {
       "key": "文才",
       "name": "💮┃文采┃弹幕┃",
