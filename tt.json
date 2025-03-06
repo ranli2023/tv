@@ -3,7 +3,7 @@
   "sites": [
     {
       "key": "csp_Douban",
-      "name": "普通用户不在支技接口在线更新，关注微信公众号“棠城互动”",
+      "name": "接口不在提供接口在线更新",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
