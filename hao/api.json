@@ -122,26 +122,25 @@
       "filterable": 1
     },
 
+
     {
-      "key": "玩偶",
+      "key": "csp_Duopan",
       "name": "👽┃玩偶┃弹幕┃",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar",
       "type": 3,
-      "api": "csp_Wogg",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar",
-      "searchable": 1,
-      "quickSearch": 1,
+      "api": "csp_Duopan",
       "filterable": 1,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://wogg.xxooo.cf/",
-        "danmu": true
+        "site_urls": [
+          "https://wogg.xxooo.cf/"
+        ],
+        "url_key": "Duopan2"
       }
     },
     {
       "key": "玩偶哥哥",
       "name": "⛅┃饭偶┃弹幕┃",
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
       "api": "csp_WoGG",
       "searchable": 1,
@@ -155,21 +154,36 @@
       }
     },
     {
-      "key": "多多弹幕",
+      "key": "csp_Duopan",
+      "name": "🖍︎┃蜡笔┃影视",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://feimao666.fun",
+          "http://feimao888.fun",
+          "http://feimaoai.site",
+          "http://www.labi88.sbs"
+        ],
+        "url_key": "Duopan2"
+      }
+    },
+    {
+      "key": "csp_Duopan",
       "name": "🍥┃多多┃弹幕┃",
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar",
       "type": 3,
-      "api": "csp_Wobg",
-      "quickSearch": 1,
-      "changeable": 1,
+      "api": "csp_Duopan",
       "filterable": 1,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "site": "https://tv.yydsys.top",
-        "danmu": true
+        "site_urls": [
+          "https://tv.yydsys.top"
+        ],
+        "url_key": "Duopan2"
       }
     },
+
   {
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐",
