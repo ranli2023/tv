@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao1.jar",
+  "spider": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
   "wallpaper": "https://tuapi.eees.cc/api.php?category=fengjing&type=302",
   "lives": [
     {
@@ -42,17 +42,26 @@
   "sites": [
     {
       "key": "csp_Douban",
-     "name": "接口不在提供在线更新",
+      "name": "公众号：【棠城互动】",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
     },
-
+    {
+      "key": "应用商店",
+      "name": "🏡┃应用┃商店┃",
+      "type": 3,
+      "api": "csp_Market",
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt",
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/app.jar"
+    },
     {
       "key": "config",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "name": "👍️┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
@@ -61,7 +70,7 @@
     {
       "key": "瓜子影视",
       "name": "🌰┃瓜子┃影视┃",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
       "api": "csp_Gz360",
       "searchable": 1,
@@ -113,7 +122,7 @@
     {
       "key": "天天影视",
       "name": "⛅️┃天天┃影视┃",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
       "api": "csp_AppTT",
       "searchable": 1,
@@ -126,7 +135,7 @@
       "name": "👽┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_Wogg",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -156,7 +165,7 @@
     {
       "key": "多多弹幕",
       "name": "🍥┃多多┃弹幕┃",
-     "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
       "api": "csp_Wobg",
       "quickSearch": 1,
@@ -174,7 +183,7 @@
       "name": "⚡️┃闪电┃弹幕┃",
       "type": 3,
       "api": "csp_Wobg",
-     "jar": "https://gitee.com/ranmengrui/haoyang/raw/master/jar/hao.jar", 
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar", 
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -187,11 +196,27 @@
         "danmu": true
       }
     },
-
+    {
+      "key": "木偶弹幕",
+      "name": "🎠┃木偶┃ 4K┃",
+      "type": 3,
+      "api": "csp_Wobg",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",            
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "ext": {
+        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
+        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
+        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
+        "site": "https://muou.666291.xyz/",
+        "danmu": true
+      }
+    },
     {
       "key": "文才",
       "name": "💮┃文采┃弹幕┃",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
       "api": "csp_Jpys",
       "searchable": 1,
@@ -204,7 +229,7 @@
     {
       "key": "小苹果",
       "name": "🍎┃苹果┃弹幕┃",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
       "api": "csp_Xpg",
       "searchable": 1,
@@ -254,7 +279,7 @@
       "name": "🦊┃盘Se┃弹幕┃",
       "type": 3,
       "api": "csp_PanSearch",
- 
+       "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
@@ -268,7 +293,7 @@
       "name": "🦊┃云云┃弹幕┃",
       "type": 3,
       "api": "csp_Upys",
- 
+       "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
@@ -282,7 +307,7 @@
       "name": "🦊┃Up搜┃弹幕┃",
       "type": 3,
       "api": "csp_UpYun",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
@@ -297,7 +322,7 @@
       "name": "🦊┃盘搜┃弹幕┃",
       "type": 3,
       "api": "csp_PanSou",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
@@ -311,7 +336,7 @@
       "name": "🦊┃易搜┃弹幕┃",
       "type": 3,
       "api": "csp_YiSo",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
@@ -326,7 +351,7 @@
       "name": "🦊┃云盘┃弹幕┃",
       "type": 3,
       "api": "csp_Yunpan4k",
-
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "searchable": 1,
       "filterable": 0,
       "changeable": 1,
