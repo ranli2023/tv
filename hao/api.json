@@ -117,7 +117,7 @@
       "name": "👽┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_WoGGGuard",
-     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao.jar",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
@@ -149,6 +149,7 @@
     {
       "key": "csp_XMUC",
       "name": "🍚┃小米┃UC┃",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar", 
       "type": 3,
       "api": "csp_Duopan",
       "filterable": 1,
