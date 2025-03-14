@@ -131,25 +131,6 @@
 
 
 
-    {
-      "key": "csp_Duopan",
-      "name": "🖍︎┃蜡笔┃影视┃",
-     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar",
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "https://feimao666.fun",
-          "http://feimao888.fun",
-          "http://feimaoai.site",
-          "http://www.labi88.sbs"
-        ],
-        "url_key": "Duopan2"
-      }
-    },
-
-
   {
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐┃",
@@ -165,7 +146,21 @@
       }
     },
 
-
+    {
+      "key": "csp_XMUC",
+      "name": "🍚┃小米┃UC┃",
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://www.mucpan.cc",
+          "https://milvdou.fun",
+          "https://54271.fun"
+        ],
+        "url_key": "XMUC"
+      }
+    },
     {
       "key": "文才",
       "name": "💮┃文采┃弹幕┃",
