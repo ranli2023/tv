@@ -125,21 +125,19 @@
 
     {
       "key": "玩偶",
-      "name": "👽┃玩偶┃弹幕┃",
-      "type": 3,
+      "name": "👽┃玩偶┃哥哥┃",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar",
       "api": "csp_Wogg",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
+      "type": 3,
       "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://wogg.xxooo.cf/",
-        "danmu": true
-      }
+      "playerType": 2,
+      "timeout": 30,
+      "changeable": 0,
+      "ext": "https://wogg.xxooo.cf/"
     },
+
+
+
     {
       "key": "csp_Duopan",
       "name": "🖍︎┃蜡笔┃影视┃",
