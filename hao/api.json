@@ -42,9 +42,9 @@
   "sites": [
     {
       "key": "csp_Douban",
-      "name": "接口不在支持接口在线更新",
+      "name": "接口不在支持在线更新",
       "type": 3,
-      "api": "csp_DouDou",
+      "api": "csp_Douban",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
@@ -176,7 +176,7 @@
 
   {
       "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐",
+      "name": "⚡┃闪电┃优汐┃",
       "type": 3,
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar", 
       "api": "csp_Duopan",
