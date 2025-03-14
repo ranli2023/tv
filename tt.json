@@ -12,14 +12,6 @@
     },
 
     {
-      "key": "config",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
-      "name": "┃配置┃中心┃",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2
-    },
-    {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
       "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
