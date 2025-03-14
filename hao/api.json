@@ -35,16 +35,17 @@
       "key": "csp_Douban",
       "name": "接口不在支持在线更新",
       "type": 3,
-      "api": "csp_Douban",
+      "api": "csp_DouDouGuard",
+      "indexs": 1,
       "searchable": 0,
       "quickSearch": 0,
-      "filterable": 0
+      "changeable": 0
     },
 
 
     {
       "key": "config",
-         "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar", 
+         "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
       "name": "👍️┃配置┃中心┃",
       "type": 3,
       "api": "csp_Config",
@@ -135,7 +136,7 @@
       "key": "csp_FeiMaoUC",
       "name": "⚡┃闪电┃优汐┃",
       "type": 3,
-     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar", 
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
       "api": "csp_Duopan",
       "filterable": 1,
       "ext": {
@@ -149,7 +150,7 @@
     {
       "key": "csp_XMUC",
       "name": "🍚┃小米┃UC┃",
-     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao1.jar", 
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
       "type": 3,
       "api": "csp_Duopan",
       "filterable": 1,
@@ -204,7 +205,7 @@
       "key": "Lib",
       "name": "🌟┃立播┃直连┃",
       "type": 3,
-      "api": "csp_Libvio",
+      "api": "csp_LibvioGuard",
       "timeout": 15,
       "searchable": 1,
       "quickSearch": 1,
@@ -214,12 +215,12 @@
     {
       "key": "新6V",
       "name": "🧲┃新6V┃磁力┃",
-      "type": 3,
-      "api": "csp_SixV",
+      "type": 3,     
+      "api": "csp_SixVGuard",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
-      "ext": "http://www.xb6v.com/"
+      "ext": "https://www.xb6v.com/"
     },
     {
       "key": "搜索弹幕",
@@ -335,18 +336,19 @@
         "from": "4k|auto"
       }
     },
-
     {
-      "key": "dr_荐片",
+      "key": "荐片",
       "name": "🧲┃荐片┃解析┃",
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
-      "api": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/drpy2.min.js",
-      "playerType": "1",
+      "api": "csp_JianPian",
+      "playerType": 1,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E8%8D%90%E7%89%87.js"
+      "ext": "http://api2.rinhome.com"
     },
+
     {
       "key": "88js",
       "name": "⚽┃ 88┃看球┃",
