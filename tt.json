@@ -109,11 +109,11 @@
       }
     },
     {
-      "key": "比特",
-      "name": "┃比特┃影视┃",
+      "key": "小苹果",
+      "name": "🍎┃苹果┃弹幕┃",
       "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "type": 3,
-      "api": "csp_Bttwo",
+      "api": "csp_Xpg",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -121,30 +121,7 @@
         "danmu": true
       }
     },
-    {
-      "key": "大米星球",
-      "name": "┃大米┃影视┃",
-      "type": 3,
-      "api": "csp_AppDaMi",
-      "searchable": 1,
-      "quickSearch": 0,
-      "filterable": 0,
-      "ext": {
-        "danmu": true
-      }
-    },
-    {
-      "key": "热播影视",
-      "name": "┃热播┃影视┃",
-      "type": 3,
-      "api": "csp_AppRB",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
+
 
     {
       "key": "搜索弹幕",
