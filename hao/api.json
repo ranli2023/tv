@@ -28,15 +28,6 @@
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png",
       "pass": true
-    },
-    {
-      "name": "终合4",
-      "type": 0,
-      "url": "http://我不是.摸鱼儿.com/live.php",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png",
-      "pass": true
     }
   ],
   "sites": [
@@ -124,19 +115,17 @@
 
     {
       "key": "玩偶",
-      "name": "👽┃玩偶┃弹幕┃",
+      "name": "👽玩偶哥哥┃4K弹幕",
       "type": 3,
-      "api": "csp_Wogg",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
+      "api": "csp_WoGGGuard",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
+      "changeable": 0,
       "ext": {
-        "token": "http://127.0.0.1:9978/file/TVBox/token.txt",
-        "cookie": "http://127.0.0.1:9978/file/TVBox/quark.txt",
-        "uc_cookie": "http://127.0.0.1:9978/file/TVBox/uc.txt",
-        "site": "https://wogg.xxooo.cf/",
-        "danmu": true
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
       }
     },
 
