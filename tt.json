@@ -10,7 +10,14 @@
       "quickSearch": 0,
       "filterable": 0
     },
-
+    {
+      "key": "config",
+      "name": "🐼┃配置┃中心",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
+    },
     {
       "key": "瓜子｜影视",
       "name": "┃瓜子┃影视┃",
@@ -57,7 +64,7 @@
 
     {
       "key": "玩偶",
-      "name": "👽┃玩偶┃弹幕┃",
+      "name": "┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_WoGGGuard",
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao.jar",
@@ -76,7 +83,7 @@
 
   {
       "key": "csp_FeiMaoUC",
-      "name": "⚡┃闪电┃优汐┃",
+      "name": "┃闪电┃优汐┃",
       "type": 3,
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
       "api": "csp_Duopan",
@@ -91,7 +98,7 @@
 
     {
       "key": "csp_XMUC",
-      "name": "🍚┃小米┃UC┃",
+      "name": "┃小米┃UC┃",
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
       "type": 3,
       "api": "csp_Duopan",
