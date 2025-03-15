@@ -1,5 +1,5 @@
 {
-  "spider": "./lib/hao.jar",
+  "spider": "./hy.jar",
   "sites": [
     {
       "key": "csp_Douban",
@@ -9,6 +9,14 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
+    },
+    {
+      "key": "config",
+      "name": "┃配置┃中心┃",
+      "jar": "./lib/mao.jar",
+      "type": 3,
+      "api": "csp_Config",
+      "playerType": 2
     },
     {
       "key": "瓜子｜影视",
@@ -68,13 +76,6 @@
       }
     },
     {
-      "key": "config",
-      "name": "🐼┃配置┃中心┃",
-      "type": 3,
-      "api": "csp_Config",
-      "playerType": 2
-    },
-    {
       "key": "csp_FeiMaoUC",
       "name": "┃闪电┃优汐┃",
       "type": 3,
@@ -118,7 +119,6 @@
     {
       "key": "星芽短剧",
       "name": "┃星芽┃短剧┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_AppXY",
       "searchable": 1,
@@ -128,7 +128,6 @@
     {
       "key": "荐片",
       "name": "┃荐片┃解析┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_JianPian",
       "playerType": 1,
@@ -208,7 +207,6 @@
     {
       "key": "米搜",
       "name": "┃米盘┃搜搜┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_MIPanSo",
       "searchable": 1,
@@ -222,8 +220,7 @@
     {
       "key": "抠搜",
       "name": "┃抠抠┃搜搜┃",
-      "type": 3,      
-      "jar": "./lib/001.jar",
+      "type": 3,
       "api": "csp_KkSs",
       "searchable": 1,
       "quickSearch": 1,
@@ -280,7 +277,6 @@
     {
       "key": "学堂",
       "name": "┃学堂┃教育┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -291,7 +287,6 @@
     {
       "key": "少儿",
       "name": "┃少儿┃合集┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -302,7 +297,6 @@
     {
       "key": "小学课堂",
       "name": "┃小学┃课堂┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -313,7 +307,6 @@
     {
       "key": "初中课堂",
       "name": "┃初中┃课堂┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -324,7 +317,6 @@
     {
       "key": "高中课堂",
       "name": "┃高中┃课堂┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -335,7 +327,6 @@
     {
       "key": "小灯塔科学",
       "name": "┃科学┃灯塔┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -346,7 +337,6 @@
     {
       "key": "小灯塔地理",
       "name": "┃地理┃灯塔┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -357,7 +347,6 @@
     {
       "key": "小灯塔百科",
       "name": "┃百科┃灯塔┃",
-      "jar": "./lib/001.jar",
       "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
@@ -368,8 +357,7 @@
     {
       "key": "小灯塔国学",
       "name": "┃国学┃灯塔┃",
-
-      "type": 3,      "jar": "./lib/001.jar",
+      "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
@@ -379,8 +367,7 @@
     {
       "key": "戏曲",
       "name": "┃戏曲┃合集┃",
-
-      "type": 3,      "jar": "./lib/001.jar",
+      "type": 3,
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
