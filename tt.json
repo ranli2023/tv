@@ -55,6 +55,54 @@
       "filterable": 1
     },
 
+    {
+      "key": "玩偶",
+      "name": "👽┃玩偶┃弹幕┃",
+      "type": 3,
+      "api": "csp_WoGGGuard",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao.jar",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.net/",
+        "danMu": "弹"
+      }
+    },
+
+
+
+  {
+      "key": "csp_FeiMaoUC",
+      "name": "⚡┃闪电┃优汐┃",
+      "type": 3,
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://1.95.79.193/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+
+    {
+      "key": "csp_XMUC",
+      "name": "🍚┃小米┃UC┃",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
+      "type": 3,
+      "api": "csp_Duopan",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "https://milvdou.fun"
+        ],
+        "url_key": "XMUC"
+      }
+    },
 
 
     {

@@ -408,7 +408,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E7%BE%8E%E9%A3%9F.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E7%BE%8E%E9%A3%9F.json"
     },
      {
       "key": "设计",
@@ -418,7 +418,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/fd67c13c7bd4c096219221f72ee40e935c50c15e/json/jixie.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/jixie.json"
     },
     {
       "key": "Excel",
@@ -432,7 +432,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/Excel%E6%95%99%E7%A8%8B.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/Excel%E6%95%99%E7%A8%8B.json"
     },
     {
       "key": "戏曲",
@@ -442,7 +442,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E6%88%8F%E6%9B%B2.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E6%88%8F%E6%9B%B2.json"
     },
    {
       "key": "dr_兔小贝",
@@ -466,7 +466,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E5%B9%BC%E5%B0%8F.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E5%B9%BC%E5%B0%8F.json"
     },
     {
       "key": "小学",
@@ -476,7 +476,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E5%B0%8F%E5%AD%A6.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E5%B0%8F%E5%AD%A6.json"
     },
     {
       "key": "初中",
@@ -486,7 +486,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E5%88%9D%E4%B8%AD.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E5%88%9D%E4%B8%AD.json"
     },
     {
       "key": "高中",
@@ -496,7 +496,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E9%AB%98%E4%B8%AD.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E9%AB%98%E4%B8%AD.json"
     },
     {
       "key": "外语",
@@ -510,7 +510,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/eb7496613e4404b46d95d2c851cefeda6cd4b8ac/json/%E5%A4%96%E8%AF%AD.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E5%A4%96%E8%AF%AD.json"
     },
     {
       "key": "高考",
@@ -524,7 +524,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "changeable": 0,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/779b9e088a01586855e1a0b7d73f49a8666ddff4/%E8%B1%AA%E6%B4%8B/lib/%E9%AB%98%E8%80%83.json"
+      "ext": "https://bitbucket.org/ranli2000/shu/raw/a9b80ef647ee36c6314561dd6ac19bf5f273198e/jar/%E9%AB%98%E8%80%83.json"
     },
 
 
