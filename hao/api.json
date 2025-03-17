@@ -29,6 +29,7 @@
       "pass": true
     }
   ],
+
   "sites": [
     {
       "key": "csp_Douban",
@@ -67,8 +68,6 @@
       "searchable": 1,
       "quickSearch": 1
     },
-
-
     {
       "key": "星辰xBPQ",
       "name": "┃星辰┃秒播┃",
