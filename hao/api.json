@@ -11,7 +11,7 @@
     },
 
     {
-      "name": "ipv6终合3",
+      "name": "ipv6终合2",
       "type": 0,
       "url": "https://ghproxy.cc/https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u",
       "playerType": 1,
@@ -23,7 +23,7 @@
   "sites": [
     {
       "key": "csp_Douban",
-      "name": "接口不在提供在线更新",
+      "name": "测试所用，下载后24小时内删除",
       "type": 3,
       "api": "csp_DouDou",
       "searchable": 0,
