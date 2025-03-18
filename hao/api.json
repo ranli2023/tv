@@ -7,7 +7,8 @@
       "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live1.json",
       "playerType": 1,
       "epg": "https://epg.iill.top/epg/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.cn/tv/logo/{name}.png"
+      "logo": "https://live.fanmingming.cn/tv/logo/{name}.png",
+      "pass": true
     },
 
     {
@@ -16,7 +17,8 @@
       "url": "https://ghproxy.cc/https://raw.githubusercontent.com/suxuang/myIPTV/refs/heads/main/ipv6.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://epg.112114.xyz/logo/{name}.png"
+      "logo": "https://epg.112114.xyz/logo/{name}.png",
+      "pass": true
     }
   ],
 
