@@ -65,6 +65,7 @@
     {
       "key": "玩偶",
       "name": "┃玩偶┃弹幕┃",
+     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/fty.jar",
       "type": 3,
       "api": "csp_WoGGGuard",
       "searchable": 1,
