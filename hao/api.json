@@ -67,14 +67,13 @@
       "name": "┃玩偶┃弹幕┃",
       "type": 3,
       "api": "csp_WoGGGuard",
-     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hao.jar",
       "searchable": 1,
       "quickSearch": 1,
       "changeable": 0,
       "ext": {
         "Cloud-drive": "tvfan/Cloud-drive.txt",
         "from": "4k|auto",
-        "siteUrl": "https://www.wogg.net/",
+        "siteUrl": "https://www.wogg.com/",
         "danMu": "弹"
       }
     },
