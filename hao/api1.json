@@ -40,7 +40,19 @@
       "api": "csp_Config",
       "playerType": 2
     },
-
+    {
+      "key": "小苹果",
+      "name": "┃苹果┃弹幕┃",
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
+      "type": 3,
+      "api": "csp_Xpg",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": {
+        "danmu": true
+      }
+    },
     {
       "key": "csp_红狐狸影视",
       "name": "┃洪湖┃秒播┃",
@@ -201,19 +213,7 @@
         "danmu": true
       }
     },
-    {
-      "key": "小苹果",
-      "name": "┃苹果┃弹幕┃",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
-      "type": 3,
-      "api": "csp_Xpg",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
+
 
 
     {
