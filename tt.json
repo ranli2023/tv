@@ -39,15 +39,39 @@
     },
 
     {
-      "key": "七新影视",
-      "name": "┃七新┃影视┃",
+      "key": "csp_红狐狸影视",
+      "name": "┃洪湖┃秒播┃",
       "type": 3,
       "api": "csp_XBPQ",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/shu/raw/5144c69e0de20bc5432c15bec1a823de695f74f9/tt/%E4%B8%83%E6%96%B0%E5%BD%B1%E8%A7%86.json"
+      "ext": {
+        "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
+        "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      }
     },
+    {
+      "key": "三米ys",
+      "name": "┃三米┃影视┃",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
+        "分类url": "http://www.9-here.com/index.php/s/S-id-{cateId}-{catePg}/area/{area}/by/{by}/class/{class}/lang/{lang}/year/{year}.html[http://www.9-here.com/index.php/t/S-{cateId}-{catePg}.html]",
+        "分类": "电影$movie#连续剧$drama#动漫$comic#综艺$tvshow"
+      }
+    },
+    {
+      "key": "大师兄",
+      "name": "┃师兄┃影视┃",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</p >",
+        "分类url": "https://www.dsxysproo.com/dqvodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类": "电视剧$2#电影$1#动漫$4#综艺$3"
+      }
+    },
+
 
     {
       "key": "高清资源网",
@@ -94,37 +118,6 @@
       }
     },
 
-    {
-      "key": "csp_XMUC",
-      "name": "┃小米┃UC┃",
-     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/mao.jar", 
-      "type": 3,
-      "api": "csp_Duopan",
-      "filterable": 1,
-      "ext": {
-        "site_urls": [
-          "http://www.mucpan.cc",
-          "https://milvdou.fun",
-          "https://54271.fun"
-        ],
-        "url_key": "XMUC"
-      }
-    },
-
-
-    {
-      "key": "文才",
-      "name": "┃文采┃弹幕┃",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
-      "type": 3,
-      "api": "csp_Jpys",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": {
-        "danmu": true
-      }
-    },
 
     {
       "key": "星芽短剧",
