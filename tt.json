@@ -37,7 +37,16 @@
       "api": "csp_Config",
       "playerType": 2
     },
-
+    {
+      "key": "五五影视",
+      "name": "┃五五┃影视┃",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://5.movie/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类": "电影$20#电视剧$21#综艺$23#动漫$22#短剧$22"
+      }
+    },
     {
       "key": "星辰影视",
       "name": "┃星辰┃影视┃",
@@ -129,6 +138,17 @@
       "ext": "./json/yyds.json?"
     },
     {
+      "key": "闪电",
+      "name": "┃闪电┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "./json/sd.json?"
+    },
+    {
       "key": "二小",
       "name": "┃二小┃ 4K ┃ ",
     "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/003.jar", 
@@ -143,7 +163,7 @@
 
     {
       "key": "Pan1",
-      "name": "┃123 ┃ 4K ┃",
+      "name": "┃123 ┃网盘┃",
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/003.jar", 
       "type": 3,
       "api": "csp_PanWebShareCloudHM",
@@ -160,7 +180,7 @@
 
     {
       "key": "百度盘",
-      "name": "┃百度┃ 4K┃ ",
+      "name": "┃百度┃网盘┃ ",
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/003.jar", 
       "type": 3,
       "api": "csp_PanWebQu",
@@ -177,7 +197,7 @@
     },
     {
       "key": "天翼",
-      "name": "┃天翼┃ 4K┃ ",
+      "name": "┃天翼┃网盘┃ ",
      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/003.jar", 
       "type": 3,
       "api": "csp_PanWebShareCloudLJ",
