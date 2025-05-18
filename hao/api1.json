@@ -6,7 +6,7 @@
       "type": 0,
       "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/live/refs/heads/main/live1.json",
       "playerType": 1,
-      "epg": "https://epg.iill.top/epg/?ch={name}&date={date}",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://live.fanmingming.cn/tv/logo/{name}.png"
     },
 
@@ -50,17 +50,8 @@
         "danmu": true
       }
     },
-    {
-      "key": "星辰影视",
-      "name": "┃星辰┃影视┃",
-      "type": 3,
-      "api": "csp_XBPQ",
-      "ext": {
-        "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</div>",
-        "分类url": "https://www.walicn.com/wavodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
-      }
-    },
+
+
     {
       "key": "五五影视",
       "name": "┃五五┃影视┃",
@@ -72,13 +63,25 @@
       }
     },
     {
+      "key": "星辰影视",
+      "name": "┃星辰┃影视┃",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": {
+        "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</div>",
+        "分类url": "https://www.walicn.com/wavodshow/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
+      }
+    },
+
+    {
       "key": "csp_红狐狸影视",
       "name": "┃洪湖┃秒播┃",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
         "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</div>",
-        "分类url": "https://honghuli.com/leibiao/{cateId}-{area}-------{catePg}---{year}.html",
+        "分类url": "https://honghuli.com/show/{cateId}-{area}-------{catePg}---{year}.html",
         "分类": "电影$1#电视剧$2#综艺$3#动漫$4"
       }
     },
@@ -110,22 +113,54 @@
       "key": "高清资源网",
       "name": "️┃高清┃资源┃",
       "type": 1,
-      "api": "https://cj.vodimg.top/api.php/provide/vod/",
+      "api": "https://hhzyapi.com/api.php/provide/vod/",
       "searchable": 1,
-      "quickSearch": 1
+      "quickSearch": 0,
+      "filterable": 1,
+      "categories": [
+        "内地剧",
+        "动作片",
+        "科幻片",
+        "战争片",
+        "喜剧片",
+        "爱情片",
+        "恐怖片",
+        "犯罪片",
+        "剧情片",
+        "冒险片",
+        "记录片",
+        "韩剧",
+        "香港剧",
+        "台湾剧",
+        "欧美剧",
+        "日剧",
+        "马泰剧",
+        "体育赛事",
+        "综艺",
+        "动画片",
+        "中国动漫",
+        "日本动漫",
+        "欧美动漫"
+      ]
     },
 
 
     {
       "key": "玩偶哥哥",
       "name": "┃玩偶┃ 4K ┃ ",
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/003.jar", 
+    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/fty.jar", 
       "type": 3,
-      "api": "csp_PanWebShare",
+      "api": "csp_WoGGGuard",
+      "timeout": 30,
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/wogg.json?"
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.com/",
+        "danMu": "弹"
+      }
     },
     {
       "key": "木偶",
@@ -149,6 +184,7 @@
       "filterable": 1,
       "ext": "./json/yyds.json?"
     },
+
     {
       "key": "二小",
       "name": "┃二小┃ 4K ┃ ",
@@ -161,19 +197,6 @@
       "changeable": 1,
       "ext": "./json/ex.json?"
     },
-
-    {
-      "key": "闪电",
-      "name": "┃闪电┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "./json/sd.json?"
-    },
-
 
     {
       "key": "Pan1",
@@ -225,6 +248,7 @@
       },
       "ext": "./json/lj.json?"
     },
+
 
     {
       "key": "黑狐",
@@ -306,8 +330,6 @@
         "danmu": true
       }
     },
-
-
 
     {
       "key": "搜索弹幕",
