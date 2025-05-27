@@ -13,7 +13,7 @@
     {
       "name": "ipv6终合2",
       "type": 0,
-      "url": "https://ghproxy.cc/https://raw.githubusercontent.com/suxuang/IPTV/refs/heads/main/IPTV.m3u",
+      "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/suxuang/IPTV/refs/heads/main/IPTV.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
