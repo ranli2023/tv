@@ -535,6 +535,21 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
     },
+
+    {
+      "key": "看球",
+      "name": "┃⚽⚽┃看球┃",
+      "type": 3,
+      "api": "https://bitbucket.org/ranli2000/tvbox/raw/0e8658a0b27782df9e14e5f5d592dd41078e13b0/json/drpy2.min.js",
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/0e8658a0b27782df9e14e5f5d592dd41078e13b0/json/88%E7%9C%8B%E7%90%83.js",
+      "style": {
+        "type": "list"
+      },
+      "timeout": 10,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    },
     {
       "key": "戏曲",
       "name": "┃戏曲┃合集┃",
