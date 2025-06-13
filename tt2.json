@@ -255,8 +255,8 @@
       "api": "csp_XBPQ",
       "ext": {
         "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</div>",
-        "分类url": "https://www.quanxiejiu.com/quatp{cateId}-{area}--{class}-----{catePg}---{year}.html",
-        "分类": "电影$1#电视剧$2#综艺$3#动漫$4#短剧$5"
+        "分类url": "https://yunbawang.com/tanplay/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类": "电影$21#电视剧$20#综艺$23#动漫$22"
       }
     },
 
