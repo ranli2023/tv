@@ -248,52 +248,19 @@
       },
       "ext": "./json/lj.json?"
     },
-
-
     {
       "key": "黑狐",
       "name": "┃黑狐┃影视┃",
       "type": 3,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 1,
-      "playerType": "2",
       "api": "csp_XBPQ",
       "ext": {
-        "站名": "黑狐影院",
-        "主页url": "http://fagmn.com",
-        "数组": "class=\"stui-vodlist__box\"&&</a",
-        "图片": "data-original=\"&&\"",
-        "标题": "title=\"&&\"",
-        "链接": "href=\"&&\"",
-        "嗅探词": ".m3u8#v3.huoshanvod.com#v3-dy-o.zjcdn#sf16-sg.larksuitecdn.com#v.kd1.qq.com#.mp4",
-        "过滤词": "/hls/#php",
-        "副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "搜索url": "http://fagmn.com/search.php;post;searchword={wd}",
-        "搜索模式": "1",
-        "搜索数组": "<a class=\"v-thumb stui-vodlist__thumb&&</a>",
-        "搜索图片": "data-original=\"&&\"",
-        "搜索标题": "title=\"&&\"",
-        "搜索链接": "href=\"&&\"",
-        "搜索副标题": "<span class=\"pic-text text-right\">&&</span>",
-        "搜索后缀": "/view/",
-        "线路数组": "href=\"#down&&/a>",
-        "线路标题": "豪洋接口✨+>&&<[排序:芒果视频>搜狐视频>]",
-        "播放数组": "class=\"stui-content__playlist clearfix&&</ul>",
-        "状态": "地区：&&</p>",
-        "导演": "导演：&&</p>",
-        "主演": "主演：&&</p>",
-        "简介": "简介：&&</div>",
-        "播放列表": "<a&&/a>",
-        "播放标题": ">&&<",
-        "播放链接": "href=\"&&\"",
-        "免嗅": "0",
-        "分类": "电影$1#电视剧$2#动漫$3#综艺$4",
-        "分类url": "http://fagmn.com/list/{cateId}_{catePg}.html?order=time"
+        "简介": "⚠️特别提醒您⚠️请勿相信影片中的广告，以免上当受骗❗️+剧情介绍：&&</div>",
+        "分类url": "https://yunbawang.com/tanplay/{cateId}-{area}--{class}-----{catePg}---{year}.html",
+        "分类": "电影$21#电视剧$20#综艺$23#动漫$22"
       }
     },
 
-    {
+      {
       "key": "星芽短剧",
       "name": "┃星芽┃短剧┃",
       "type": 3,
@@ -534,21 +501,6 @@
       "quickSearch": 1,
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/ff5027b403e6933b6fbbf148c688a9b7e36c2d4c/tt/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
-    },
-
-    {
-      "key": "看球",
-      "name": "┃⚽⚽┃看球┃",
-      "type": 3,
-      "api": "https://bitbucket.org/ranli2000/tvbox/raw/0e8658a0b27782df9e14e5f5d592dd41078e13b0/json/drpy2.min.js",
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/0e8658a0b27782df9e14e5f5d592dd41078e13b0/json/88%E7%9C%8B%E7%90%83.js",
-      "style": {
-        "type": "list"
-      },
-      "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
     },
     {
       "key": "戏曲",
