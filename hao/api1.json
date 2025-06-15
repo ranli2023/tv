@@ -13,7 +13,7 @@
     {
       "name": "ipv6终合2",
       "type": 0,
-      "url": "https://bitbucket.org/ranli2000/shu/raw/385ecb433f5c201b39f281db1acd898e171420a7/1.txt",
+      "url": "https://git.acwing.com/wuhui/huas/-/raw/main/lib/newtv.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
