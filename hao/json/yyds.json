@@ -25,12 +25,12 @@
             "type_id": "4"
         },
         {
-            "type_name": "综艺",
-            "type_id": "20"
-        },
-        {
             "type_name": "短剧",
             "type_id": "5"
+        }
+        {
+            "type_name": "纪录片",
+            "type_id": "20"
         }
     ],
     "Filters": {

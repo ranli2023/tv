@@ -49,6 +49,57 @@
 "quickSearch":1,
 "filterable":1
 },
+    {
+      "key": "玩偶",
+      "name": "┃玩偶┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/wogg.json?"
+    },
+    {
+      "key": "木偶",
+      "name": "┃木偶┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/mogg.json?"
+    },
+    {
+      "key": "多多",
+      "name": "┃多多┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/yyds.json?"
+    },
+    {
+      "key": "闪电",
+      "name": "┃闪电┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/sd.json?"
+    },
+    {
+      "key": "二小",
+      "name": "┃二小┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/ex.json?"
+    },
 
 {"key":"移动","name":"┃移动┃影视┃","type":3,"api":"csp_YDjisu","searchable":1,"changeable":1},
 {"key":"热播影视","name":"┃热播┃影视┃","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
@@ -58,7 +109,7 @@
 {"key":"低端","name":"┃低端┃影视┃","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"快看影视","name":"┃快看┃影视┃","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"来看影视","name":"┃来看┃影视┃","type":3,"api":"csp_Lkdy","searchable":1,"quickSearch":1,"filterable":1},
-{"key":"苹果影视","name":"┃苹果┃影视┃","type":3,"api":"csp_LiteApple","searchable":1,"quickSearch":1,"filterable":1},
+
 {"key":"爱看机器人","name":"┃爱看┃影视┃","type":3,"api":"csp_Ikanbot","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"全网影视","name":"┃全看┃影视┃","type":3,"api":"csp_Quanwk","ext":"https://www.91qkw.com"},
 {"key":"三六零","name":"┃360 ┃视频┃","type":3,"api":"csp_SP360"},  
@@ -67,7 +118,28 @@
 {"key":"糯米影视","name":"┃糯米┃影视┃","type":3,"api":"csp_Wwys","ext":"https://www.wwgz.cn"},
 
 
+
+
     {
+      "key": "玩偶",
+      "name": "┃玩偶┃备用┃ ",
+    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/fty.jar", 
+      "type": 3,
+      "api": "csp_WoGGGuard",
+      "timeout": 30,
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 0,
+      "ext": {
+        "Cloud-drive": "tvfan/Cloud-drive.txt",
+        "from": "4k|auto",
+        "siteUrl": "https://www.wogg.com/",
+        "danMu": "弹"
+      }
+    },
+
+
+   {
       "key": "高清资源网",
       "name": "️┃高清┃资源┃",
       "type": 1,
@@ -103,71 +175,6 @@
     },
 
 
-    {
-      "key": "玩偶哥哥",
-      "name": "┃玩偶┃ 4K ┃ ",
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/fty.jar", 
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "木偶",
-      "name": "┃木偶┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/mogg.json?"
-    },
-    {
-      "key": "多多",
-      "name": "┃多多┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/yyds.json?"
-    },
-
-    {
-      "key": "二小",
-      "name": "┃二小┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/ex.json?"
-    },
-
-    {
-      "key": "Pan1",
-      "name": "┃123 ┃网盘┃",
-      "type": 3,
-      "api": "csp_PanWebShareCloudHM",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/pan1.json?"
-    },
 
     {
       "key": "百度盘",
