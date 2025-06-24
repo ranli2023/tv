@@ -153,24 +153,6 @@
 
 
 
-    {
-      "key": "wogg",
-      "name": "┃玩偶┃备用┃ ",
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/jar/fty.jar", 
-      "type": 3,
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-
 
    {
       "key": "高清资源网",
