@@ -27,12 +27,13 @@
     }
   ],
   "sites": [
-{"key":"豆瓣",
-"name":"📢测试所用，下载后24小时内删除",
-"type":3,
-"api":"csp_Douban",
-"searchable":0
-},
+    {
+      "key": "豆瓣",
+      "name": "📢测试所用，下载后24小时内删除",
+      "type": 3,
+      "api": "csp_Douban",
+      "searchable": 0
+    },
     {
       "key": "config",
       "name": "┃配置┃中心┃",
@@ -43,25 +44,26 @@
     {
       "key": "小苹果",
       "name": "┃苹果┃弹幕┃",
-"type":3,
-"api":"csp_LiteApple",
-"searchable":1,
-"quickSearch":1,
-"filterable":1
-},
-{"key":"瓜萌",
-"name":"┃瓜萌┃弹幕┃",
-"type":3,
-"quickSearch":1,
-"api":"csp_AppGet",
-"ext":{"url":"https://www.guahd.com",
-"dataKey":"f2A7D4B9E8C16531",
-"dataIv":"f2A7D4B9E8C16531",
-"deviceId":"",
-"version":""
-}
-},
-
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "瓜萌",
+      "name": "┃瓜萌┃弹幕┃",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://www.guahd.com",
+        "dataKey": "f2A7D4B9E8C16531",
+        "dataIv": "f2A7D4B9E8C16531",
+        "deviceId": "",
+        "version": ""
+      }
+    },
     {
       "key": "玩偶",
       "name": "┃玩偶┃ 4K ┃ ",
@@ -144,8 +146,6 @@
       },
       "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/lj.json?"
     },
-
-
     {
       "key": "荐片",
       "name": "┃荐片┃解析┃",
@@ -157,28 +157,28 @@
       "filterable": 1,
       "ext": "http://api2.rinhome.com"
     },
-{
-"key":"瓜子影视",
-"name":"┃瓜子┃影视┃",
-"type":3,
-"api":"csp_Gz360",
-"searchable":1,
-"quickSearch":1,
-"filterable":1
-},
-
-{"key":"移动",
-"name":"┃移动┃影视┃",
-"type":3,
-"api":"csp_YDjisu",
-"searchable":1,
-"changeable":1
-},
-   {
+    {
+      "key": "瓜子影视",
+      "name": "┃瓜子┃影视┃",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "移动",
+      "name": "┃移动┃影视┃",
+      "type": 3,
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "学堂",
       "name": "┃学堂┃教育┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
@@ -189,7 +189,7 @@
       "key": "少儿",
       "name": "┃少儿┃合集┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
@@ -200,7 +200,7 @@
       "key": "小学课堂",
       "name": "┃小学┃课堂┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
@@ -211,7 +211,7 @@
       "key": "初中课堂",
       "name": "┃初中┃课堂┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
@@ -222,7 +222,7 @@
       "key": "高中课堂",
       "name": "┃高中┃课堂┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
@@ -233,7 +233,7 @@
       "key": "小灯塔科学",
       "name": "┃科学┃灯塔┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
@@ -244,7 +244,7 @@
       "key": "小灯塔地理",
       "name": "┃地理┃灯塔┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
@@ -255,7 +255,7 @@
       "key": "小灯塔百科",
       "name": "┃百科┃灯塔┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
@@ -266,7 +266,7 @@
       "key": "小灯塔国学",
       "name": "┃国学┃灯塔┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 1,
@@ -277,7 +277,7 @@
       "key": "戏曲",
       "name": "┃戏曲┃合集┃",
       "type": 3,
-    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar", 
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
       "api": "csp_Bili",
       "searchable": 0,
       "quickSearch": 0,
@@ -285,8 +285,6 @@
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/jar/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
     }
   ],
-
-  
   "doh": [
     {
       "name": "Google",
@@ -738,7 +736,7 @@
     "mgtv",
     "wasu"
   ],
- "warningText": "豪洋接口：资源来自网络，无盈利纯技术分享！请勿相信影片中的广告，以免上当受骗所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买",
+  "warningText": "豪洋接口：资源来自网络，无盈利纯技术分享！请勿相信影片中的广告，以免上当受骗所有内容仅供学习使用，请勿用于违法及商业用途，请勿付费购买",
   "wallpaper": "http://ygbh.live/bz.php",
   "logo": "./logo.gif",
   "disabled_wallpaper": "http://www.kf666888.cn/api/tvbox/img"
