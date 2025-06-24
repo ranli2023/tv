@@ -49,10 +49,19 @@
 "quickSearch":1,
 "filterable":1
 },
-{"key":"瓜萌","name":"┃瓜萌┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://www.guahd.com","dataKey":"f2A7D4B9E8C16531","dataIv":"f2A7D4B9E8C16531","deviceId":"","version":""}},
-{"key":"瓜子影视","name":"┃瓜子┃影视┃","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
+{"key":"瓜萌",
+"name":"┃瓜萌┃弹幕┃",
+"type":3,
+"quickSearch":1,
+"api":"csp_AppGet",
+"ext":{"url":"https://www.guahd.com",
+"dataKey":"f2A7D4B9E8C16531",
+"dataIv":"f2A7D4B9E8C16531",
+"deviceId":"",
+"version":""
+}
+},
 
-{"key":"移动","name":"┃移动┃影视┃","type":3,"api":"csp_YDjisu","searchable":1,"changeable":1},
     {
       "key": "玩偶",
       "name": "┃玩偶┃ 4K ┃ ",
@@ -116,7 +125,9 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/baidu.json?"
+      "ext": {
+        "url": "https://www.qupanshe.com"
+      }
     },
     {
       "key": "天翼",
@@ -146,7 +157,23 @@
       "filterable": 1,
       "ext": "http://api2.rinhome.com"
     },
+{
+"key":"瓜子影视",
+"name":"┃瓜子┃影视┃",
+"type":3,
+"api":"csp_Gz360",
+"searchable":1,
+"quickSearch":1,
+"filterable":1
+},
 
+{"key":"移动",
+"name":"┃移动┃影视┃",
+"type":3,
+"api":"csp_YDjisu",
+"searchable":1,
+"changeable":1
+},
    {
       "key": "学堂",
       "name": "┃学堂┃教育┃",
