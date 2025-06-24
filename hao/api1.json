@@ -27,15 +27,12 @@
     }
   ],
   "sites": [
-    {
-      "key": "csp_Douban",
-      "name": "测试所用，下载后24小时内删除",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+{"key":"豆瓣",
+"name":"📢测试所用，下载后24小时内删除",
+"type":3,
+"api":"csp_Douban",
+"searchable":0
+},
     {
       "key": "config",
       "name": "┃配置┃中心┃",

@@ -27,15 +27,13 @@
     }
   ],
   "sites": [
-    {
-      "key": "csp_Douban",
-      "name": "测试所用，下载后24小时内删除",
-      "type": 3,
-      "api": "csp_DouDou",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 0
-    },
+
+{"key":"豆瓣",
+"name":"📢测试所用，下载后24小时内删除",
+"type":3,
+"api":"csp_Douban",
+"searchable":0
+},
     {
       "key": "config",
       "name": "┃配置┃中心┃",
@@ -133,15 +131,9 @@
 {"key": "MV","name": "🌈歌曲┃哔哩","type": 3,"api": "./lib/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./lib/歌曲MV.json"},
 {"key": "美食","name": "🌈美食┃哔哩","type": 3,"api": "./lib/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./lib/美食.json"},
 
-{"key": "球类","name": "⚽️球类┃合集","type": 3,"api": "./lib/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./lib/球类合集.json"}, 
-{"key": "球星","name": "⚽️球星┃合集","type": 3,"api": "./lib/drpy2.min.js","searchable":0,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./lib/球星合集.json"},  
-
-
 {"key":"本地","name":"🌸本地｜视频","type":3,"api":"csp_LocalFile"},
 {"key":"预告","name":"🌸新片｜预告","type":3,"api":"csp_DouBan","searchable":0},
 {"key": "合集","name": "💋哔哩┃合集","type": 3,"api": "./lib/drpy2.min.js","searchable":1,"quickSearch": 0,"filterable": 1,"order_num":142,"ext":"./lib/合集.json"}, 
-{"key":"88看球","name":"💋88｜看球","type":3,"api":"./lib/drpy2.min.js","style":{"type":"list"},"ext":"./lib/88看球.js"},
-
 
 {"key":"曼波动漫","name":"🤣曼波｜动漫","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://app.omofun1.top","dataKey":"66dc309cbeeca454","dataIv":"66dc309cbeeca454","deviceId":"","version":""}},
 {"key":"稀饭动漫","name":"🤣稀饭｜动漫","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://pzoap.moedot.net","dataKey":"1yZ2Spn9krnzVKoC","dataIv":"1yZ2Spn9krnzVKoC","deviceId":"","version":""}},
@@ -171,7 +163,7 @@
 {"key":"UC","name":"❤我的｜UC","type":3,"api":"csp_PanUc","searchable":0,"filterable":0,"changeable":0,"style":{"type":"list","ratio":1.433},"ext":"./lib/ucShare.json"},
 {"key":"百度云盘","name":"❤我的｜百度","type":3,"api":"csp_PanBaiDu","searchable":0,"filterable":0,"changeable":0,"style":{"type":"list","ratio":1.433}},
 
-{"key": "应用商店","name": "🛒本地包更新","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gh.jasonzeng.dev/https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt"}
+{"key": "应用商店","name": "🛒应用商店","type": 3,https://gitee.com/ranmengrui/ranli/raw/master/jar/app.jar"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gh.jasonzeng.dev/https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc.txt"}
 
 ],
 
