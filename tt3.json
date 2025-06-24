@@ -36,7 +36,7 @@
 },
     {
       "key": "config",
-      "name": "┃配置┃中心┃",
+      "name": "🛒配置┃中心",
       "type": 3,
       "api": "csp_Config",
       "playerType": 2
@@ -150,7 +150,7 @@
 {"key":"小米","name":"❤小米｜4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/xm.json?"},
 {"key":"至臻","name":"❤至臻｜4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/zz.json?"},
 {"key":"多多","name":"❤多多｜4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/yyds.json?"},
-{"key":"欧哥备","name":"❤玩偶｜4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/og.json?"},
+{"key":"玩偶","name":"❤玩偶｜4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"ext":"https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/og.json?"},
 
 {"key":"雷鲸","name":"❤雷鲸｜4K","type":3,"api":"csp_PanWebShareCloudLJ","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"style":{"type":"list","ratio":1.433},"ext":"./lib/lj.json"},
 {"key":"趣盘","name":"❤趣盘｜4K","type":3,"api":"csp_PanWebQu","searchable":1,"quickSearch":1,"filterable":1,"style":{"type":"list","ratio":1.433},"ext":{"url":"https://www.qupanshe.com"}},
