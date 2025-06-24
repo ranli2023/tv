@@ -131,14 +131,14 @@
       },
       "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/lj.json?"
     },
-
-
+{"key":"瓜萌","name":"┃瓜萌┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://www.guahd.com","dataKey":"f2A7D4B9E8C16531","dataIv":"f2A7D4B9E8C16531","deviceId":"","version":""}},
+{"key":"瓜子影视","name":"┃瓜子┃影视┃","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
 
 {"key":"移动","name":"┃移动┃影视┃","type":3,"api":"csp_YDjisu","searchable":1,"changeable":1},
 {"key":"热播影视","name":"┃热播┃影视┃","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.rbotv.cn"}},
 {"key":"天天影视","name":"┃天天┃影视┃","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://tt.ysdqjs.cn"}},
 {"key":"浪酷影视","name":"┃浪酷┃影视┃","type":3,"api":"csp_AppRJ","searchable":1,"quickSearch":1,"filterable":0,"ext":{"url":"http://v.lkuys.cn"}},
-{"key":"瓜子影视","name":"┃瓜子┃影视┃","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
+
 {"key":"低端","name":"┃低端┃影视┃","type":3,"api":"csp_Ddys","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"快看影视","name":"┃快看┃影视┃","type":3,"api":"csp_Kuaikan","searchable":1,"quickSearch":1,"filterable":1},
 {"key":"来看影视","name":"┃来看┃影视┃","type":3,"api":"csp_Lkdy","searchable":1,"quickSearch":1,"filterable":1},
@@ -244,7 +244,7 @@
 {"key":"驿站","name":"┃驿站┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppMuou","ext":{"url":"http://110.42.110.230:16189","dataKey":"d7378557d1d9c924","dataIv":"fb4594f622f34fea","jxurl":"https://qqiqiyiyoukumgtvapiappdyyztvjsoni8n2o0z1ws2n7b6v3x8.68.gy:56789"}},
 {"key":"趣看","name":"┃趣看┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppMuou","ext":{"url":"https://xjuzi.top","dataKey":"6a482a70b80eefc9","dataIv":"c995826a3e86fedd","jxurl":"https://www.ququkan.cc"}},
 {"key":"超前","name":"┃超前┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://app.ystva.com","dataKey":"A1akVPQmnnE4Fz9Z","dataIv":"A1akVPQmnnE4Fz9Z","deviceId":"2112fc5eac600314ba95c4d65da9286b3","version":"134"}},
-{"key":"瓜萌","name":"┃瓜萌┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://www.guahd.com","dataKey":"f2A7D4B9E8C16531","dataIv":"f2A7D4B9E8C16531","deviceId":"","version":""}},
+
 {"key":"海豚","name":"┃海豚┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://appcms.htsp4k.top","dataKey":"7CYQQzwchRQpHCOj","dataIv":"7CYQQzwchRQpHCOj","deviceId":"","version":""}},
 {"key":"世颜","name":"┃世颜┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://sykjw.xyz","dataKey":"sicnagduxbSfisnz","dataIv":"sicnagduxbSfisnz","deviceId":"2112fc5eac600314ba95c4d65da9286b3","version":"556"}},
 {"key":"可达","name":"┃可达┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://ledayy.com","dataKey":"hjjp68c2okw12345","dataIv":"hjjp68c2okw12345","deviceId":"24bba8caeff7b3a63a486806bd7130fca","version":"102"}},
