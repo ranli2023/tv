@@ -65,6 +65,23 @@
       }
     },
     {
+      "key": "瓜子影视",
+      "name": "┃瓜子┃影视┃",
+      "type": 3,
+      "api": "csp_Gz360",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "移动",
+      "name": "┃移动┃影视┃",
+      "type": 3,
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
       "key": "玩偶",
       "name": "┃玩偶┃ 4K ┃ ",
       "type": 3,
@@ -157,23 +174,7 @@
       "filterable": 1,
       "ext": "http://api2.rinhome.com"
     },
-    {
-      "key": "瓜子影视",
-      "name": "┃瓜子┃影视┃",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-    {
-      "key": "移动",
-      "name": "┃移动┃影视┃",
-      "type": 3,
-      "api": "csp_YDjisu",
-      "searchable": 1,
-      "changeable": 1
-    },
+
     {
       "key": "学堂",
       "name": "┃学堂┃教育┃",
