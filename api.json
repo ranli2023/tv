@@ -64,15 +64,7 @@
         "version": ""
       }
     },
-    {
-      "key": "瓜子影视",
-      "name": "┃瓜子┃影视┃",
-      "type": 3,
-      "api": "csp_Gz360",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "移动",
       "name": "┃移动┃影视┃",
@@ -175,23 +167,7 @@
       "ext": "http://api2.rinhome.com"
     },
 
-    {
-      "key": "看球",
-      "name": "┃⚽⚽┃看球┃",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
-      "type": 3,
-      "api": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/jar/drpy2.min.js",
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/jar/88%E7%9C%8B%E7%90%83.js",
-      "style": {
-        "type": "list"
-      },
-      "timeout": 10,
-      "searchable": 0,
-      "quickSearch": 0,
-      "changeable": 0
-    },
-
-    {
+      {
       "key": "学堂",
       "name": "┃学堂┃教育┃",
       "type": 3,
@@ -300,7 +276,24 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/jar/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
+    },
+  {
+      "key": "看球",
+      "name": "┃⚽⚽┃看球┃",
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
+      "type": 3,
+      "api": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/json/drpy2.min.js",
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/json/88%E7%9C%8B%E7%90%83.js",
+      "style": {
+        "type": "list"
+      },
+      "timeout": 10,
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
     }
+
+
   ],
   "doh": [
     {
