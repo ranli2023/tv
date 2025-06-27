@@ -96,6 +96,28 @@
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/jar/%E5%B0%8F%E7%81%AF%E5%A1%94%E5%9B%BD%E5%AD%A6.json"
     },
     {
+      "key": "外语",
+      "name": "┃外语┃课堂┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/json/%E5%A4%96%E8%AF%AD.json?"
+    },
+
+    {
+      "key": "高考",
+      "name": "┃高考┃课堂┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/json/%E9%AB%98%E8%80%83.json?"
+    },
+
+    {
       "key": "戏曲",
       "name": "┃戏曲┃合集┃",
       "type": 3,
