@@ -60,13 +60,18 @@
 
 
     {
-      "key": "五五影视",
-      "name": "┃五五┃影视┃",
+      "key": "88kq",
+      "name": "┃88kq┃看球┃",
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://5.movie/vodshow/{cateId}-{area}-------{catePg}---{year}.html",
-        "分类": "电影$20#电视剧$21#综艺$23#动漫$22#短剧$22"
+    "分类": " NBA直播$wn8-NBA#英超直播$wn8-yingchao#世俱杯直播$wn8-shijubei#CBA直播$wn8-CBA#中超直播$wn8-zhongchao#法甲直播$wn8-fajia#德甲直播$wn8-dejia#意甲直播$wn8-yijia#西甲直播$wn8-xijia#日职联直播$wn8-rizhilian澳超直播$wn8-aochao#韩K联直播$wn8-hanKlian",
+    "分类url": "https://88kq88.com/zuqiu/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html,
+https://88kq88.com/zq/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html,
+https://88kq88.com/lq/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html,
+https://88kq88.com/lanqiu/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.htm,
+https://88kq88.com/zuqiu/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
+}
       }
     },
     {

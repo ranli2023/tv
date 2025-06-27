@@ -1,7 +1,10 @@
 {
     "请求头": "User-Agent$MOBILE_UA",
     "编码": "UTF-8",
-    "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-    "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
-    "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
+    "分类": " NBA直播$wn8-NBA#英超直播$wn8-yingchao#世俱杯直播$wn8-shijubei#CBA直播$wn8-CBA#中超直播$wn8-zhongchao#法甲直播$wn8-fajia#德甲直播$wn8-dejia#意甲直播$wn8-yijia#西甲直播$wn8-xijia#日职联直播$wn8-rizhilian澳超直播$wn8-aochao#韩K联直播$wn8-hanKlian",
+    "分类url": "https://88kq88.com/zuqiu/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html,
+https://88kq88.com/zq/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html,
+https://88kq88.com/lq/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html,
+https://88kq88.com/lanqiu/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.htm,
+https://88kq88.com/zuqiu/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
 }
