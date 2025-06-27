@@ -1,0 +1,33 @@
+[ 
+{
+ "name": "推荐",
+ "list": [
+ { "name": "微信赞助打赏",
+ "url": " ", 
+"icon": "https://alicliimg.clewm.net/342/790/68790342/170832351526029731899cac9d8ca935cdc736eec31af1708323503.png", "version": "感谢支持" } , 
+{ "name": "公众号欧歌APP", 
+"url": " ", "icon": "https://alicliimg.clewm.net/342/790/68790342/17088361435038ca103a5d9bd4661a38f9d63262b39ba1708836138.png", 
+"version": ""
+ } 
+]
+ }, 
+{ 
+"name": "本地包在线更新", 
+"list": 
+[ 
+{
+ "name": "多线路半本地包06-27", 
+"url": "http://123.yy.xn--dkw.xn--6qq986b3xl/欧歌多线半本包tvbox.zip",
+ "icon": "http://127.0.0.1:9978/file/tvbox/.版本号.png", 
+"version": "当前版本防止域名被屏蔽用" },
+ { "name": "潇洒线上包06.27",
+ "url": " https://gitee.com/PizazzXS/another-d/raw/master/单线路.zip",
+ "icon": "http://127.0.0.1:9978/file/TVBoxOSC/tvbox/.版本.png", 
+"version": "当前版本自行更" },
+ { "name": "微信赞助打赏", "url": "http://wb.nxog.top:5244/d/移/软件/0.png", 
+"icon": "https://alicliimg.clewm.net/342/790/68790342/170832351526029731899cac9d8ca935cdc736eec31af1708323503.png", "version": "感谢支持" } ,
+ { "name": "公众号欧歌APP", 
+"url": "http://wb.nxog.top:5244/d/移/软件/wx.png",
+ "icon": "https://alicliimg.clewm.net/342/790/68790342/1747290600868f6eae4f10ae56793b0acf43c794803ba1747290598.png", "version": ""
+ } 
+] } ]
