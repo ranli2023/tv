@@ -1,0 +1,18 @@
+{
+    "SiteUrl": "https://www.seedhub.cc/",
+    "Classes": [
+        {
+            "type_name": "电影",
+            "type_id": "1"
+        },
+        {
+            "type_name": "剧集",
+            "type_id": "3"
+        },
+
+        {
+            "type_name": "动漫",
+            "type_id": "2"
+        }
+    ]
+}
