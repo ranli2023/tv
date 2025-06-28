@@ -116,11 +116,11 @@
       "key": "seedhub",
       "name": "┃seedhub┃ 4K ┃ ",
       "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/seedhub.json?"
+      "api": "csp_XBPQ",
+      "ext": {
+        "分类url": "https://www.seedhub.cc/categories/{cateId}-{area}--{class}-----{catePg}---{year}/movies/",
+        "分类": "电影$1#电视剧$3#动漫$2"
+      }
     },
     {
       "key": "木偶",
