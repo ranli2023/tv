@@ -320,7 +320,8 @@
     {
       "key": "88js",
       "name": "┃⚽88┃看球┃",
-      "type": 3,
+      "type": 3,     
+    "jar": "https://gitee.com/ranmengrui/ranli/raw/master/001.jar",
       "api": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/lib/88%E7%9C%8B%E7%90%83.js",
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/lib/88%E7%9C%8B%E7%90%83.js",
       "style": {
