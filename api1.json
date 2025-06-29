@@ -118,7 +118,7 @@
       "type": 3,
       "api": "csp_XBPQ",
       "ext": {
-        "分类url": "https://www.seedhub.cc/categories/{cateId}-{area}--{class}-----{catePg}---{year}/movies/",
+        "分类url": "https://www.seedhub.cc/movies/{cateId}-{area}--{class}-----{catePg}---{year}/",
         "分类": "电影$1#电视剧$3#动漫$2"
       }
     },
