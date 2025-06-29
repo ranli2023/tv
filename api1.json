@@ -315,8 +315,22 @@
       "quickSearch": 0,
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/97123ed6de6b4bcd372df0c1dbf9abc3f28e396f/jar/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
-    }
+    },
 
+    {
+      "key": "88js",
+      "name": "┃⚽88┃看球┃",
+      "type": 3,
+      "api": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/lib/88%E7%9C%8B%E7%90%83.js",
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/lib/88%E7%9C%8B%E7%90%83.js",
+      "style": {
+        "type": "rect",
+        "ratio": 1
+      },
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    }
   ],
   "doh": [
     {
