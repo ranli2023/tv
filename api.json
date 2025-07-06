@@ -184,18 +184,7 @@
       },
       "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/lj.json?"
     },
-    {
-      "key": "荐片",
-      "name": "┃荐片┃解析┃",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
-      "type": 3,
-      "api": "csp_JianPian",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://api2.rinhome.com"
-    },
+
 
       {
       "key": "学堂",
