@@ -2049,14 +2049,14 @@ INBM证券服务,http://vapi.91kds.cc/live1/cqyx.m3u8?id=zqfw&apiKey=73c963d1381
 凤凰香港,http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.m3u8
 凤凰香港,http://203.205.191.53/qctv.fengshows.cn/live/0701phk72.flv
 凤凰香港,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰香港台
-
-翡翠台,http://qwt.zhibotv.top:2016/全网通.php?id=翡翠台
-
+凤凰香港,http://qwt.zhibotv.top:2016/全网通.php?id=凤凰香港台,http://qwt.zhibotv.top:2016/全网通.php?id=翡翠台
+翡翠台,https://stream.iptv-search.com/main.php?id=%E7%BF%A1%E7%BF%A0%E5%8F%B0&t=1751360581&token=d88afece3331514d625b27cce32f1e8f
 翡翠台,https://stream.iptv-search.com/main.php?id=TVB%E7%BF%A1%E7%BF%A0%E5%8F%B0&t=1751360581&token=7026a7992db5f72821dbb6c09428f04d
 翡翠台,https://stream1.freetv.fun/1c0223fe93d3aaca762184373a28af2c274b504a8af9798d4aa3d06c65de3260.m3u8
 翡翠台,http://v2h.jdshipin.com:80/jade2/jade.stream/chunklist_w100.m3u8
 无线新闻台,http://qwt.zhibotv.top:2016/全网通.php?id=无线新闻台
-中天新闻,https://smart.pendy.dpdns.org/Smart.php?id=ctinews
+中天新闻,https://haoyunlai.serv00.net/Smartv-1.php?id=ctinews
+中天新闻,https://stream.iptv-search.com/main.php?id=%E4%B8%AD%E5%A4%A9%E6%96%B0%E9%97%BB&t=1751360581&token=8c9f0c1d52e92c021cf36a5cf03fb96f
 中天新闻,https://stream.iptv-search.com/main.php?id=%E4%B8%AD%E5%A4%A9%E6%96%B0%E9%97%BB+HD&t=1751360581&token=e0434a23a4f8ee5c95fc42119cc1b34e
 中天新闻,https://stream.iptv-search.com/main.php?id=%E4%B8%AD%E5%A4%A9%E6%96%B0%E9%97%BB%E5%8F%B0&t=1751360581&token=2947f15bfc02bde7a9b670a9d068ea61
 中天新闻,https://haoyunlai.serv00.net/Smartv-1.php?id=ctinews
@@ -2076,8 +2076,8 @@ INBM证券服务,http://vapi.91kds.cc/live1/cqyx.m3u8?id=zqfw&apiKey=73c963d1381
 华视 CTS HD,https://smart.pendy.dpdns.org/Smart.php?id=ctshd_twn
 TVBS 欢乐台,https://smart.pendy.dpdns.org/Smart.php?id=tvbshuanle_twn
 龙华经典台,https://smart.pendy.dpdns.org/Smart.php?id=lunghuajingdian_twn
-TVBS新聞,https://stream.iptv-search.com/main.php?id=TVBS+HD&t=1751360581&token=0539bc509dc86cde677fd89b4a7c27cd
-TVBS新聞,https://stream.iptv-search.com/main.php?id=TVBS+News&t=1751360581&token=d4527dbc66e55b09e3e9d87d1465560f
+TVBS新聞,https://stream.iptv-search.com/main.php?id=TVBS%E6%96%B0%E8%81%9E&t=1751360581&token=80aae94746650c320e50259052aa84d7
+TVBS新聞,https://s1.m16tv.cfd/tvbs/tvbs/AKTV.m3u8
 TVB Asia,https://smart.pendy.dpdns.org/Smart.php?id=Tvbasia
 靖天卡通台,https://smart.pendy.dpdns.org/Smart.php?id=jingtiancartoon_twn
 三立台湾,https://smart.pendy.dpdns.org/Smart.php?id=sanlitaiwan
