@@ -3,6 +3,104 @@
 
   "sites": [
 
+{
+"key":"豆瓣1",
+"name":"接口软件永远免费",
+"type":3,
+"api":"csp_Douban",
+"searchable":0
+},
+    {
+      "key": "儿童口才",
+      "name": "📚┃儿童┃口才┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/1b90509dfa936acd2a28416f04da561d6b58d107/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E5%8F%A3%E6%89%8D.json"
+    },
+    {
+      "key": "儿童思维",
+      "name": "📚┃儿童┃思维┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/1b90509dfa936acd2a28416f04da561d6b58d107/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E6%80%9D%E7%BB%B4.json"
+    },
+    {
+      "key": "儿童拼音",
+      "name": "📚┃儿童┃拼音┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/1b90509dfa936acd2a28416f04da561d6b58d107/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E6%8B%BC%E9%9F%B3.json"
+    },
+    {
+      "key": "儿童识字",
+      "name": "📚┃儿童┃识字┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/1b90509dfa936acd2a28416f04da561d6b58d107/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E8%AF%86%E5%AD%97.json"
+    },
+    {
+      "key": "儿童英语",
+      "name": "📚┃儿童┃英语┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/8d9f3d0f1f549c43737a7f4d75f2d3fce362da24/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E8%8B%B1%E8%AF%AD.json"
+    },
+    {
+      "key": "儿童硬笔",
+      "name": "📚┃儿童┃硬笔┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/8d9f3d0f1f549c43737a7f4d75f2d3fce362da24/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E7%A1%AC%E7%AC%94.json"
+    },
+    {
+      "key": "儿童武术",
+      "name": "📚┃儿童┃武术┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/8d9f3d0f1f549c43737a7f4d75f2d3fce362da24/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E6%AD%A6%E6%9C%AF.json"
+    },
+    {
+      "key": "儿童思维",
+      "name": "📚┃儿童┃思维┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/8d9f3d0f1f549c43737a7f4d75f2d3fce362da24/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E6%80%9D%E7%BB%B4.json"
+    },
+    {
+      "key": "儿童编程",
+      "name": "📚┃儿童┃编程┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/8d9f3d0f1f549c43737a7f4d75f2d3fce362da24/%E5%84%BF%E7%AB%A5/%E5%84%BF%E7%AB%A5%E7%BC%96%E7%A8%8B.json"
+    },
+
 
     {
       "key": "学堂",
@@ -115,13 +213,17 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/json/%E9%AB%98%E8%80%83.json?"
     },
-{
-"key":"豆瓣1",
-"name":"接口软件永远免费",
-"type":3,
-"api":"csp_Douban",
-"searchable":0
-},
+    {
+      "key": "学堂",
+      "name": "📚┃设计┃教材┃",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 1,
+      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/1b90509dfa936acd2a28416f04da561d6b58d107/%E5%84%BF%E7%AB%A5/jixie.json"
+    },
+
 {
 "key":"豆瓣2",
 "name":"长期维护切勿贩卖",
