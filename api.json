@@ -101,7 +101,16 @@
 "version":"300"
 }
 },
-
+    {
+      "key": "tt",
+      "name": "┃星辰┃ 4K ┃",
+      "type": 3,
+	"api": "https://bitbucket.org/ranli2000/tvbox/raw/bb3ebcae3f088819ee3913753198bd7fef5396d0/lib/drpy2.min.js",
+      "searchable":0,
+      "quickSearch": 0,
+        "filterable": 1,
+	"ext": "https://bitbucket.org/ranli2000/tvbox/raw/bb3ebcae3f088819ee3913753198bd7fef5396d0/lib/xc.js"
+	},
     {
       "key": "玩偶",
       "name": "┃玩偶┃ 4K ┃ ",
