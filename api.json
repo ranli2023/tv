@@ -70,18 +70,21 @@
 "version":"100"
 }
 },
-{"key":"星河",
-"name":"┃星河┃弹幕┃",
-"type":3,
-"quickSearch":1,
-"api":"csp_AppGet",
-"ext":{"url":"http://121.62.22.204:9876",
-"dataKey":"f5e2tx53ykp6s2c9",
-"dataIv":"f5e2tx53ykp6s2c9",
-"deviceId":"",
-"version":"361"
-}
-},
+   {
+      "key": "若惜",
+      "name": "┃若惜┃弹幕┃",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "http://110.40.59.188:9527",
+        "dataKey": "ebad3f1a58b13933",
+        "dataIv": "ebad3f1a58b13933",
+        "deviceId": "",
+        "version": ""
+      }
+    },
+
 {"key":"橘子",
 "name":"┃橘子┃弹幕┃",
 "type":3,
