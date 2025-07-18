@@ -8,7 +8,7 @@
 
  ] },
  {
- "name": "本地包在线更新", 
+ "name": "在线更新", 
 "list": [ 
 { "name": "豪洋线上包.18", 
           "url": "https://bitbucket.org/ranli2000/apk/raw/main/TVBoxOSC.zip",
@@ -16,7 +16,7 @@
 "version": "更新时间：2025.07.18"
  },
  {
- "name": "本地包在线更新", 
+ "name": "包在线更新", 
 "list": [ 
 { "name": "豪洋线07.18", 
           "url": "https://bitbucket.org/ranli2000/apk/raw/main/TVBox.zip",
@@ -24,7 +24,7 @@
 "version": "更新时间：2025.07.18"
  },
  {
- "name": "本地包在线更新", 
+ "name": "地包在线更新", 
 "list": [ 
 { "name": "豪洋线上包07.18", 
           "url": "https://bitbucket.org/ranli2000/apk/raw/main/TVBoxHAO.zip",
