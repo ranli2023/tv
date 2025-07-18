@@ -315,11 +315,7 @@
 "type":3,
 "api":"csp_LocalFile"
 },
-{"key": "应用商店",
-"name": "┃应用┃商店┃",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/app.jar",
-"type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,
-"ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc1.json"},
+
 
 {
 "key":"豆瓣2",
