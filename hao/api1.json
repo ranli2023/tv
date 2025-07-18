@@ -57,7 +57,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/wogg.json?"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/wogg.json"
     },
     {
       "key": "木偶",
@@ -67,7 +67,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/mogg.json?"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/mogg.json"
     },
     {
       "key": "多多",
@@ -77,7 +77,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/yyds.json?"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/yyds.json"
     },
     {
       "key": "闪电",
@@ -87,7 +87,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/sd.json?"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/sd.json"
     },
     {
       "key": "二小",
@@ -98,7 +98,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/ex.json?"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/ex.json"
     },
     {
       "key": "百度盘",
@@ -129,7 +129,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/lj.json?"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/json/lj.json"
     },
 {"key":"瓜萌","name":"┃瓜萌┃弹幕┃","type":3,"quickSearch":1,"api":"csp_AppGet","ext":{"url":"https://www.guahd.com","dataKey":"f2A7D4B9E8C16531","dataIv":"f2A7D4B9E8C16531","deviceId":"","version":""}},
 {"key":"瓜子影视","name":"┃瓜子┃影视┃","type":3,"api":"csp_Gz360","searchable":1,"quickSearch":1,"filterable":1},
