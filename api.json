@@ -315,6 +315,15 @@
 "api":"csp_LocalFile"
 },
 {
+"key": "┃应用┃商店┃",
+"name": "🛒本地包更新",
+"type": 3,
+"api": "csp_Market",
+"searchable": 0,
+"changeable": 0,
+"ext": "http://123.yy.xn--dkw.xn--6qq986b3xl/zm/sd.php"
+},
+{
 "key":"豆瓣1",
 "name":"接口软件永远免费",
 "type":3,
