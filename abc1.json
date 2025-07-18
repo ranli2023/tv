@@ -11,7 +11,7 @@
  "name": "本地包在线更新", 
 "list": [ 
 { "name": "豪洋线上包07.18", 
-          "url": "https://bitbucket.org/ranli2000/apk/src/main/TVBox.zip",
+          "url": "https://bitbucket.org/ranli2000/apk/raw/main/TVBox.zip",
 "icon": "https://bitbucket.org/ranli2000/tvbox/raw/921b3924416b51bcdfb2ff9df6801c73d1d800bf/%E5%9B%BE%E7%89%87/1.png", 
 "version": "更新时间：2025.07.18"
  }
