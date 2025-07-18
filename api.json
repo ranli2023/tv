@@ -316,7 +316,7 @@
 },
 {
 "key": "应用商店",
-"name": "┃本地包┃更新",
+"name": "┃应用┃商店┃",
 "type": 3,
 "api": "csp_Market",
 "searchable": 0,
