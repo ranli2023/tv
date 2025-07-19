@@ -1,5 +1,5 @@
 {
-  "spider": "./hy.jar",
+  "spider": "https://gitee.com/ranmengrui/ranli/raw/master/hy.jar",
   "sites": [
     {
       "key": "豆瓣1",
@@ -209,7 +209,7 @@
       "ext": "./lib/高考.json"
     },
     {
-      "key": "学堂",
+      "key": "设计",
       "name": "📚┃设计┃教材┃",
       "type": 3,
       "api": "csp_Bili",
