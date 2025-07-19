@@ -37,6 +37,7 @@
       "key": "tt",
       "name": "┃星辰┃ 4K ┃",
       "type": 3,
+      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/fan.jar",
       "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/drpy2.min.js",
       "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/xc.js"
     },
