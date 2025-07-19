@@ -1,2 +1,0 @@
-https://bitbucket.org/ranli2000/tvd/raw/11868ac5d32b68de7118525279eb8f83f6454bce/tvboxhy/tvbox/lib/fan.jar
-https://bitbucket.org/ranli2000/tvd/raw/11868ac5d32b68de7118525279eb8f83f6454bce/tvboxhy/tvbox/lib/hy.jar

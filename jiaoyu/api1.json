@@ -196,7 +196,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/json/%E5%A4%96%E8%AF%AD.json?"
+      "ext": "./lib/外语.json"
     },
     {
       "key": "高考",
@@ -206,7 +206,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://bitbucket.org/ranli2000/tvbox/raw/80a6dc6453185f62ebfd8b0644d2c0ce2f2e54c4/json/%E9%AB%98%E8%80%83.json?"
+      "ext": "./lib/高考.json"
     },
     {
       "key": "学堂",

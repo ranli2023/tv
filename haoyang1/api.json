@@ -12,14 +12,6 @@
     {
       "name": "终合2",
       "type": 0,
-      "url": "./lib/live2.json",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.cn/tv/logo/{name}.png"
-    },
-    {
-      "name": "终合3",
-      "type": 0,
       "url": "./lib/newtv.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
@@ -45,7 +37,6 @@
       "key": "tt",
       "name": "┃星辰┃ 4K ┃",
       "type": 3,
-      "jar": "./lib/fan.jar",
       "api": "./lib/drpy2.min.js",
       "ext": "./lib/xc.js"
     },
@@ -139,7 +130,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/wogg.json?"
+      "ext": "./lib/wogg.json"
     },
     {
       "key": "木偶",
@@ -149,7 +140,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/mogg.json?"
+      "ext": "./lib/mogg.json"
     },
     {
       "key": "多多",
@@ -159,7 +150,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/yyds.json?"
+      "ext": "./lib/yyds.json"
     },
     {
       "key": "闪电",
@@ -169,7 +160,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./json/sd.json?"
+      "ext": "./lib/sd.json"
     },
     {
       "key": "二小",
@@ -180,7 +171,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "./json/ex.json?"
+      "ext": "./lib/ex.json"
     },
     {
       "key": "百度盘",
@@ -211,7 +202,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "./json/lj.json?"
+      "ext": "./lib/lj.json"
     },
     {
       "key": "荐片",
