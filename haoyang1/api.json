@@ -37,8 +37,8 @@
       "key": "tt",
       "name": "┃星辰┃ 4K ┃",
       "type": 3,
-      "api": "./lib/drpy2.min.js",
-      "ext": "./lib/xc.js"
+      "api": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/drpy2.min.js",
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/xc.js"
     },
     {
       "key": "小苹果",
@@ -130,7 +130,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/wogg.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/wogg.json"
     },
     {
       "key": "木偶",
@@ -140,7 +140,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/mogg.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/mogg.json"
     },
     {
       "key": "多多",
@@ -150,7 +150,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/yyds.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/yyds.json"
     },
     {
       "key": "闪电",
@@ -160,7 +160,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/sd.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/sd.json"
     },
     {
       "key": "二小",
@@ -171,7 +171,7 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "./lib/ex.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/ex.json"
     },
     {
       "key": "百度盘",
@@ -202,7 +202,7 @@
         "type": "list",
         "ratio": 1.433
       },
-      "ext": "./lib/lj.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/lj.json"
     },
 
     {
@@ -214,7 +214,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/儿童识字.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/儿童识字.json"
     },
     {
       "key": "学堂",
@@ -225,7 +225,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/学堂教育.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/学堂教育.json"
     },
     {
       "key": "少儿",
@@ -236,7 +236,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/少儿合集.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/少儿合集.json"
     },
     {
       "key": "小学课堂",
@@ -247,7 +247,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/小学课堂.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/小学课堂.json"
     },
     {
       "key": "初中课堂",
@@ -258,7 +258,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/初中课堂.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/初中课堂.json"
     },
     {
       "key": "高中课堂",
@@ -269,7 +269,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/高中课堂.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/高中课堂.json"
     },
     {
       "key": "小灯塔科学",
@@ -280,7 +280,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔国学.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/小灯塔国学.json"
     },
     {
       "key": "小灯塔地理",
@@ -291,7 +291,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔地理.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/小灯塔地理.json"
     },
     {
       "key": "小灯塔百科",
@@ -302,7 +302,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔百科.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/小灯塔百科.json"
     },
     {
       "key": "小灯塔国学",
@@ -313,7 +313,7 @@
       "searchable": 0,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "./lib/小灯塔国学.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/小灯塔国学.json"
     },
     {
       "key": "戏曲",
@@ -324,7 +324,7 @@
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 1,
-      "ext": "./lib/戏曲合集.json"
+      "ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/haoyang1/lib/戏曲合集.json"
     }
   ],
   "doh": [
