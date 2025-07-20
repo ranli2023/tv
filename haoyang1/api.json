@@ -336,7 +336,7 @@
       "filterable": 1,
       "ext": "https://bitbucket.org/ranli2000/shu/raw/64a17c29efc5087c1d39c56668cab26d201cdccd/json/%E6%88%8F%E6%9B%B2%E5%90%88%E9%9B%86.json"
     },
-{"key": "应用商店","name": "┃本地包┃更新","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/abc1.json"},
+{"key": "应用商店","name": "┃本地包┃更新","type": 3,"api": "csp_Market","searchable": 0,"changeable": 0,"ext": "https://bitbucket.org/ranli2000/shu/raw/main/ben2/abc.json"},
 {"key":"豆瓣2","name":"接口免费切勿贩卖","type":3,"api":"csp_Douban","searchable":0}
   ],
   "doh": [
