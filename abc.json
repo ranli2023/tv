@@ -10,18 +10,14 @@
  {
  "name": "本地包在线更新", 
 "list": [ 
-{ "name": "多线路本地包", "url": "https://gh.jasonzeng.dev/https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/tvbox.zip", "icon": "https://bitbucket.org/ranli2000/shu/raw/6888270fa627ba2d8dae5ad8521c7e46e1956430/tu/2.png", "version": "当前版本防止被屏蔽用" }, 
+{ "name": "多线路本地包", "url": "https://gh.jasonzeng.dev/https://raw.github.com/ranli2023/tv/refs/heads/main/tvbox.zip", "icon": "https://bitbucket.org/ranli2000/shu/raw/6888270fa627ba2d8dae5ad8521c7e46e1956430/tu/2.png", "version": "当前版本防止被屏蔽用" }, 
 
 { "name": "综合包", 
           "url": "https://gitee.com/ranmengrui/ray/raw/master/TVBox.zip",
  "icon": "https://bitbucket.org/ranli2000/shu/raw/6888270fa627ba2d8dae5ad8521c7e46e1956430/tu/4.png", 
 "version": "更新时间：2025.08.09"
  },
-{ "name": "本地包", 
-          "url": "https://gitee.com/ranmengrui/ray/raw/master/TVBoxhao.zip",
-"icon": "https://bitbucket.org/ranli2000/shu/raw/6888270fa627ba2d8dae5ad8521c7e46e1956430/tu/3.png", 
-"version": "更新时间：2025.08.09"
- },
+
 { "name": "豪洋线上包", 
           "url": "https://gitee.com/ranmengrui/ray/raw/master/豪洋.zip",
 "icon": "https://bitbucket.org/ranli2000/shu/raw/6888270fa627ba2d8dae5ad8521c7e46e1956430/tu/3.png", 
