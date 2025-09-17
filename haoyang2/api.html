@@ -1,5 +1,5 @@
 {
-  "spider": "./haoya.html",
+  "spider": "file://tvboxhy/tvbox/haoya.jar",
   "lives": [
     {
       "name": "终合1",
@@ -10,18 +10,9 @@
       "logo": "https://live.fanmingming.cn/tv/logo/{name}.png"
     },
     {
-      "name": "终合2",
-      "type": 0,
-      "url": "https://mursor.ottiptv.cc/iptv.m3u",
-      "playerType": 1,
-      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
-      "logo": "https://live.fanmingming.cn/tv/logo/{name}.png"
-    },
-
-    {
       "name": "终合3",
       "type": 0,
-      "url": "https://git.acwing.com/wuhui/huas/-/raw/main/lib/newtv.txt",
+      "url": "./lib/newtv.txt",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
@@ -30,7 +21,7 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "📢在线本地包已更新",
+      "name": "📢测试所用，下载后24小时内删除",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -42,20 +33,65 @@
       "api": "csp_Config",
       "playerType": 2
     },
-   {
-      "key": "雷鲸",
-      "name": "┃雷鲸┃网盘┃ ",
+    {
+      "key": "小苹果",
+      "name": "┃苹果┃弹幕┃",
       "type": 3,
-      "api": "csp_PanWebShareCloudLJ",
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+    {
+      "key": "玩偶",
+      "name": "┃玩偶┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/wogg.json"
+    },
+    {
+      "key": "木偶",
+      "name": "┃木偶┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/mogg.json"
+    },
+    {
+      "key": "多多",
+      "name": "┃多多┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/yyds.json"
+    },
+    {
+      "key": "闪电",
+      "name": "┃闪电┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "./lib/sd.json"
+    },
+    {
+      "key": "二小",
+      "name": "┃二小┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": "./json/lj.html"
+      "ext": "./lib/ex.json"
     },
     {
       "key": "百度盘",
@@ -73,122 +109,20 @@
         "url": "https://www.qupanshe.com"
       }
     },
-    {
-      "key": "移动",
-      "name": "┃移动┃网盘┃",
-      "jar": "https://gitee.com/ranmengrui/ranli/raw/master/haoya.jar",
+     {
+      "key": "雷鲸",
+      "name": "┃雷鲸｜4K┃",
       "type": 3,
-      "api": "csp_YDjisu",
-      "searchable": 1,
-      "changeable": 1
-    },
-    {
-      "key": "wogg",
-      "name": "┃玩偶┃哥哥┃ ",
-      "type": 3,
-      "jar": "./lib/fan.html",
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "玩偶",
-      "name": "┃玩偶┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/wogg.html"
-    },
-    {
-      "key": "木偶",
-      "name": "┃木偶┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/mogg.html"
-    },
-    {
-      "key": "多多",
-      "name": "┃多多┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/yyds.html"
-    },
-    {
-      "key": "闪电",
-      "name": "┃闪电┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/sd.html"
-    },
-    {
-      "key": "二小",
-      "name": "┃二小┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
+      "api": "csp_PanWebShareCloudLJ",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "./json/ex.html"
-    },
-   {
-      "key": "蜡笔",
-      "name": "┃蜡笔┃弹幕┃",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "./json/lb.json"
-    },
-    {
-      "key": "至臻",
-      "name": "┃至臻┃弹幕┃",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": "./json/zz.json"
-    },
-    {
-      "key": "tt",
-      "name": "┃星辰┃ 4K ┃",
-      "type": 3,
- 		"api": "https://gitee.com/yuyu10588/tt/raw/t/t/drpy2.min.js",
-			"ext": "./lib/xc.html"
-		},
-
-
-    {
-      "key": "小苹果",
-      "name": "┃苹果┃影视┃",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
+      "style": {
+        "type": "list",
+        "ratio": 1.433
+      },
+      "ext": "./lib/lj.json"
     },
     {
       "key": "瓜子影视",
@@ -199,158 +133,214 @@
       "quickSearch": 1,
       "filterable": 1
     },
-
-
-  
+    {
+      "key": "移动",
+      "name": "┃移动┃影视┃",
+      "type": 3,
+      "api": "csp_YDjisu",
+      "searchable": 1,
+      "changeable": 1
+    },
+    {
+      "key": "热播影视",
+      "name": "┃热播┃影视┃",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.rbotv.cn"
+      }
+    },
+    
+    {
+      "key": "浪酷影视",
+      "name": "┃浪酷┃影视┃",
+      "type": 3,
+      "api": "csp_AppRJ",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "ext": {
+        "url": "http://v.lkuys.cn"
+      }
+    },
+    {
+      "key": "低端",
+      "name": "┃低端┃影视┃",
+      "type": 3,
+      "api": "csp_Ddys",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
+    },
 
     {
-      "key": "橘子",
-      "name": "┃橘子┃弹幕┃",
+      "key": "爱看机器人",
+      "name": "┃爱看┃影视┃",
       "type": 3,
+      "api": "csp_Ikanbot",
+      "searchable": 1,
       "quickSearch": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://api1.bffree.cn",
-        "dataKey": "2015692015692015",
-        "dataIv": "2015692015692015",
-        "deviceId": "",
-        "version": "300"
-      }
+      "filterable": 1
+    },
+    {
+      "key": "全网影视",
+      "name": "┃全看┃影视┃",
+      "type": 3,
+      "api": "csp_Quanwk",
+      "ext": "https://www.91qkw.com"
+    },
+    {
+      "key": "三六零",
+      "name": "┃360 ┃视频┃",
+      "type": 3,
+      "api": "csp_SP360"
+    },
+    {
+      "key": "1905",
+      "name": "┃1905┃影视┃",
+      "type": 3,
+      "api": "csp_Web1905",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+ 
+    {
+      "key": "糯米影视",
+      "name": "┃糯米┃影视┃",
+      "type": 3,
+      "api": "csp_Wwys",
+      "ext": "https://www.wwgz.cn"
     },
 
  
     {
-      "key": "儿童识字",
-      "name": "┃儿童┃识字┃",
+      "key": "云云",
+      "name": "┃云云┃影视┃",
       "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/儿童识字.html"
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "./lib/1.txt",
+        "dataKey": "staraugust123456",
+        "dataIv": "staraugust123456",
+        "deviceId": "",
+        "version": "120"
+      }
     },
     {
-      "key": "启蒙",
-      "name": "┃儿童┃启蒙┃",
+      "key": "若雪",
+      "name": "┃若雪┃影视┃",
       "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/儿童启蒙.html"
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "https://appcms.rx4k.top",
+        "site": "",
+        "dataKey": "ZX10ysTYZWtIJCTU",
+        "dataIv": "ZX10ysTYZWtIJCTU",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "蓝鹰",
+      "name": " ┃蓝鹰┃影视┃",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "./lib/lanyingxmy.txt",
+        "dataKey": "ca94b06ca359d80e",
+        "dataIv": "ca94b06ca359d80e",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "仓鼠",
+      "name": "┃仓鼠┃影视┃",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "./lib/ceshi421.txt",
+        "dataKey": "da61247f5b662597",
+        "dataIv": "da61247f5b662597",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
+    {
+      "key": "鲸鱼",
+      "name": "┃鲸鱼┃影视┃",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "./lib/1.json",
+        "dataKey": "AAdgrdghjfgswerA",
+        "dataIv": "AAdgrdghjfgswerA",
+        "deviceId": "",
+        "version": ""
+      }
     },
 
     {
-      "key": "少儿",
-      "name": "┃少儿┃合集┃",
+      "key": "爱看",
+      "name": "┃爱看┃影视┃",
       "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/少儿合集.html"
-    },
-    {
-      "key": "小学课堂",
-      "name": "┃小学┃课堂┃",
-      "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/小学课堂.html"
-    },
-    {
-      "key": "初中课堂",
-      "name": "┃初中┃课堂┃",
-      "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/初中课堂.html"
-    },
-    {
-      "key": "高中课堂",
-      "name": "┃高中┃课堂┃",
-      "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/高中课堂.html"
-    },
-    {
-      "key": "小灯塔科学",
-      "name": "┃科学┃灯塔┃",
-      "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/小灯塔国学.html"
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://aikan.my",
+        "site": "",
+        "dataKey": "hzxjRSmyTmSE4ENE",
+        "dataIv": "hzxjRSmyTmSE4ENE",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
     },
     {
-      "key": "小灯塔地理",
-      "name": "┃地理┃灯塔┃",
+      "key": "布雷",
+      "name": "┃布雷┃影视┃",
       "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
       "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/小灯塔地理.html"
+      "api": "csp_AppGet",
+      "ext": {
+        "url": "https://cms.bl4k.cc",
+        "site": "",
+        "dataKey": "B7uaxcwdpX2dww82",
+        "dataIv": "B7uaxcwdpX2dww82",
+        "deviceId": "",
+        "version": "",
+        "ua": ""
+      }
     },
     {
-      "key": "小灯塔百科",
-      "name": "┃百科┃灯塔┃",
+      "key": "应用商店",
+      "name": "┃本地包┃更新",
       "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
+      "api": "csp_Market",
       "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/小灯塔百科.html"
+      "changeable": 0,
+      "ext": "./lib/abc.json"
     },
     {
-      "key": "小灯塔国学",
-      "name": "┃国学┃灯塔┃",
+      "key": "豆瓣2",
+      "name": "📢接口免费切勿贩卖",
       "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./lib/小灯塔国学.html"
-    },
-    {
-      "key": "戏曲",
-      "name": "┃戏曲┃合集┃",
-      "type": 3,
-      "jar": "./lib/hy.html",
-      "api": "csp_Bili",
-      "searchable": 0,
-      "quickSearch": 0,
-      "filterable": 1,
-      "ext": "./lib/戏曲合集.html"
-    },
-{
-"key": "应用商店",
-"name": "┃本地包┃更新",
-"type": 3,
-"api": "csp_Market",
-"searchable": 0,
-"changeable": 0,
-"ext": "https://bitbucket.org/ranli2000/shu/raw/main/hao/tvboxhy/tvbox/sc/abc1.json"
-},
-{"key":"豆瓣2","name":"📢接口免费切勿贩卖","type":3,"api":"csp_Douban","searchable":0}
+      "api": "csp_Douban",
+      "searchable": 0
+    }
   ],
   "doh": [
     {

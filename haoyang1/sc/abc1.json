@@ -1,0 +1,36 @@
+[ 
+{ "name": "推荐",
+ "list": [
+ { "name": "赞助打赏",
+ "url": " ",
+ "icon": "https://bitbucket.org/ranli2000/shu/raw/f45fc6ca593f0831a41a32dbb5a575eb4c44ebed/tu/1.png",
+ "version": "感谢支持" } 
+
+ ] },
+ {
+ "name": "本地包在线（09.13更新）", 
+"list": [ 
+{ "name": "jar文本", 
+          "url": "https://gitee.com/ranmengrui/ray/raw/master/jars.zip",
+ "icon": "https://bitbucket.org/ranli2000/shu/raw/f45fc6ca593f0831a41a32dbb5a575eb4c44ebed/tu/1.png", 
+"version": "更新时间：2025.09.12"
+ },
+
+{ "name": "综合包", 
+          "url": "https://gitee.com/ranmengrui/ray/raw/master/TVBox.zip",
+ "icon": "https://bitbucket.org/ranli2000/shu/raw/f45fc6ca593f0831a41a32dbb5a575eb4c44ebed/tu/1.png", 
+"version": "更新时间：2025.09.13"
+ },
+
+{ "name": "豪洋线上包", 
+          "url": "https://gitee.com/ranmengrui/ray/raw/master/豪洋.zip",
+"icon": "https://bitbucket.org/ranli2000/shu/raw/f45fc6ca593f0831a41a32dbb5a575eb4c44ebed/tu/1.png", 
+"version": "更新时间：2025.09.13"
+ },
+{"name": "教育合集线上包",
+          "url": "https://gitee.com/ranmengrui/ray/raw/master/教育合集.zip",
+"icon": "https://bitbucket.org/ranli2000/shu/raw/f45fc6ca593f0831a41a32dbb5a575eb4c44ebed/tu/1.png", 
+"version": "已重新更新：2025.09.13"
+ }
+
+] } ]
