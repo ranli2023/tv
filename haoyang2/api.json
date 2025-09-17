@@ -1,5 +1,5 @@
 {
-  "spider": "file://tvboxhy/tvbox/haoya.jar",
+  "spider": "https://gitee.com/ranmengrui/ranli/raw/master/haoya.jar",
   "lives": [
     {
       "name": "终合1",
