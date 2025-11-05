@@ -22,10 +22,19 @@
   "sites": [
     {
       "key": "豆瓣",
-      "name": "📢10.21在线本地包已更新",
+      "name": "📢11.06在线本地包已更新",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
+    },
+    {
+      "key": "小苹果",
+      "name": "🍎┃苹果┃影视┃",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1
     },
     {
       "key": "config",
@@ -173,15 +182,7 @@
 		},
 
 
-    {
-      "key": "小苹果",
-      "name": "🍎┃苹果┃影视┃",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+
     {
       "key": "瓜子影视",
       "name": "🌰┃瓜子┃影视┃",
@@ -305,31 +306,21 @@
     },
 
 {"key":"看球",
-"name":"⚽┃直播┃看球┃",
+"name":"⚽┃ 88 ┃看球┃",
 "type":3,"api":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/drpy2.min.js",
 "style":{"type":"list"},
 "ext":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/js/88看球.js"},
 {
       "key": "cityfootball",
-      "name": "⚽┃足球┃联赛┃",
+      "name": "⚽┃直播┃看球┃",
       "type": 3,
-      "api": "https://leisu.17kqb.cn/score/football/football?",
-      "filter": 1,
-      "playParse": 1,
-      "searchable": 1,
-      "quickSearch": 2,
-      "categories": [
-        "中超",
-        "中甲",
-        "中乙",
-        "川超",
-        "齐鲁超",
-        "江苏联",
-        "渝超",
-        "湘超",
-        "赣超",
-        "香港超"
-      ]
+      "api": "csp_Kanqiu",
+      "timeout": 15,
+      "searchable": 0,
+      "changeable": 0,
+      "style": {
+        "type": "list"
+      }
     },
     {
       "key": "戏曲",
