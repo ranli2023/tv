@@ -3,7 +3,7 @@
   "key": "leisu",
   "name": "⚽┃乐速┃足球直播",
   "type": 3,
-    "api" => "https://bitbucket.org/ranli2000/shu/raw/main/hao/tvboxhy/tvbox/api/football.php",
+    "api" => "https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/api/football.php",
   "filter": 1,
   "playParse": 1,
   "searchable": 1,
