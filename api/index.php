@@ -3,7 +3,7 @@
   "key": "leisu",
   "name": "⚽┃乐速┃足球直播",
   "type": 3,
-    "api" => "https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/api/football.php",
+    "api" => "https://raw.githubusercontent.com/ranli2023/tv/refs/heads/main/api/1index.php",
   "filter": 1,
   "playParse": 1,
   "searchable": 1,
