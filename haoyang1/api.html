@@ -1,5 +1,5 @@
 {
-  "spider": "https://gitee.com/ranmengrui/ranli/raw/master/haoya.jar",
+  "spider": "https://gitee.com/ranmengrui/ranli/raw/master/haoyang.jar",
   "lives": [
     {
       "name": "终合1",
@@ -13,16 +13,25 @@
     {
       "name": "终合2",
       "type": 0,
-      "url": "https://git.acwing.com/wuhui/huas/-/raw/main/lib/newtv.txt",
+      "url": "https://bc.188766.xyz/?ip=&mishitong=true&mima=mianfeibuhuaqian&json=true",
+      "playerType": 1,
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo": "https://epg.112114.xyz/logo/{name}.png"
+    },
+    {
+      "name": "终合3",
+      "type": 0,
+      "url": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
       "playerType": 1,
       "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
       "logo": "https://epg.112114.xyz/logo/{name}.png"
     }
+
   ],
   "sites": [
     {
       "key": "豆瓣",
-      "name": "📢11.06在线本地包已更新",
+      "name": "📢11.17在线本地包已更新",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -59,22 +68,7 @@
       },
       "ext": "./json/lj.html"
     },
-    {
-      "key": "百度盘",
-      "name": "📘┃百度┃网盘┃ ",
-      "type": 3,
-      "api": "csp_PanWebQu",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "style": {
-        "type": "list",
-        "ratio": 1.433
-      },
-      "ext": {
-        "url": "https://www.qupanshe.com"
-      }
-    },
+
     {
       "key": "移动",
       "name": "📱┃移动┃网盘┃",
@@ -84,75 +78,24 @@
       "searchable": 1,
       "changeable": 1
     },
-    {
-      "key": "wogg",
+
+   {
+      "key": "玩偶1",
       "name": "👽┃玩偶┃哥哥┃ ",
-      "type": 3,
-      "jar": "./lib/fan.html",
-      "api": "csp_WoGGGuard",
-      "timeout": 30,
-      "searchable": 1,
-      "quickSearch": 1,
-      "changeable": 0,
-      "ext": {
-        "Cloud-drive": "tvfan/Cloud-drive.txt",
-        "from": "4k|auto",
-        "siteUrl": "https://www.wogg.com/",
-        "danMu": "弹"
-      }
-    },
-    {
-      "key": "玩偶",
-      "name": "🤡┃玩偶┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/wogg.html"
-    },
-    {
-      "key": "木偶",
-      "name": "🧸┃木偶┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/mogg.html"
-    },
-    {
-      "key": "多多",
-      "name": "🤚┃多多┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/yyds.html"
-    },
-    {
-      "key": "闪电",
-      "name": "⚡┃闪电┃ 4K ┃ ",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "./json/sd.html"
-    },
-    {
-      "key": "二小",
-      "name": "🌽┃二小┃ 4K ┃ ",
       "type": 3,
       "api": "csp_PanWebShare",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "./json/ex.html"
+      "ext": {
+        "site": [
+          "https://woog.nxog.eu.org",
+          "https://woog.nxog.fun"
+        ]
+      }
     },
-   {
+    {
       "key": "蜡笔",
       "name": "🖍️┃蜡笔┃弹幕┃",
       "type": 3,
@@ -161,7 +104,13 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "./json/lb.json"
+      "ext": {
+        "site": [
+          "https://www.labi88.sbs",
+          "https://feimao666.fun",
+          "http://feimao888.fun"
+        ]
+      }
     },
     {
       "key": "至臻",
@@ -172,9 +121,101 @@
       "quickSearch": 1,
       "filterable": 1,
       "changeable": 1,
-      "ext": "./json/zz.json"
+      "ext": {
+        "site": [
+          "https://mihdr.top",
+          "https://www.miqk.cc",
+          "https://xiaomiai.site",
+          "https://xiaomi666.fun",
+          "https://www.mihdr.top",
+          "https://www.zhizhenpan.fun"
+        ]
+      }
     },
     {
+      "key": "多多",
+      "name": "🤚┃多多┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://tv.yydsys.top",
+          "https://tv.yydsys.cc",
+          "https://tv.214521.xyz"
+        ]
+      }
+    },
+    {
+      "key": "木偶",
+      "name": "🧸┃木偶┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "https://123.666291.xyz",
+          "https://666.666291.xyz",
+          "https://www.muou.site",
+          "https://www.muou.asia"
+        ]
+      }
+    },
+    {
+      "key": "虎斑",
+      "name": "❤┃虎斑┃弹幕┃",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+          "http://103.45.162.207:20720"
+        ]
+      }
+    },
+
+      {
+      "key": "闪电",
+      "name": "⚡┃闪电┃ 4K ┃ ",
+       "type": 3,
+      "jar": "file://tvboxhy/tvbox/haoya.jar",
+      "api": "csp_PanWebShare",
+      "filterable": 1,
+      "ext": {
+        "site_urls": [
+          "http://sduc.site/"
+        ],
+        "url_key": "FeiMaoUC"
+      }
+    },
+
+    {
+      "key": "二小",
+      "name": "🌽┃二小┃ 4K ┃ ",
+      "type": 3,
+      "api": "csp_PanWebShare",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "changeable": 1,
+      "ext": {
+        "site": [
+        "http://2xiaopan.fun",
+        "https://erxiaofn.click",
+        "https://erxiaofn.site"
+        ]
+      }
+    },
+     {
       "key": "tt",
       "name": "🌟┃藤藤┃影视┃",
       "type": 3,
@@ -182,7 +223,22 @@
 			"ext": "./lib/xc.html"
 		},
 
-
+    {
+      "key": "仓鼠",
+      "name": "🐹┃仓鼠┃影视┃",
+      "jar": "file://tvboxhy/tvbox/haoya.jar",
+      "type": 3,
+      "quickSearch": 1,
+      "api": "csp_AppGet2",
+      "ext": {
+        "url": "",
+        "site": "./lib/ceshi421.txt",
+        "dataKey": "da61247f5b662597",
+        "dataIv": "da61247f5b662597",
+        "deviceId": "",
+        "version": "120"
+      }
+    },
 
     {
       "key": "瓜子影视",
