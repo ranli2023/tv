@@ -1,0 +1,78 @@
+var rule = {
+    title: 'nnysyjy足球直播',
+    host: 'http://www.nnysyjy.com/',
+    url: '/zuqiu/fyclass/',
+    searchUrl: "",
+    searchable: 0,
+    quickSearch: 0,
+
+    // 按照用户要求排序：直播中、国外联赛、国内联赛、热门赛事
+    class_name: '直播中&英超直播&西甲直播&意甲直播&德甲直播&法甲直播&中超直播&川超直播&渝超直播&热门赛事',
+    class_url: '/zqzhibo/&/zuqiu/yingchao/&/zuqiu/xijia/&/zuqiu/yijia/&/zuqiu/dejia/&/zuqiu/fajia/&/zuqiu/zhongchao/&/zuqiu/chuanchao/&/zuqiu/yuchao/&/saishi/',
+
+    headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9",
+        "Referer": "http://www.nnysyjy.com/",
+        "X-Requested-With": "XMLHttpRequest"
+    },
+    timeout: 5000,
+    play_parse: true,
+
+    lazy: `js:
+        if (navigator.userAgent.match(/(phone|pad|pod|mobile|ios|android|BlackBerry|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|symbian|transcoder)/i)) {
+            let href_url = window.location.href;
+            if (!href_url.includes('m.')) {
+                href_url = href_url.replace(/(http[s]*:\\/\\/)www\\./, '$1m.');
+                window.location = href_url;
+            }
+        }
+        return target;
+    `,
+
+    limit: 10,
+    double: true,
+    推荐: "*",
+
+    // 优化一级页面解析规则
+    一级: ".list li; .match-name&&Text; .match-time&&Text; a&&href; .team-a img&&src; .team-b img&&src",
+
+    二级: {
+        title: ".match-title&&Text",
+        img: ".team-logo&&src",
+        desc: ";;; .team-name:eq(0)&&Text; .team-name:eq(1)&&Text",
+        content: ".match-time&&Text",
+        tabs: "js:TABS=['实时直播', '比赛集锦', '赛后分析']", // 固定标签
+
+        lists: `js:
+            LISTS = [];
+            try {
+                let html = request(input.replace('zqzhibo', 'play'));
+                let pdata = JSON.parse(html).data;
+
+                if (!pdata || pdata.length < 10) {
+                    throw new Error("返回数据异常");
+                }
+
+                let match = pdata.match(/"links":\$$.*?\$/);
+                if (!match) throw new Error("未找到播放链接数据");
+
+                let decoded = atob(match[0].replace(/"links":\$$|\$/g, ''));
+                let jo = JSON.parse(decoded);
+
+                let d = jo.links.map(function (it) {
+                    return it.name + '$' + urlencode(it.url);
+                });
+
+                LISTS.push(d);
+            } catch (e) {
+                log("播放链接解析失败：" + e.message);
+                LISTS.push([]);
+            }
+        `,
+    },
+};
+ 
+ 
+

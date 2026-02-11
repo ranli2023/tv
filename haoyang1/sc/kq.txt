@@ -1,0 +1,37 @@
+[ 
+ { "name": "联赛", 
+"list": [ 
+{ "name":"丨川超丨",
+"type": "丨川超丨联赛丨",
+"api": "https://sport.hao86.com/zuqiu/chuanchao",
+"category":"足球联赛",
+"lang": "zh",
+"update": "2025-10-27",
+"version":"1.0"},
+{
+"name":"丨渝超丨",
+"type": "丨渝超丨联赛丨",
+"api": "https://sport.hao86.com/zuqiu/yuchao",
+"category":"足球联赛",
+"lang": "zh",
+"update":"2025-10-27",
+"version": "1.0"
+},
+{
+"name":"丨苏超丨",
+"type": "丨苏超丨联赛丨",
+"api": "https://sport.hao86.com/zuqiu/suchao",
+"category":"足球联赛",
+"lang": "zh",
+"update": "2025-10-27",
+"version":"1.0"},
+{
+"name":"丨蒙超丨",
+"type": "丨蒙超丨联赛丨",
+"api": "https://sport.hao86.com/zuqiu/mengchao",
+"category":"足球联赛",
+"lang": "zh",
+"update":"2025-10-27",
+"version": "1.0"
+} 
+ ] } ]

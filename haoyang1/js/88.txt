@@ -1,0 +1,105 @@
+var rule = {
+    title: '88看球足球直播',
+    host: 'http://www.88kanqiu.bar/',
+    url: "/match/fyclass/live", // 设置默认页面路径
+    searchUrl: "", // 暂时不启用搜索功能
+    searchable: 0,
+    quickSearch: 0,
+
+    // 分类解析：从 JSON 数据中提取分类名称和链接
+    class_parse: `js:
+        let data = {
+            "1": [{ "key": "cateId", "name": "类型", "value": [{ "n": "NBA", "v": "1" }, { "n": "CBA", "v": "2" }, { "n": "篮球综合", "v": "4" }, { "n": "纬来体育", "v": "21" }] }],
+            "8": [{ "key": "cateId", "name": "类型", "value": [{ "n": "英超", "v": "8" }, { "n": "西甲", "v": "9" }, { "n": "意甲", "v": "10" }, { "n": "欧冠", "v": "12" }, { "n": "欧联", "v": "13" }, { "n": "德甲", "v": "14" }, { "n": "法甲", "v": "15" }, { "n": "欧国联", "v": "16" }, { "n": "足总杯", "v": "27" }, { "n": "国王杯", "v": "33" }, { "n": "中超", "v": "7" }, { "n": "亚冠", "v": "11" }, { "n": "足球综合", "v": "23" }, { "n": "欧协联", "v": "28" }, { "n": "美职联", "v": "26" }] }],
+            "29": [{ "key": "cateId", "name": "类型", "value": [{ "n": "网球", "v": "29" }, { "n": "斯洛克", "v": "30" }, { "n": "MLB", "v": "38" }, { "n": "UFC", "v": "32" }, { "n": "NFL", "v": "25" }, { "n": "CCTV5", "v": "18" }] }]
+        };
+
+        let class_name = '';
+        let class_url = '';
+        for (let key in data) {
+            let values = data[key][0].value;
+            for (let i = 0; i < values.length; i++) {
+                let item = values[i];
+                class_name += item.n + '&';
+                class_url += '/match/' + item.v + '/live&';
+            }
+        }
+
+        class_name = class_name.slice(0, -1);
+        class_url = class_url.slice(0, -1);
+
+        return [class_name, class_url];
+    `,
+
+    // 请求头配置
+    headers: {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+        "Accept": "application/json, text/javascript, */*; q=0.01",
+        "X-Requested-With": "XMLHttpRequest"
+    },
+    timeout: 5000, // 缩短超时时间，提升响应速度
+    play_parse: true,
+
+    // 移动端适配逻辑优化
+    lazy: `js:
+        if (navigator.userAgent.match(/(phone|pad|pod|mobile|ios|android|BlackBerry|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|symbian|transcoder)/i)) {
+            let href_url = window.location.href;
+            if (!href_url.includes('m.')) {
+                href_url = href_url.replace(/(http[s]*:\\/\\/)www\\./, '$1m.');
+                window.location = href_url;
+            }
+        }
+        return target;
+    `,
+
+    limit: 10,
+    double: true,
+    推荐: "*",
+
+    // 一级页面解析（比赛列表）
+    一级: ".match-list li; .match-title&&Text; .match-time&&Text; .live-btn&&Text; a&&href; .team-logo&&src",
+
+    // 二级页面解析（比赛详情）
+    二级: {
+        title: ".match-title&&Text; .match-info span&&Text",
+        img: ".team-logo&&src",
+        desc: ";;; .team-name:eq(0)&&Text; .team-name:eq(1)&&Text",
+        content: ".match-time&&Text",
+        tabs: "js:TABS=['实时直播', '比赛集锦', '赛后分析']", // 固定标签
+
+        // 播放链接提取逻辑优化
+        lists: `js:
+            LISTS = [];
+            try {
+                // 替换路径获取播放链接
+                let html = request(input.replace('match', 'play'));
+                let pdata = JSON.parse(html).data;
+
+                // 增加数据长度判断，防止异常
+                if (!pdata || pdata.length < 10) {
+                    throw new Error("返回数据异常");
+                }
+
+                // 使用正则提取关键数据
+                let match = pdata.match(/"links":\$$.*?\$/);
+                if (!match) throw new Error("未找到播放链接数据");
+
+                // Base64 解码并解析 JSON
+                let decoded = atob(match[0].replace(/"links":\$$|\$/g, ''));
+                let jo = JSON.parse(decoded);
+
+                // 格式化播放链接为 name$url
+                let d = jo.links.map(function (it) {
+                    return it.name + '$' + urlencode(it.url);
+                });
+
+                LISTS.push(d);
+            } catch (e) {
+                log("播放链接解析失败：" + e.message);
+                LISTS.push([]);
+            }
+        `,
+    },
+};
+ 
+ 

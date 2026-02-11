@@ -1,0 +1,83 @@
+{
+  "name": "直播吧足球直播",
+  "type": 1,
+  "api": "https://www.hebysyjs.cn/",
+  "ext": "",
+  "filter": [],
+  "searchable": 1,
+  "quickSearch": 1,
+  "player": {
+    "parse": 1,
+    "playUrl": "",
+    "header": {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36"
+    }
+  },
+  "categories": [
+    {
+      "type_name": "足球直播",
+      "type_id": "zqzb"
+    },
+    {
+      "type_name": "中超直播",
+      "type_id": "zczb"
+    },
+    {
+      "type_name": "英超直播",
+      "type_id": "yzqb"
+    },
+    {
+      "type_name": "西甲直播",
+      "type_id": "xijia"
+    },
+    {
+      "type_name": "意甲直播",
+      "type_id": "yjia"
+    },
+    {
+      "type_name": "德甲直播",
+      "type_id": "djia"
+    },
+    {
+      "type_name": "法甲直播",
+      "type_id": "fjia"
+    },
+    {
+      "type_name": "欧冠直播",
+      "type_id": "ouguan"
+    },
+    {
+      "type_name": "欧联直播",
+      "type_id": "oulian"
+    },
+    {
+      "type_name": "川超直播",
+      "type_id": "chuanchao"
+    },
+    {
+      "type_name": "渝超直播",
+      "type_id": "yuchao"
+    },
+    {
+      "type_name": "美洲杯直播",
+      "type_id": "meiyan"
+    },
+    {
+      "type_name": "欧洲杯直播",
+      "type_id": "ouzhoubei"
+    }
+  ],
+  "rule": {
+    "class": ".nav li; a&&Text; a&&href; /([a-zA-Z0-9_-]+)",
+    "list": ".match-list li; .match-title&&Text; .match-time&&Text; .live-btn&&Text; a&&href",
+    "title": ".match-title&&Text; .match-info span&&Text",
+    "img": ".team-logo&&src",
+    "desc": ";;; .team-name:eq(0)&&Text; .team-name:eq(1)&&Text",
+    "content": ".match-time&&Text",
+    "tabs": "js:TABS=['实时直播', '比赛集锦', '赛后分析']",
+    "lists": "js:LISTS = []; try { let html = request(input.replace('match', 'play')); let pdata = JSON.parse(html).data; if (!pdata || pdata.length < 10) { throw new Error('返回数据异常'); } let match = pdata.match(/\"links\":\$$.*?\$/); if (!match) throw new Error('未找到播放链接数据'); let decoded = base64Decode(match[0].replace(/\"links\":\$$|\$/g, '')); let jo = JSON.parse(decoded); let d = jo.links.map(function (it) { return it.name + '$' + urlencode(it.url); }); LISTS.push(d); } catch (e) { log('播放链接解析失败：' + e.message); LISTS.push([]); }",
+    "search": "js:function simulateHomePageSearch(keyword) { let homeUrl = 'https://www.hebysyjs.cn/'; let html = request(homeUrl); let doc = parseHTML(html); let searchForm = doc.querySelector('form[action=\"/search\"]'); if (searchForm) { let actionUrl = searchForm.getAttribute('action') || '/search'; let searchUrl = 'https://www.hebysyjs.cn' + actionUrl + '?keyword=' + encodeURIComponent(keyword); if (navigator.userAgent.match(/(phone|pad|pod|mobile|ios|android|BlackBerry|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|symbian|transcoder)/i)) { window.location.href = homeUrl; return; } return request(searchUrl); } else { return request('https://www.hebysyjs.cn/search?keyword=' + encodeURIComponent(keyword)); } } let keyword = getKeyword(); let html = simulateHomePageSearch(keyword); try { let items = JSON.parse(html).list; let results = items.map(item => { return { title: item.title, img: item.zp, desc: item.desc, content: item.content, url: item.href }; }); setResult(results); } catch (e) { log('搜索结果解析失败：' + e.message); setResult([]); }"
+  }
+}
+ 
+ 

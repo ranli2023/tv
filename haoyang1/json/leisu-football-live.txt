@@ -1,0 +1,135 @@
+// 📦 定义原始 JSON 数据字符串
+const jsonData = `{
+  "lang": "zh",
+  "直播优先": true,
+  "作者": "乐速直播",
+  "站名": "乐速直播",
+  "编码": "UTF-8",
+  "请求头": "User-Agent: MOBILE_UA",
+  "主页url": "https://leisu.17kqb.cn",
+  "首页": "200",
+  "起始页": "1",
+  "直播地址": "https://leisu.17kqb.cn/m/score",
+  "播放地址模板": "https://leisu.17kqb.cn/score/football/{id}",
+  "播放地址列表": [
+    "https://leisu.17kqb.cn/score/football/4279340",
+    "https://leisu.17kqb.cn/score/football/4347426"
+  ],
+  "图片": "data-src=\"&&\"",
+  "标题": "title=\"&&\"",
+  "副标题": "alt=\"&&\"",
+  "链接": "href=\"&&\"",
+  "播放标题": "<a*>&&<",
+  "播放链接": "href=\"&&\"",
+  "跳转播放链接": "var now=\"&&\"",
+  "搜索url": "https://leisu.17kqb.cn/score?ballType=football&eventId=142",
+  "搜索模式": "1",
+  "排序": {
+    "时间排序": "time",
+    "人气排序": "hit",
+    "评分排序": "commend"
+  },
+  "分类": [
+    {
+      "id": 0,
+      "name": "直播中",
+      "score": true,
+      "video": true,
+      "level": "职业",
+      "type": "",
+      "赛事列表": [
+        {
+          "时间": "19:38",
+          "日期": "2025-11-01",
+          "星期": "星期六",
+          "联赛": "湘超",
+          "状态": "未开赛",
+          "直播类型": "视频直播",
+          "主队": "常德队",
+          "客队": "怀化队",
+          "主队队标": "https://leisu.17kqb.cn/images/team/changde.png",
+          "客队队标": "https://leisu.17kqb.cn/images/team/huaihua.png",
+          "半场比分": "0-0",
+          "角球": "0-0",
+          "链接": "https://leisu.17kqb.cn/m/score"
+        },
+        {
+          "时间": "19:38",
+          "日期": "2025-11-01",
+          "星期": "星期六",
+          "联赛": "湘超",
+          "状态": "未开赛",
+          "直播类型": "视频直播",
+          "主队": "永州队",
+          "客队": "益阳队",
+          "主队队标": "https://leisu.17kqb.cn/images/team/yongzhou.png",
+          "客队队标": "https://leisu.17kqb.cn/images/team/yiyang.png",
+          "半场比分": "0-0",
+          "角球": "0-0",
+          "链接": "https://leisu.17kqb.cn/m/score"
+        },
+        {
+          "时间": "19:38",
+          "日期": "2025-11-01",
+          "星期": "星期六",
+          "联赛": "湘超",
+          "状态": "未开赛",
+          "直播类型": "视频直播",
+          "主队": "湘潭队",
+          "客队": "郴州队",
+          "主队队标": "https://leisu.17kqb.cn/images/team/xiangtan.png",
+          "客队队标": "https://leisu.17kqb.cn/images/team/chenzhou.png",
+          "半场比分": "0-0",
+          "角球": "0-0",
+          "链接": "https://leisu.17kqb.cn/m/score"
+        }
+      ]
+    }
+  ]
+}`;
+
+// 🔄 将 JSON 字符串转换为 JS 对象
+const config = JSON.parse(jsonData); // 推荐使用 JSON.parse() [[2]][[5]][[9]]
+
+// 📝 打印解析后的 JS 对象
+console.log('✅ 解析后的配置对象:', config);
+
+// 🛡️ 设置请求头（添加防盗链 Referer 和 User-Agent）
+const headers = new Headers();
+headers.append('User-Agent', 'Mozilla/5.0 (Linux; Android 10; MOBILE_UA) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36');
+headers.append('Referer', 'https://leisu.17kqb.cn'); // 添加防盗链 Referer [[14]][[18]]
+headers.append('Accept-Language', 'zh-CN,zh;q=0.9'); // 支持中文语言环境 [[12]]
+
+// 🌐 异步请求函数
+async function fetchLiveMatches() {
+  try {
+    // 发起请求
+    const response = await fetch(config.直播地址, {
+      method: 'GET',
+      headers: headers,
+      mode: 'cors' // 允许跨域请求 [[12]][[16]]
+    });
+
+    // 检查响应状态
+    if (!response.ok) {
+      throw new Error(`❌ 请求失败，状态码：${response.status}`);
+    }
+
+    // 解析 HTML 或 JSON 数据（根据实际返回内容）
+    const html = await response.text(); // 如果返回的是 HTML 页面
+    console.log('📄 获取到的页面内容:', html);
+
+    // 如果返回的是 JSON 数据，可使用以下代码：
+    // const data = await response.json();
+    // console.log('📊 获取到的 JSON 数据:', data);
+
+  } catch (error) {
+    // 错误处理
+    console.error('⚠️ 请求过程中发生错误:', error.message);
+  }
+}
+
+// 🚀 调用请求函数
+fetchLiveMatches();
+
+

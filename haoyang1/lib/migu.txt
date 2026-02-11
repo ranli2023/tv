@@ -1,0 +1,104 @@
+var rule = {
+    // 规则标题
+    title: '咪咕体育',
+    
+    // 目标网站的基础URL
+    host: 'https://www.miguvideo.com',
+    
+    // 直播分类页面URL
+    url: '/p/live/fyclass',
+    
+    // 搜索功能相关设置（当前未启用）
+    searchUrl: "",
+    searchable: 0,
+    quickSearch: 0,
+    
+    // 分类解析规则
+    class_parse: ".nav-pills li;a&&Text;a&&href;/p/live/(\\d+)",
+    
+    // 支持的联赛分类
+    分类: "川超#渝超#湘超#江西",
+    
+    // 赛程页面URL
+    分类url: "https://www.miguvideo.com/p/schedule/",
+    
+    // 请求头信息
+    headers: {
+        "User-Agent": "PC_UA"
+    },
+    
+    // 请求超时时间
+    timeout: 5000,
+    
+    // 是否需要解析播放链接
+    play_parse: true,
+    
+    // 处理嵌入式或直接URL的懒加载脚本
+    lazy: `js:
+        if (/embed=/.test(input)) { // 如果是嵌入式的链接
+            let url = input.match(/embed=(.*?)&/)[1];
+            url = base64Decode(url); // 解码Base64字符串
+            input = {
+                jx: 0, // 不使用解析器
+                url: url.split('#')[0], // 提取有效部分作为播放地址
+                parse: 0 // 不进行额外解析
+            };
+        } else if (/\?url=/.test(input)) { // 如果是带有URL参数的形式
+            input = {
+                jx: 0,
+                url: input.split('?url=')[1].split('#')[0],
+                parse: 0
+            };
+        } else { // 其他情况保持原样
+            input
+        }
+    `,
+    
+    // 同时处理的最大请求数量
+    limit: 2,
+    
+    // 是否允许重复请求
+    double: false,
+    
+    // 推荐内容标识符
+    推荐: "*",
+    
+    // 一级页面元素选择器
+    一级: ".list-group .group-game-item;.d-none&&Text;img&&src;.btn&&Text;a&&href",
+    
+    // 二级页面解析规则
+    二级: {
+        // 标题解析
+        title: ".game-info-container&&Text;.customer-navbar-nav li&&Text",
+        
+        // 图片链接解析
+        img: "img&&src",
+        
+        // 描述信息解析
+        desc: ";;;div.team-name:eq(0)&&Text;div.team-name:eq(1)&&Text",
+        
+        // 比赛时间解析
+        content: "div.game-time&&Text",
+        
+        // 实时直播标签
+        tabs: "js:TABS=['实时直播']",
+        
+        // 播放列表获取脚本
+        lists: `js:
+            LISTS = []; // 初始化列表数组
+            let html = request(input.replace('play', 'play-url')); // 获取播放页HTML
+            let pdata = JSON.parse(html).data; // 解析JSON数据
+            pdata = pdata.slice(6, -2); // 去除前后不需要的部分
+            pdata = base64Decode(pdata); // 解码Base64字符串
+            let jo = JSON.parse(pdata).links; // 获取链接对象
+            let d = jo.map(function (it) { // 遍历每个链接并格式化
+                return it.name + '$' + encodeURIComponent(it.url)
+            });
+            LISTS.push(d); // 将结果添加到列表中
+        `,
+    },
+    
+    // 搜索功能实现（当前为空）
+    搜索: ""
+};
+ 

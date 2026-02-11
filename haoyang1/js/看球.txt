@@ -1,0 +1,181 @@
+// 好体育 API 模块
+var HaoSportsAPI = (function () {
+    // 默认配置
+    var rule = {
+        title: '好体育',
+        host: 'https://sportm.hao86.com/',
+        url: "", // 待补全
+        searchUrl: "/search?keyword=fykeyword", // 启用搜索功能
+        searchable: 1, // 启用搜索
+        quickSearch: 1, // 启用快速搜索
+
+        // 分类解析：从导航栏中提取分类名称和链接
+        class_parse: ".nav-pills li; a&&Text; a&&href; /(\\d+)",
+
+        // 自定义分类（手动配置）—— 扩展更多足球赛事分类
+        class_name: '直播中&川超&渝超&苏超&蒙超&湘超&港超&澳超&中甲&中乙&欧冠&欧联&英超&西甲&意甲&德甲&法甲',
+        class_url: '/all/&/zuqiu/chuanchao/&/zuqiu/yuchao/&/zuqiu/suchao/&/zuqiu/mengchao/&/zuqiu/xiangchao/&/zuqiu/gangchao/&/zuqiu/aomenchao/&/zuqiu/zhongjia/&/zuqiu/zhongyi/&/zuqiu/ouguan/&/zuqiu/oulian/&/zuqiu/yingchao/&/zuqiu/xijia/&/zuqiu/yijia/&/zuqiu/dejia/&/zuqiu/fajia/',
+
+        // 请求头配置
+        headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+            "Accept": "application/json, text/javascript, */*; q=0.01",
+            "X-Requested-With": "XMLHttpRequest"
+        },
+        timeout: 8000, // 增加超时时间，提升稳定性
+        play_parse: true,
+
+        // 移动端适配逻辑优化
+        lazy: `js:
+            if (navigator.userAgent.match(/(phone|pad|pod|mobile|ios|android|BlackBerry|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|symbian|transcoder)/i)) {
+                let href_url = window.location.href;
+                if (href_url.match(/(http[s]*:\\/\\/)www\\./)) {
+                    href_url = href_url.replace(/(http[s]*:\\/\\/)www\\./, '$1m.');
+                    window.location = href_url;
+                } else if (href_url.match(/(http[s]*:\\/\\/)([a-z0-9]+)(?!m)\\./)) {
+                    href_url = href_url.replace(/(http[s]*:\\/\\/)([a-z0-9]+)(?!m)\\./, '$1$2m.');
+                    window.location = href_url;
+                }
+            }
+            return target;
+        `,
+
+        limit: 6,
+        double: false,
+        推荐: "*",
+
+        // 一级页面解析（比赛列表）
+        一级: ".list-group .group-game-item;div.match-title&&Text;img.zp&&src;.btn&&Text;a&&href",
+
+        // 二级页面解析（比赛详情）
+        二级: {
+            title: ".game-info-container&&Text;.customer-navbar-nav li&&Text",
+            img: "img&&src",
+            desc: ";;;div.team-name:eq(0)&&Text;div.team-name:eq(1)&&Text",
+            content: "div.game-time&&Text",
+            tabs: "js:TABS=['实时直播']", // 固定标签
+
+            // 播放链接提取逻辑优化
+            lists: `js:
+                LISTS = [];
+                try {
+                    // 替换路径获取播放链接
+                    let html = request(input.replace('play', 'play-url'));
+                    let pdata = JSON.parse(html).data;
+
+                    // 增加数据长度判断，防止异常
+                    if (!pdata || pdata.length < 10) {
+                        throw new Error("返回数据异常");
+                    }
+
+                    // 使用正则提取关键数据
+                    let match = pdata.match(/"links":\$$.*?\$/);
+                    if (!match) throw new Error("未找到播放链接数据");
+
+                    // Base64 解码并解析 JSON
+                    let decoded = base64Decode(match[0].replace(/"links":\$$|\$/g, ''));
+                    let jo = JSON.parse(decoded);
+
+                    // 格式化播放链接为 name$url
+                    let d = jo.links.map(function (it) {
+                        return it.name + '$' + urlencode(it.url);
+                    });
+
+                    LISTS.push(d);
+                } catch (e) {
+                    log("播放链接解析失败：" + e.message);
+                    LISTS.push([]);
+                }
+            `,
+        },
+
+        // 搜索逻辑增强（关键词匹配）
+        搜索: `js:
+            // 模拟点击首页搜索按钮，绕过直接访问404问题
+            function simulateHomePageSearch(keyword) {
+                let homeUrl = "https://sportm.hao86.com/";
+                let html = request(homeUrl);
+                let doc = parseHTML(html);
+                let searchForm = doc.querySelector("form[action='/search']");
+                if (searchForm) {
+                    let actionUrl = searchForm.getAttribute("action") || "/search";
+                    let searchUrl = "https://sportm.hao86.com" + actionUrl + "?keyword=" + encodeURIComponent(keyword);
+
+                    // 判断是否为移动端访问
+                    if (navigator.userAgent.match(/(phone|pad|pod|mobile|ios|android|BlackBerry|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|symbian|transcoder)/i)) {
+                        // 如果是移动端，跳转至首页
+                        window.location.href = homeUrl;
+                        return;
+                    }
+
+                    return request(searchUrl);
+                } else {
+                    // 如果没有找到表单，尝试直接请求搜索接口
+                    return request("https://sportm.hao86.com/search?keyword=" + encodeURIComponent(keyword));
+                }
+            }
+
+            let keyword = getKeyword(); // 获取用户输入的关键词
+            let html = simulateHomePageSearch(keyword); // 增强搜索逻辑
+
+            try {
+                let items = JSON.parse(html).list;
+
+                let results = items.map(item => {
+                    return {
+                        title: item.title,
+                        img: item.zp, // 使用吗 zp 字段作为球队队标
+                        desc: item.desc,
+                        content: item.content,
+                        url: item.href
+                    };
+                });
+
+                setResult(results);
+            } catch (e) {
+                log("搜索结果解析失败：" + e.message);
+                setResult([]);
+            }
+        `,
+    };
+
+    // 补全 URL
+    function buildFullUrl(relativePath) {
+        return rule.host + relativePath.replace(/^\//, '');
+    }
+
+    // 获取分类列表
+    function getClassList() {
+        var names = rule.class_name.split('&');
+        var urls = rule.class_url.split('&').map(function (url) {
+            return buildFullUrl(url);
+        });
+        return { names: names, urls: urls };
+    }
+
+    // 搜索接口
+    function search(keyword) {
+        var searchUrl = rule.searchUrl.replace('fykeyword', encodeURIComponent(keyword));
+        return buildFullUrl(searchUrl);
+    }
+
+    // 获取播放链接
+    function getPlayLinks(playUrl) {
+        return buildFullUrl(playUrl.replace('play', 'play-url'));
+    }
+
+    // 获取首页推荐内容
+    function getRecommendations() {
+        return rule.推荐;
+    }
+
+    // 返回公共 API
+    return {
+        getClassList: getClassList,
+        search: search,
+        getPlayLinks: getPlayLinks,
+        getRecommendations: getRecommendations
+    };
+})();
+ 
+ 
