@@ -1,47 +1,54 @@
-[ 
-{ "name": "推荐",
- "list": [
- { "name": "赞助打赏",
- "url": " ",
- "icon": "https://bitbucket.org/ranli2000/shu/raw/f45fc6ca593f0831a41a32dbb5a575eb4c44ebed/tu/1.png",
- "version": "感谢支持" } 
-
- ] },
- 
- {
- "name": "本地包在线（11.17更新）", 
-"list": [ 
-{ "name": "jar文本包", 
-          "url": "https://gitee.com/ranmengrui/ray/raw/master/jars.zip",
-"icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png", 
-"version": "更新时间：2026.04.02"
- },
-
-{ "name": "综合包", 
-          "url": "https://gitee.com/ranmengrui/ray/raw/master/TVBox.zip",
-"icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png", 
-"version": "更新时间：2026.04.02"
- },
-
-{ "name": "豪洋线上包", 
-          "url": "https://gitee.com/ranmengrui/ray/raw/master/豪洋.zip",
-"icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png", , 
-"version": "更新时间：2026.04.02"
- },
-{"name": "教育合集线上包",
-          "url": "https://gitee.com/ranmengrui/ray/raw/master/教育合集.zip",
-"icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png", 
-"version": "更新时间：2026.04.02"
- },
-{"name": "微信公众号",
-          "url": "",
-"icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/102.png", 
-"version": "防失联扫描二维码"
- },
-{"name": "QQ频道",
-          "url": "",
-"icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/101.png", 
-"version": "防失联扫描二维码"
- }
-
-] } ]
+[
+    {
+        "name": "推荐",
+        "list": [
+            {
+                "name": "赞助打赏",
+                "url": " ",
+                "icon": "https://bitbucket.org/ranli2000/shu/raw/f45fc6ca593f0831a41a32dbb5a575eb4c44ebed/tu/1.png",
+                "version": "感谢支持"
+            }
+        ]
+    },
+    {
+        "name": "本地包在线（2026.04.02更新）",
+        "list": [
+            {
+                "name": "jar文本包",
+                "url": "https://gitee.com/ranmengrui/ray/raw/master/jars.zip",
+                "icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png",
+                "version": "更新时间：2026.04.02"
+            },
+            {
+                "name": "综合包",
+                "url": "https://gitee.com/ranmengrui/ray/raw/master/TVBox.zip",
+                "icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png",
+                "version": "更新时间：2026.04.02"
+            },
+            {
+                "name": "豪洋线上包",
+                "url": "https://gitee.com/ranmengrui/ray/raw/master/豪洋.zip",
+                "icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png",
+                "version": "更新时间：2026.04.02"
+            },
+            {
+                "name": "教育合集线上包",
+                "url": "https://gitee.com/ranmengrui/ray/raw/master/教育合集.zip",
+                "icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/103.png",
+                "version": "更新时间：2026.04.02"
+            },
+            {
+                "name": "微信公众号",
+                "url": "",
+                "icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/102.png",
+                "version": "防失联扫描二维码"
+            },
+            {
+                "name": "QQ频道",
+                "url": "",
+                "icon": "https://gitee.com/ranmengrui/ai/raw/master/tu/101.png",
+                "version": "防失联扫描二维码"
+            }
+        ]
+    }
+]
